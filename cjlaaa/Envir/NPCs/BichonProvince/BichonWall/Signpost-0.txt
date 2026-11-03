@@ -3,9 +3,9 @@
 <使用./@main-1> 城镇传送
 <打听/@ask> 城内的新闻
 
-<<Create Hero/@CreateHero/Green>>
-<<ReviveHero/@ReviveHero/Red>>
-<<SealHero/@SealHero/Yellow>>
+<<创建英雄/@CreateHero/Green>>
+<<复活英雄/@ReviveHero/Red>>
+<<封印英雄/@SealHero/Yellow>>
 
 [@main-1]
 #SAY
