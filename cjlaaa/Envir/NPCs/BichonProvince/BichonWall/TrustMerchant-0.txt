@@ -48,6 +48,10 @@ GOTO @Main-1
 <返回/@main>
 
 
-[Market]
+[@Market]
+#SAY
 
-[Consignment]
+
+[@Consignment]
+#SAY
+你希望出售什么？

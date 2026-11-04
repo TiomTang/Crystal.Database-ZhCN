@@ -18,7 +18,7 @@ GOTO @Main-1
 你有 <$PARCELAMOUNT> 个邮件在等待收取.
 <发送/@SendParcel> 邮件
 <收取/@CollectParcel> 邮件
-打听 <消息/@Info> 
+打听 <消息/@Information> 
 
 [@Storage]
 #SAY

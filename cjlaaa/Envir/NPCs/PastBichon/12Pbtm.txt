@@ -49,6 +49,10 @@ GOTO @Main-1
 
 
 
-[Market]
+[@Market]
+#SAY
 
-[Consignment]
+
+[@Consignment]
+#SAY
+你希望出售什么？

@@ -54,7 +54,7 @@ I will show them a crazy old fool.
 "Have you seen this Language <Before/@before1>?"
 <Close/@exit>
 
-[@before1>
+[@before1]
 #ACT
 SET [537] 1
 #SAY
