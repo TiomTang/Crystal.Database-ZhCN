@@ -18,8 +18,8 @@
 [@ItemTasks]
 
 [@FlagTasks]
-527 "Speak with the TrainerTaoist"
-528 "Speak with the School's Owner"
+527 "与道术教官交谈"
+528 "与道馆主人交谈"
 
 [@CarryItems]
 

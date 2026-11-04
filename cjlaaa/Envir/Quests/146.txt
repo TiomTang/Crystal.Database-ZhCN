@@ -1,5 +1,5 @@
 [@Description]
-穿过{丛林迷宫/Yellow}进入{RedValley/Yellow}
+穿过{丛林迷宫/Yellow}进入{赤月峡谷/Yellow}
 
 [@TaskDescription]
 击杀{血巨人/Crimson}并取得{翡翠晶/LightSteelBlue}
@@ -12,7 +12,7 @@
 翡翠晶 1
 
 [@FlagTasks]
-530 "Travel to RedValley_5F and Take the 翡翠晶 to BigTaoist"
+530 "前往赤月峡谷五层,将翡翠晶交给大道士"
 
 [@CarryItems]
 

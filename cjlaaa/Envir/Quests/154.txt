@@ -1,12 +1,11 @@
 [@Description]
-The {Emperor/LIMEGREEN} is under my protection.
-The morale of the City is desire. Prove you are 
-worthey
+{皇帝/LIMEGREEN}在我的保护之下.
+城里的士气低迷.证明你值得信赖.
  
 [@TaskDescription]
-Spread good morale about the {Emperor/LIMEGREEN} in the 
-City. And I will accompany you to give him 
-the status of the current morale.
+在城里散布对{皇帝/LIMEGREEN}有利的言论.
+然后我会陪你一起去向他汇报
+当前的士气状况.
 
 [@Completion]
 
@@ -15,9 +14,9 @@ the status of the current morale.
 [@ItemTasks]
 
 [@FlagTasks]
-539 "Spread morale of the Emperor"
-540 "Spread morale of the Emperor"
-541 "Spread morale of the Emperor"
+539 "传播皇帝的威德"
+540 "传播皇帝的威德"
+541 "传播皇帝的威德"
 
 [@CarryItems]
 

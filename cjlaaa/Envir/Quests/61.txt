@@ -3,7 +3,7 @@
 希望你能前往{沃玛森林/Yellow}帮助他们处理{昆虫洞/Yellow}的麻烦.
 
 [@TaskDescription]
-请与{MasterShok/LimeGreen}交谈,他在{沃玛森林/Yellow}.
+请与{肖克大师/LimeGreen}交谈,他在{沃玛森林/Yellow}.
 
 [@Completion]
 

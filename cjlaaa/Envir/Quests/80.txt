@@ -2,7 +2,7 @@
 一张卷轴,看起来很精致.
 
 [@TaskDescription]
-将{隐藏的卷轴/LightSteelBlue}带给{Dr.Kim/LimeGreen}.
+将{隐藏的卷轴/LightSteelBlue}带给{金医师/LimeGreen}.
 
 [@Completion]
 

@@ -18,7 +18,8 @@
 [@FixedRewards]
 
 [@SelectRewards]
-坚实盔甲
+坚实盔甲(男)
+坚实盔甲(女)
 
 [@ExpReward]
 5000

@@ -5,7 +5,7 @@
 至今回味无穷啊.
 
 [@TaskDescription]
-请从{Robert/LimeGreen}手里购买{蛇酒/LightSteelBlue}.
+请从{罗伯特/LimeGreen}手里购买{蛇酒/LightSteelBlue}.
 
 [@Completion]
 

@@ -8,7 +8,7 @@
 [@Completion]
 
 [@FlagTasks]
-525 "Find the Stone in Stone Temple"
+525 "在石墓中找到那块石头"
 
 [@KillTasks]
 

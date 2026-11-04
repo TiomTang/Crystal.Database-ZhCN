@@ -1,6 +1,6 @@
 ﻿[@Description]
 {红蛇/Crimson}咬伤?
-请转告{Robert/LimeGreen}那些{红蛇/Crimson}的毒牙可以辅助治疗.
+请转告{罗伯特/LimeGreen}那些{红蛇/Crimson}的毒牙可以辅助治疗.
 现在时间紧急,你快去杀一些{红蛇/Crimson}收集点毒牙.
 
 [@TaskDescription]
@@ -16,7 +16,7 @@
 [@CarryItems]
 
 [@FixedRewards]
-BoxofHolyWater(3)
+圣水宝盒1 3
 
 [@SelectRewards]
 

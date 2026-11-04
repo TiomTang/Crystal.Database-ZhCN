@@ -1,6 +1,6 @@
 ﻿[@Description]
 谢谢你旅行者.
-从我儿子{Robe/LightSteelBlue}的回复中我发现.
+从我儿子{罗布/LightSteelBlue}的回复中我发现.
 他正在寻找埋藏在{蛇谷矿区/Yellow}中的财宝
 这是在他法袍中发现的线索.
 请去取回{失窃的金币/LightSteelBlue}

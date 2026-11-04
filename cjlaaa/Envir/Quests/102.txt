@@ -4,7 +4,7 @@
 他们现在需要一些帮助.
 
 [@TaskDescription]
-与{盟重土城/Yellow}的{Edwin/LimeGreen}交谈.
+与{盟重土城/Yellow}的{埃德温/LimeGreen}交谈.
 
 [@Completion]
 

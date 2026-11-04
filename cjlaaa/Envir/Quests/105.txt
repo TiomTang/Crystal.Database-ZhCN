@@ -12,7 +12,7 @@
 [@KillTasks]
 
 [@FlagTasks]
-524 "Find the LostSouls Body"
+524 "寻找迷失者的尸体"
 
 [@ItemTasks]
 

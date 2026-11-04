@@ -1,5 +1,5 @@
 [@Description]
-聆听{Abel/LimeGreen}的故事.
+聆听{阿贝尔/LimeGreen}的故事.
 
 [@TaskDescription]
 
@@ -10,7 +10,7 @@
 [@ItemTasks]
 
 [@FlagTasks]
-531 "Listen to Abel's Story"
+531 "聆听阿贝尔的故事"
 
 [@CarryItems]
 

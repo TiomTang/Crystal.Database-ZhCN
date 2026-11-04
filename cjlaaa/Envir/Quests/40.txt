@@ -4,7 +4,7 @@
 但现在我老了,干不动了,你能帮帮我吗?
 
 [@TaskDescription]
-为{MasterShok/LimeGreen}猎杀5只{半兽战士/Crimson}
+为{肖克大师/LimeGreen}猎杀5只{半兽战士/Crimson}
 
 [@Completion]
 

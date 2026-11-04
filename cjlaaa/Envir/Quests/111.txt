@@ -11,9 +11,9 @@
 [@KillTasks]
 
 [@FlagTasks]
-521 "Find the WierdPillar"
-522 "Find the StrangePillar"
-523 "Find the MysteriousPillar"
+521 "寻找奇怪的柱子"
+522 "寻找奇异的柱子"
+523 "寻找神秘的柱子"
 
 [@ItemTasks]
 

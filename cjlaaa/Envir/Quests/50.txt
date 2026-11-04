@@ -1,10 +1,10 @@
 ﻿[@Description]
 你知道怎么去{封魔谷/Yellow}吗?
-我想送一本菜谱给封魔谷的{ButcherJim/LimeGreen}.
+我想送一本菜谱给封魔谷的{屠夫吉姆/LimeGreen}.
 
 [@TaskDescription]
 前往{沃玛森林/Yellow}的北方,
-将{菜谱/LightSteelBlue}带给{封魔谷/Yellow}的{Jim/LimeGreen}
+将{菜谱/LightSteelBlue}带给{封魔谷/Yellow}的{吉姆/LimeGreen}
 
 [@Completion]
 

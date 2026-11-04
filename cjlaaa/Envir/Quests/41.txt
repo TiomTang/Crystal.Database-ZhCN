@@ -5,7 +5,7 @@
 你能帮我回访一下她告诉她我的近况吗?
 
 [@TaskDescription]
-与{Sarah/LimeGreen}交谈,她就在{比奇城/Yellow}肉店.
+与{莎拉/LimeGreen}交谈,她就在{比奇城/Yellow}肉店.
 
 [@Completion]
 谢谢你旅行者.我还在为我的祖父而担心

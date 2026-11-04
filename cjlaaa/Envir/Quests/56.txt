@@ -4,7 +4,7 @@
 你能帮我再去找些来吗?
 
 [@TaskDescription]
-收集5个{蝙蝠翅膀/LightSteelBlue}然后向{Sarah/LimeGreen}复命
+收集5个{蝙蝠翅膀/LightSteelBlue}然后向{莎拉/LimeGreen}复命
 
 [@Completion]
 

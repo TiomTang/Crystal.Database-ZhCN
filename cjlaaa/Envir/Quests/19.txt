@@ -5,7 +5,7 @@
 有传言说他为了支援战争正在招收门徒.
 
 [@TaskDescription]
-与坐标320:476附近的{HighTaoist/LimeGreen}交谈.
+与坐标320:476附近的{高级道士/LimeGreen}交谈.
 
 [@Completion]
 

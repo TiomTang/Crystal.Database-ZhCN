@@ -1,5 +1,5 @@
 ﻿[@Description]
-{苍月岛/Yellow}的{VillageChief/LimeGreen}需要{苍月史书/LightSteelBlue}?
+{苍月岛/Yellow}的{村长/LimeGreen}需要{苍月史书/LightSteelBlue}?
 很抱歉,之前我被怪物袭击,
 很多东西都遗失了,包括那本书.
 对了,袭击我的怪物是{邪恶巨人王/Crimson}.

@@ -17,7 +17,7 @@
 [@CarryItems]
 
 [@FixedRewards]
-SolidBronzeAxe
+纯铜斧
 
 [@SelectRewards]
 

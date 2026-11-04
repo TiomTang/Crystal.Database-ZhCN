@@ -1,5 +1,5 @@
 ﻿[@Description]
-Myths和Rumours说需要收集一些{僵尸之心/LightSteelBlue}.
+传说和流言说需要收集一些{僵尸之心/LightSteelBlue}.
 这对消灭它们很有帮助.
 
 [@TaskDescription]

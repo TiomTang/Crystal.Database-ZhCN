@@ -7,7 +7,7 @@
 [@Completion]
 
 [@KillTasks]
-RedMoonEvil 1
+赤月恶魔 1
 
 [@ItemTasks]
 
@@ -20,8 +20,8 @@ RedMoonEvil 1
 [@FixedRewards]
 
 [@SelectRewards]
-赤血魔剑
-赤血魔刀
+赤月剑
+赤月双刃
 赤月弓
 
 [@ExpReward]

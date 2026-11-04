@@ -1,5 +1,5 @@
 ﻿[@Description]
-年轻的冒险者,我的名字叫{Smith/LimeGreen}.
+年轻的冒险者,我的名字叫{史密斯/LimeGreen}.
 现在村外的怪物太泛滥,我都不敢去{比奇城/Yellow}了.
 你能帮我消灭一些怪物吗?
 

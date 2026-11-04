@@ -1,10 +1,9 @@
 [@Description]
-There seem's tobe a pattern to the Scyther..
-Maybe someone in {CastleBichon/Yellow} can scyther the
-ancient symbols.
+这些符号似乎有某种规律...
+也许{比奇城/Yellow}有人能解读这些远古符号.
 
 [@TaskDescription]
-Return to {CastleBichon/Yellow} Enquire about the symbols.
+返回{比奇城/Yellow}打听这些符号的来历.
 
 [@Completion]
 
@@ -13,10 +12,10 @@ Return to {CastleBichon/Yellow} Enquire about the symbols.
 [@ItemTasks]
 
 [@FlagTasks]
-533 "Enquire at the Library."
-534 "Enquire at the Inn."
-535 "Finally Understand how the Scyther Works."
-536 "Return to the MysteriousStone in OmaCavern."
+533 "去图书馆打听."
+534 "去客栈打听."
+535 "终于明白解文卷的用法."
+536 "回到奥玛洞窟的神秘石头处."
 
 [@CarryItems]
 

@@ -2,7 +2,7 @@
 这是你需要的茶,快些喝吧,别凉了.
 
 [@TaskDescription]
-将{食人花茶/LightSteelBlue}带给{MirGuide/LimeGreen}
+将{食人花茶/LightSteelBlue}带给{向导/LimeGreen}
 
 [@Completion]
 
