@@ -1,16 +1,45 @@
-﻿[@Main]
+﻿;;3F
+;;Quest 152 / 153
+[@Main]
 #IF
-LEVEL > 15 
+CHECKQUEST 153 ACTIVE
+#SAY
+一块布满远古符号的神秘石头。
+你终于看懂了这些刻痕的含义。
+<解读符号/@read>
+<前往远古洞穴/@go>
+<离开/@exit>
+#ELSEACT
+GOTO @MAIN-1
+#ELSESAY
+这块石头散发出一股神秘的气息.
+
+[@MAIN-1]
+#IF
+LEVEL > 15
 LEVEL < 30
 #SAY
 前方是一个神秘的远古之地，你做好准备前往了吗？
 <前往/@go>
-
 <离开/@exit>
-
 #ELSESAY
 这块石头散发出一股神秘的气息.
+
+[@read]
+#IF
+CHECKQUEST 153 ACTIVE
+#ACT
+SET [536] 1
+#SAY
+刻痕在你眼前展开，远古的路径显现出来.
+<离开/@exit>
 
 [@go]
 #ACT
 MOVE D001A
+
+[Quests]
+152
+-152
+153
+-153

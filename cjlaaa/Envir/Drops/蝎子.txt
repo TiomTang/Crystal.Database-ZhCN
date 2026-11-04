@@ -3,3 +3,5 @@
 
 ;Crafting Materials
 1/3 蝎尾 
+
+1/200 古代解文卷 Q
