@@ -3,4 +3,4 @@
 1/15 鸡肉 
 
 ;CraftingMaterial
-1/20 Feather
+1/20 羽毛

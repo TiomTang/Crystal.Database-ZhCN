@@ -50,7 +50,7 @@ Special repair.
 青宝冠(魔性)
 青宝冠(仙界)
 青宝冠(机敏)
-CheongboHelmet(ARCH)
+青宝冠(神射)
 青铜头盔
 魔法头盔
 黄铜头盔
@@ -64,7 +64,7 @@ CheongboHelmet(ARCH)
 贤者帽
 通天冠
 修罗头盔
-HelmetOfKings
-HelmetOfSorcery
-PurifiedMask
-DemonShadow
+王者头盔
+巫术头盔
+清心面具
+魔影头盔

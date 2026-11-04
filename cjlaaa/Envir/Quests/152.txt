@@ -10,7 +10,7 @@ Search {OmaCavern/Yellow} for the {AncientScyther/LightSteelBlue}.
 [@KillTasks]
 
 [@ItemTasks]
-AncientScyther 1
+古代解文卷 1
 
 [@FlagTasks]
 

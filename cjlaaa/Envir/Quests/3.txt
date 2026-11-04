@@ -1,4 +1,4 @@
-﻿[@Description]
+[@Description]
 你好,旅行者.
 我听说{Butcher John/LimeGreen}正在寻求帮助.
 我想他一定是遇上麻烦事了.
@@ -18,7 +18,7 @@
 
 [@SelectRewards]
 锋锐之匕
-猛虎刀
+猛虎刀1
 
 [@ExpReward]
 50

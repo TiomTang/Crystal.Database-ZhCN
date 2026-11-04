@@ -31,6 +31,6 @@ Buy.
 红宝石矿
 白金矿
 软玉矿
-AdamintineOre
-EmeraldOre
-OlivineOre
+精金矿
+祖母绿矿
+橄榄石矿

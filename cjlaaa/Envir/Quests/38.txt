@@ -1,4 +1,4 @@
-﻿[@Description]
+[@Description]
 你好旅行者.我还需要一些水果来酿酒.
 你能帮我收集5{乌木果/LightSteelBlue}吗.
 
@@ -10,7 +10,7 @@
 [@KillTasks]
 
 [@ItemTasks]
-乌木果 5
+乌木果1 5
 
 [@CarryItems]
 

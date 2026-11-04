@@ -27,7 +27,7 @@ Sell.
 [Trade]
 蜡烛
 火把
-EnternalFlame
+永恒之焰
 Peddler火把
 龙之火把
 修复油

@@ -1,4 +1,4 @@
-﻿[@MAIN]
+[@MAIN]
 #IF
 CHECKPKPOINT > 2
 #SAY
@@ -45,19 +45,19 @@ GOTO @Main-1
 
 [Trade]
 乌木剑
-EbonyBow
+乌木弓
 青铜剑
-ShortBow
+短弓
 短剑
 暴虎刀
-BoneBow
+骨弓
 铁剑
 青铜斧
 海魂
 八荒
 半月
 音速刀
-CompoundBow
+复合弓
 钢斧
 凌风
 破魂
@@ -65,6 +65,6 @@ CompoundBow
 降魔
 偃月
 墨铁刀
-LongBow
+长弓
 修罗
 凝霜

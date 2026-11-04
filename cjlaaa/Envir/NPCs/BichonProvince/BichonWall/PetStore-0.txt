@@ -1,4 +1,4 @@
-﻿ 
+ 
 ;;SET: [539]
 
 [@MAIN]
@@ -33,8 +33,8 @@ GOTO @Main-1
 
 
 [Trade]
-BabyPigEgg
-KittenEgg
+小猪宠物蛋
+小猫宠物蛋
 
 [@talk]
 #IF

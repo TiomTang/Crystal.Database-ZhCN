@@ -22,7 +22,7 @@ RedMoonEvil 1
 [@SelectRewards]
 赤血魔剑
 赤血魔刀
-RedMoonBow
+赤月弓
 
 [@ExpReward]
 

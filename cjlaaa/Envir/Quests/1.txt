@@ -1,4 +1,4 @@
-﻿[@Description]
+[@Description]
 年轻的旅者,欢迎来到{边界村/Yellow}
 在开始你的旅途之前,能否先帮我个小忙? 
 
@@ -12,7 +12,7 @@
 [@ItemTasks]
 
 [@CarryItems]
-食人花叶 5
+食人花叶1 5
 
 [@FixedRewards]
 金疮药(小量)

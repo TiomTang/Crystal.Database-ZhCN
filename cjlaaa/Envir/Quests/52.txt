@@ -1,4 +1,4 @@
-﻿[@Description]
+[@Description]
 你想让我帮你做{食人花茶/LightSteelBlue}?嗯..
 我需要一些原料.
 你能帮我找到1个{食人花叶/LightSteelBlue}和1个{食人花果实/LightSteelBlue}吗?
@@ -11,7 +11,7 @@
 [@KillTasks]
 
 [@ItemTasks]
-食人花叶 1
+食人花叶1 1
 食人花果实 1
 
 [@CarryItems]

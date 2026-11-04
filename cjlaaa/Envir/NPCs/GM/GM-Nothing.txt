@@ -28,9 +28,9 @@ Sell.
 金盒
 筹码
 骰子
-UnknownOrb
+未知宝珠
 狐月神珠
 凭证
-GuardianOrb
+守护宝珠
 比奇通用币
 时间之石

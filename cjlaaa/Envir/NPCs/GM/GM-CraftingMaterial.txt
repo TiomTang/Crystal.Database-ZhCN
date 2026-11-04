@@ -23,7 +23,7 @@ Sell.
 16
 
 [Trade]
-食人花叶
+食人花叶1
 蜘蛛牙
 食人花果
 蝎尾
@@ -43,7 +43,7 @@ Sell.
 邪眼骷髅
 龙鳞
 木材
-乌木果
+乌木果1
 樱桃
 棕栗子
 铜栗子
@@ -58,7 +58,7 @@ Sell.
 避毒珠
 祖玛头像
 沃玛号角
-String
+细绳
 HealerLetter
 鹿茸
 鹿血
@@ -69,11 +69,11 @@ HealerLetter
 ArmourBook(DC)
 ArmourBook(MC)
 ArmourBook(SC)
-ArmourBook(ACC)
+盔甲之书(ACC)
 RustyArmour
-Translucent
-HavocCrystal
-BookofMana
-BookofSpirit
-ArmourCastTool
-MossyBox
+半透明晶石
+浩劫水晶
+魔力之书
+灵魂之书
+铸甲工具
+苔藓箱

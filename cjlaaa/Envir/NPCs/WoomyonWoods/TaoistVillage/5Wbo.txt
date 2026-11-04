@@ -1,4 +1,4 @@
-﻿[@Main]
+[@Main]
 #IF
 CHECKPKPOINT > 2
 #SAY
@@ -147,8 +147,8 @@ Level 48: 阴阳盾
 召唤骷髅
 绝命剑法
 双刀术
-Focus
-StraightShot
-MentalState
-DoubleShot
-Meditation
+聚焦
+直射
+精神状态
+连射
+冥想

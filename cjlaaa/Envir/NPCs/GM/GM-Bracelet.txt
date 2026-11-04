@@ -51,11 +51,11 @@ Special repair.
 天龙狂魔轮
 虫眼手镯
 雷霆手镯
-雷霆手镯(H)
-RedJadeBracelet
-RedJadeBracelet(H)
-软玉矿Bracelet
-软玉矿Bracelet(H)
+雷霆手镯(强化)
+红玉手镯
+红玉手镯(强化)
+软玉手镯
+软玉手镯(强化)
 神秘手镯
 血龙手镯
 监视者手套
@@ -104,7 +104,7 @@ RedJadeBracelet(H)
 黑月套袖
 紫缎套袖
 苍绸套袖
-SurvivalBracelet
+生存手镯
 太阴手镯
-GoldenDragonBrace
-Evil龙之手镯
+金龙手镯
+邪龙手镯

@@ -40,11 +40,11 @@ Special repair.
 [Trade]
 天龙神形步
 雷霆战靴
-雷霆战靴(H)
-RedJadeShoes
-RedJadeShoes(H)
-软玉矿Shoes
-软玉矿Shoes(H)
+雷霆战靴(强化)
+红玉靴
+红玉靴(强化)
+软玉靴
+软玉靴(强化)
 强身靴子1
 强身靴子2
 强身靴子3
@@ -63,8 +63,8 @@ RedJadeShoes(H)
 青宝靴(魔性)
 青宝靴(仙界)
 青宝靴(机敏)
-CheongboBoots(ARCH)
-RottenShoes
+青宝靴(神射)
+破旧布鞋
 布鞋
 鹿皮靴
 紫绸靴

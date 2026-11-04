@@ -1,4 +1,4 @@
-﻿[@MAIN]
+[@MAIN]
 #IF
 CHECKPKPOINT > 2
 #SAY
@@ -62,22 +62,22 @@ GOTO @Main-1
 魔法药(中量) 5
 魔法药(中量) 10
 木剑
-WoodenBow
+木弓
 匕首
 乌木剑
-EbonyBow
+乌木弓
 青铜剑
-ShortBow
+短弓
 短剑
 暴虎刀
-BoneBow
+骨弓
 铁剑
 青铜斧
 海魂
 八荒
 半月
 音速刀
-CompoundBow
+复合弓
 钢斧
 凌风
 破魂
@@ -94,8 +94,8 @@ CompoundBow
 魔法长袍(女)
 残影魔衣(男)
 残影魔衣(女)
-LightLeatherArmour(男)
-LightLeatherArmour(女)
+轻型皮甲(男)
+轻型皮甲(女)
 青铜头盔
 魔法头盔
 黄铜头盔

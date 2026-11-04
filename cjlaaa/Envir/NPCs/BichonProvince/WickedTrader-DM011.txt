@@ -1,4 +1,4 @@
-﻿[@Main]
+[@Main]
 欢迎，我能为你做些什么?
  
 <View/@BuySell> Store.
@@ -43,22 +43,22 @@
 魔法药(中量) 5
 魔法药(中量) 10
 木剑
-WoodenBow
+木弓
 匕首
 乌木剑
-EbonyBow
+乌木弓
 青铜剑
-ShortBow
+短弓
 短剑
 暴虎刀
-BoneBow
+骨弓
 铁剑
 青铜斧
 海魂
 八荒
 半月
 音速刀
-CompoundBow
+复合弓
 凌风
 蜡烛
 地牢逃脱卷

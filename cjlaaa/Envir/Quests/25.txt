@@ -16,7 +16,7 @@
 
 [@ItemTasks]
 食人花茎 1
-食人花叶 1
+食人花叶1 1
 
 [@CarryItems]
 

@@ -28,10 +28,10 @@ Sell.
 
 [Trade]
 神水
-SmallGobby
-Tinker
-Gobby
-Mackeral
+小虾虎鱼
+小鲭鱼
+虾虎鱼
+鲭鱼
 金疮药(小量)
 金疮药(中量)
 金疮药(大量)
@@ -52,4 +52,4 @@ ManaBooster
 疾风药水
 体力药水
 魔力药水
-SpencerDrug
+解咒药水

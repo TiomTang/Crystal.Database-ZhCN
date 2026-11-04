@@ -1,4 +1,4 @@
-﻿[@MAIN]
+[@MAIN]
 #IF
 CHECKPKPOINT > 2
 #SAY
@@ -56,8 +56,8 @@ GOTO @Main-1
 灵魂战衣(女)
 残影魔衣(男)
 残影魔衣(女)
-LightLeatherArmour(男)
-LightLeatherArmour(女)
+轻型皮甲(男)
+轻型皮甲(女)
 兽皮腰带
 铁腰带
 布鞋
