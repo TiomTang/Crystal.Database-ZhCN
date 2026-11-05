@@ -5,7 +5,7 @@ CHECKPKPOINT > 2
 我绝对不会为你这样的恶人服务...
  
  
-<Close/@exit>
+<关闭/@exit>
 #ELSEACT
 GOTO @Main-1
 
@@ -24,7 +24,7 @@ GOTO @Main-1
 但是如果肉沾了土或者被魔法打到导致品质
 降低，那么它就不值钱了.
  
-<关闭/@Main>
+<返回/@Main>
 [@meathelp]
 #SAY
 你可以从 {鸡/Crimson}, {鹿/Crimson}, {羊/Crimson}, 和

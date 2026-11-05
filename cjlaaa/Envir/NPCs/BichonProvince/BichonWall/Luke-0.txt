@@ -39,7 +39,7 @@ GOTO @MayNotEnter
 #ACT
 GIVEBUFF PRISON 3600
 MOVE 0127 7 11
-LOCALMESSAGE "[Commander Luke] Take some time to think." Hint
+LOCALMESSAGE "[指挥官卢克] 好好反省一下吧。" Hint
 
 [Quests]
 154

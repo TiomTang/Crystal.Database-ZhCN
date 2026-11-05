@@ -1,36 +1,36 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're wearing: {L: <$BRACELET_L> R: <$BRACELET_R>/CORAL}
+你好，{<$USERNAME>/KHAKI}，我的名字叫{<$NPCNAME>/KHAKI}。
+你现在佩戴的手镯：{左：<$BRACELET_L> 右：<$BRACELET_R>/CORAL}
  
-<Buy/@Buy> Bracelet
-<Sell/@Sell> Bracelet
-<Repair/@Repair> Bracelet
-<Special Repair/@SRepair> Bracelet
+<购买/@Buy> 手镯
+<出售/@Sell> 手镯
+<修理/@Repair> 手镯
+<特殊修理/@SRepair> 手镯
 
 [@Buy]
 #SAY
-Buy.
+请选择你想购买的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+把你要卖的东西拿给我看看。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Repair]
 #SAY
-Repair.
+请选择你想修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+请选择你想特殊修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

@@ -5,13 +5,13 @@ CHECKPKPOINT > 2
 我绝对不会为你这样的恶人服务...
  
  
-<Close/@exit>
+<关闭/@exit>
 #ELSEACT
 GOTO @Main-1
 
 [@Main-1]
 #SAY
-Welcome traveller,
+欢迎，旅行者，
 我出售坐骑和相关的一些配件!
  
 <浏览/@Buy> 商店.

@@ -1,266 +1,266 @@
 [@Main]
 {
 #IF
-CHECKITEM TestServerScroll 1
+CHECKITEM 测试服指南卷 1
 #ACT
 GOTO @Main-1
 #ELSEACT
-GIVEITEM TestServerScroll 1
+GIVEITEM 测试服指南卷 1
 GOTO @Main-1
 
 [@Main-1]
 #SAY
-Welcome to the Official Crystal Mir Test Server.
-Thankyou for testing.
+欢迎来到《水晶传奇》官方测试服。
+感谢你参与测试。
  
-<Game Commands/@GCommands> 
-<Town & Caves/@TownCaves>
+<游戏命令/@GCommands> 
+<城镇与洞穴/@TownCaves>
 
 [@TownCaves]
 #SAY
-<GameMaster/@R001>
-<Bichon/@GMBichon>
-<Woomyon/@GMWoomyon>
-<CastleGi/@GMCastle>
-<TaoVillage/@GMTaoVillage>
-<SerpentValley/@GMSerpent>
-<Mongchon/@GMMongchon>
-<PrajnaIsland/@GMPrajna>
-<PastBichon SafeZone/@GMPastBichon>
-<Back/@_UseItem(1)>
+<管理员专区/@R001>
+<比奇省/@GMBichon>
+<沃玛森林/@GMWoomyon>
+<封魔谷/@GMCastle>
+<道馆/@GMTaoVillage>
+<毒蛇山谷/@GMSerpent>
+<盟重省/@GMMongchon>
+<苍月岛/@GMPrajna>
+<远古比奇安全区/@GMPastBichon>
+<返回/@Main-1>
 
 [@R001]
 #ACT
 MOVE R001 100 100
-CLOSE
+GOTO @exit
 
 [@GMPastBichon]
 #ACT
 MOVE 6 121 154
-CLOSE
+GOTO @exit
 
 [@GMBichon]
 #SAY
-<BichonWall SafeZone/@BichonSZ>
-<OmaCave/@BichonOmaCave>
-<DeadMines/@BichonMines>
-<ContestRoom/@BichonContest>
-<Back/@_UseItem(1)>
+<比奇城安全区/@BichonSZ>
+<天然洞穴/@BichonOmaCave>
+<僵尸洞/@BichonMines>
+<竞技场地下一层/@BichonContest>
+<返回/@Main-1>
 
 [@BichonContest]
 #ACT
 MOVE 0139
-CLOSE
+GOTO @exit
 
 [@BichonSZ]
 #ACT
 MOVE 0 333 267
-CLOSE
+GOTO @exit
 
 [@BichonOmaCave]
 #ACT
 MOVE 0 142 42
-CLOSE
+GOTO @exit
 
 [@BichonMines]
 #ACT
 MOVE 0 660 219
-CLOSE
+GOTO @exit
 
 [@GMWoomyon]
 #SAY
-<Woomyon SafeZone/@WoomyonSZ>
-<InsectCave/@WoomyonInsect>
-<WoomaTemple/@WoomyonWoomaT>
-<Back/@_UseItem(1)>
+<沃玛森林安全区/@WoomyonSZ>
+<昆虫洞/@WoomyonInsect>
+<沃玛寺庙/@WoomyonWoomaT>
+<返回/@Main-1>
 
 [@WoomyonSZ]
 #ACT
 MOVE 1 315 81
-CLOSE
+GOTO @exit
 
 [@WoomyonInsect]
 #ACT
 MOVE 1 210 524
-CLOSE
+GOTO @exit
 
 [@WoomyonWoomaT]
 #ACT
 MOVE 1 87 284
-CLOSE
+GOTO @exit
 
 [@GMSerpent]
 #SAY
-<SerpentValley SafeZone/@SerpentSZ>
-<SerpentMines/@SerpentMines>
-<Back/@_UseItem(1)>
+<毒蛇山谷安全区/@SerpentSZ>
+<毒蛇矿区/@SerpentMines>
+<返回/@Main-1>
 
 [@SerpentSZ]
 #ACT
 MOVE 2 503 484
-CLOSE
+GOTO @exit
 
 [@SerpentMines]
 #ACT
 MOVE 2 561 174
-CLOSE
+GOTO @exit
 
 [@GMMongchon]
-<MudWall SafeZone/@MWSafeZone>
-<BugCave/@MWBugCave>
-<StoneTemple/@MWStoneTemple>
-<ZumaTemple/@MWZumaTemple>
-<FoxCave/@MWFoxCave>
-<Penal/@MWPenal>
-<SabukWall/@MWSabuk>
-<SecretCave/@MWSabukSecret>
-<Swamp/@MWSwamp>
-<ForgottenCity/@MWForgottenCity>
-<Back/@_UseItem(1)>
+<盟重土城安全区/@MWSafeZone>
+<地牢/@MWBugCave>
+<石墓/@MWStoneTemple>
+<祖玛寺庙/@MWZumaTemple>
+<狐月山/@MWFoxCave>
+<惩戒洞窟/@MWPenal>
+<沙巴克城/@MWSabuk>
+<沙巴克密道/@MWSabukSecret>
+<异秘洞/@MWSwamp>
+<遗忘之城/@MWForgottenCity>
+<返回/@Main-1>
 
 [@MWSafeZone]
 #ACT
 MOVE 3 328 330
-CLOSE
+GOTO @exit
 
 [@MWBugCave]
 #ACT
 MOVE 3 144 93
-CLOSE
+GOTO @exit
 
 [@MWStoneTemple]
 #ACT
 MOVE 3 298 338
-CLOSE
+GOTO @exit
 
 [@MWZumaTemple]
 #ACT
 MOVE 3 859 179
-CLOSE
+GOTO @exit
 
 [@MWFoxCave]
 #ACT
 MOVE 3 654 762
-CLOSE
+GOTO @exit
 
 [@MWPenal]
 #ACT
 MOVE 3 849 673
-CLOSE
+GOTO @exit
 
 [@MWSabuk]
 #ACT
 MOVE 3 637 284
-CLOSE
+GOTO @exit
 
 [@MWSabukSecret]
 #ACT
 MOVE 3 660 273
-CLOSE
+GOTO @exit
 
 [@MWSwamp]
 #ACT
 MOVE 3 645 254
-CLOSE
+GOTO @exit
 
 [@MWForgottenCity]
 #ACT
 MOVE 3 411 200
-CLOSE
+GOTO @exit
 
 [@GMCastle]
 #SAY
-<CastleGi SafeZone/@CastleGISZ>
-<BlackDragonDungeon/@BDD>
-<IceTemple/@CastleIceTemp>
-<DragonSwamp/@CastleDragonSwamp>
-<Back/@_UseItem(1)>
+<封魔谷安全区/@CastleGISZ>
+<黑龙巢穴/@BDD>
+<冰之神殿/@CastleIceTemp>
+<龙之沼泽/@CastleDragonSwamp>
+<返回/@Main-1>
 
 [@CastleGISZ]
 #ACT
 MOVE 4 226 207
-CLOSE
+GOTO @exit
 
 [@BDD]
 #ACT
 MOVE 4 60 71
-CLOSE
+GOTO @exit
 
 [@CastleIceTemp]
 #ACT
 MOVE 4 139 69
-CLOSE
+GOTO @exit
 
 [@CastleDragonSwamp]
 #ACT
 MOVE 4 45 211
-CLOSE
+GOTO @exit
 
 [@GMPrajna]
 #SAY
-<PrajnaIsland SafeZone/@PrajnaSZ>
-<PrajnaCave/@PrajnaCave>
-<PrajnaTemple/@PrajnaTemple>
-<Back/@_UseItem(1)>
+<苍月岛安全区/@PrajnaSZ>
+<骨魔洞/@PrajnaCave>
+<牛魔寺庙/@PrajnaTemple>
+<返回/@Main-1>
 
 [@PrajnaSZ]
 #ACT
 MOVE 5 141 334
-CLOSE
+GOTO @exit
 
 [@PrajnaCave]
 #ACT
 MOVE 5 524 615
-CLOSE
+GOTO @exit
 
 [@PrajnaTemple]
 #ACT
 MOVE 5 570 425
-CLOSE
+GOTO @exit
 
 [@GMTaoVillage]
 #SAY
-<TaoVillage SafeZone/@TaoSafeZone>
-<MineralMines/@TaoMineralMines>
-<TreePath/@TaoTreePath>
-<DarkForest/@TaoDarkForest>
-<RedValley/@TaoRedValley>
-<Lunar/@TaoLunar>
-<Back/@_UseItem(1)>
+<道馆安全区/@TaoSafeZone>
+<道馆矿区/@TaoMineralMines>
+<丛林迷宫/@TaoTreePath>
+<黑暗森林/@TaoDarkForest>
+<赤月峡谷/@TaoRedValley>
+<太阴洞穴/@TaoLunar>
+<返回/@Main-1>
 
 [@TaoSafeZone]
 #ACT
 MOVE 11 194 308
-CLOSE
+GOTO @exit
 
 [@TaoMineralMines]
 #ACT
 MOVE 11 44 319
-CLOSE
+GOTO @exit
 
 [@TaoTreePath]
 #ACT
 MOVE 11 358 248
-CLOSE
+GOTO @exit
 
 [@TaoDarkForest]
 #ACT
 MOVE 11 180 194
-CLOSE
+GOTO @exit
 
 [@TaoRedValley]
 #ACT
 MOVE 12 93 17
-CLOSE
+GOTO @exit
 
 [@TaoLunar]
 #ACT
 MOVE 12 52 54
-CLOSE
+GOTO @exit
 
 [@GCommands]
 #SAY
-Player:
+玩家命令：
 @AllowGuild     @LeaveGuild
 @AllowTrade     @Map
 @Move X,Y       @EnableGroupRecall
@@ -270,12 +270,12 @@ Player:
 @Die            @AddInventory
 @ToggleTransform
 
-GameMaster:
+游戏管理员命令：
 @MapMove (Map,X,Y)  @Mob
 @Make               @Gamemaster
 @Superman           @Level
 @Goto               @RecallMob
 @GiveSkill          @Info
-<Back/@_UseItem(1)>
+<返回/@Main-1>
 
 }

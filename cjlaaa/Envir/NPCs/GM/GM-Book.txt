@@ -1,24 +1,24 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
  
-<Buy/@Buy> Book
-<Sell/@Sell> Book
+<购买/@Buy> 技能书
+<出售/@Sell> 技能书
  
-Learn all <Warrior/@Warrior> , <Wizard/@Wizard> , <Taoist/@Taoist> , <Archer/@Archer> , <Assassin/@Assassin> spells.
+学习指定职业的全部技能：<战士/@Warrior>、<法师/@Wizard>、<道士/@Taoist>、<弓手/@Archer>、<刺客/@Assassin>。
 
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Warrior]
 #Act

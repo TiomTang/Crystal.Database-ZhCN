@@ -1,21 +1,21 @@
 [@Main]
 #Say
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
  
-<Buy/@Buy> 肉
-<Sell/@Sell> 肉
+<购买/@Buy> 肉
+<出售/@Sell> 肉
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

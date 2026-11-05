@@ -1,12 +1,12 @@
 [@Main]
 #SAY
-Managing the affairs of a Game Master like you is a pleasure.
-What function would you like me to perform today <$DATE>
+很高兴能为你这样的游戏管理员处理事务。
+今天是<$DATE>，你希望我执行哪项功能？
  
-<Guild Application/@CreateGuildCheck> , <View Market/@MARKET> , <View Consigned Items/@CONSIGNMENT> , <Consign Item/@CONSIGN>
-<Kill my Pets/@KillPets> , <Open my Storage/@Storage> , <Reset Quest Flags/@ResetQuestFlags>
+<申请创建行会/@CreateGuildCheck> , <查看市场/@MARKET> , <查看我的寄售/@CONSIGNMENT> , <寄售物品/@CONSIGN>
+<杀死我的宠物/@KillPets> , <打开我的仓库/@Storage> , <重置任务标记/@ResetQuestFlags>
  
-Menu: <Exit/@Exit>                                                  <Event Managment Page/@EventManagment>
+菜单：<退出/@Exit>                                                  <活动管理页面/@EventManagment>
 
 
 [@CreateGuildCheck]
@@ -28,18 +28,19 @@ GOTO @GiveHorn
 GOTO @GiveHorn
 
 [@GiveHorn]
-#ACT
+#IF
 CHECKITEM 沃玛号角 1
-GIVEITEM 沃玛号角 1
+#ACT
 GOTO @CREATEGUILD
 #ELSEACT
+GIVEITEM 沃玛号角 1
 GOTO @CREATEGUILD
 
 
 [@KillPets]
 #ACT
 CLEARPETS
-LINEMESSAGE "Your pets are now dead as you requested." Hint
+LOCALMESSAGE "已按你的要求清除所有宠物。" Hint
 
 
 [@CREATEGUILD]
@@ -49,27 +50,27 @@ LINEMESSAGE "Your pets are now dead as you requested." Hint
 
 [@CONSIGN]
 #SAY
-The following are {'cautions'/LimeGreen} in the commission sale.
-1. Consignment fee: After confirming the sale,
-   1% of the selling price is paid.
-2. Trust money: when it is consigned, '1,000 Gold' is paid.
-3. Commission period: After 100 days of item sale registration,
-   the item will be automatically deleted from the list.
-4. Number of commission items: Maximum 30 items are allowed
-   for sale
-5. Trust money amount: can be set in the range of
-   10,000 - 50,000,000 gold.
+以下是寄售系统的{交易条款/LimeGreen}。
+1. 手续费：在交易完成后，我们将收取成交额的
+   1%作为手续费。
+2. 保证金：当你提交托管时，我们将收取'1,000金币'作为保证金。
+3. 托管时间：寄售登记满100天后，
+   物品将自动从寄售列表中移除。
+4. 寄售的物品数量：每次最多可托管30件
+   物品用于寄售。
+5. 交易金额：我们接受的寄售金额范围为
+   10,000 - 50,000,000金币。
 
 
 [@Storage]
 #SAY
-Trust me, I'm looking after your stuff.
+放心，你的物品由我妥善保管。
  
  
  
  
  
-Menu: <Main Menu/@Main> - <Exit/@Exit>
+菜单：<主菜单/@Main> - <退出/@Exit>
 
 
 [@ResetQuestFlags]
@@ -85,14 +86,14 @@ SET [507] 0
 SET [508] 0
 SET [509] 0
 SET [510] 0
-LINEMESSAGE "All quest flags have been reset." Hint
+LOCALMESSAGE "所有任务标记已重置。" Hint
 
 [@EventManagment]
 #SAY
-This could be used for starting global events and other stuff as the
-server develops and adds in more functionality over time.
+这里可用于开启全服活动等功能，
+以后会随服务器的完善，逐步增加更多功能。
  
  
  
  
-<Back/@Main>
+<返回/@Main>

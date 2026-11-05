@@ -1,432 +1,462 @@
 [@main]
-Hello traveler, I'm the craft NPC for this cave.
-What can I help you with?
+你好，旅行者，我是这座洞穴里的工匠。
+我能帮你做些什么？
 
-<Craft Items/@craft>.
-<Close/@exit>
+<制作物品/@craft>.
+<关闭/@exit>
 
 
 [@craft]
 #SAY
-The following are the items i can forge.
+这是我可以制作的盔甲清单.
 
-- Ancient重盔甲  <Forge/@arm1>
-- AncientRobe         <Forge/@arm2>
-- AncientPlate        <Forge/@arm3>
-- AncientSuit         <Forge/@arm4>
-- AncientLeather      <Forge/@arm5>
+- Ancient重盔甲  <制作/@arm1>
+- AncientRobe         <制作/@arm2>
+- AncientPlate        <制作/@arm3>
+- AncientSuit         <制作/@arm4>
+- AncientLeather      <制作/@arm5>
    
-* It will cost 20,000 Gold to forge an item.
+* 每件盔甲需要额外收取20,000金币作为手续费.
 
-<Exit/@exit>
+<退出/@exit>
 
 [@arm1]
 #SAY
 * Ancient重盔甲
-* Defense stats : Ac 6-20 - Amc 3-7 - Dc 0-1 - Hp +10.
-* Items required for forging,
-- 40 RustyArmour
-- 34 RhinoLeather
-- 32 MammothLeather
+* 属性 : Ac 6-20 - Amc 3-7 - Dc 0-1 - Hp +10.
+* 制作需要以下物品:
+- 40 锈蚀的古代盔甲
+- 34 犀牛皮
+- 32 白象皮
 - 30 大骨头
-- 12 ArmourBook(DC)
+- 12 盔甲之书(勇猛)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Forge Now/@arm12>    <Back/@main>
+<现在制作/@arm12>    <返回/@main>
 
 [@arm12]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM RhinoLeather 34
-CHECKITEM MammothLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 犀牛皮 34
+CHECKITEM 白象皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(DC) 12
+CHECKITEM 盔甲之书(勇猛) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM RhinoLeather 34
-TAKEITEM MammothLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 犀牛皮 34
+TAKEITEM 白象皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(DC) 12
+TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM Ancient重盔甲(男) 1
-LINEMESSAGE "You have forged Ancient重盔甲." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm12F
 
 [@arm12F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM RhinoLeather 34
-CHECKITEM MammothLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 犀牛皮 34
+CHECKITEM 白象皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(DC) 12
+CHECKITEM 盔甲之书(勇猛) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM RhinoLeather 34
-TAKEITEM MammothLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 犀牛皮 34
+TAKEITEM 白象皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(DC) 12
+TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM Ancient重盔甲(女) 1
-LINEMESSAGE "You have forged Ancient重盔甲." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the Ancient重盔甲,
-* Items required for forging,
-- 40 RustyArmour
-- 34 RhinoLeather
-- 32 MammothLeather
+你没有足够的材料,请再次检查你的包裹.
+* 制作Ancient重盔甲需要:
+* 制作需要以下物品:
+- 40 锈蚀的古代盔甲
+- 34 犀牛皮
+- 32 白象皮
 - 30 大骨头
-- 12 ArmourBook(DC)
+- 12 盔甲之书(勇猛)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Back/@main>
+<返回/@main>
               
 [@arm2]
 #SAY
 * AncientRobe
-* Defense stats : Ac 4-14 - Amc 5-8 - Mc 0-7 - Hp +10. 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 BeastLeather
-- 32 UndeadLeather
+* 属性 : Ac 4-14 - Amc 5-8 - Mc 0-7 - Hp +10. 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 黑豹皮
+- 32 魔化狼皮
 - 30 大骨头
-- 12 ArmourBook(MC)
+- 12 盔甲之书(魔界)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Forge Now/@arm23>    <Back/@main>
+<现在制作/@arm23>    <返回/@main>
 
 
 [@arm23]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM BeastLeather 34
-CHECKITEM UndeadLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 黑豹皮 34
+CHECKITEM 魔化狼皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(MC) 12
+CHECKITEM 盔甲之书(魔界) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM BeastLeather 34
-TAKEITEM UndeadLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 黑豹皮 34
+TAKEITEM 魔化狼皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(MC) 12
+TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientRobe(男) 1
-LINEMESSAGE "You have forged AncientRobe." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm23F
 
 [@arm23F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM BeastLeather 34
-CHECKITEM UndeadLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 黑豹皮 34
+CHECKITEM 魔化狼皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(MC) 12
+CHECKITEM 盔甲之书(魔界) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM BeastLeather 34
-TAKEITEM UndeadLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 黑豹皮 34
+TAKEITEM 魔化狼皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(MC) 12
+TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientRobe(女) 1
-LINEMESSAGE "You have forged AncientRobe." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the AncientRobe, 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 BeastLeather
-- 32 UndeadLeather
+你没有足够的材料,请再次检查你的包裹.
+* 制作AncientRobe需要: 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 黑豹皮
+- 32 魔化狼皮
 - 30 大骨头
-- 12 ArmourBook(MC)
+- 12 盔甲之书(魔界)
 - 10 白金矿
--  5 StrongRope   
+-  5 粗缆绳   
 
-<Back/@main>   
+<返回/@main>   
 
 
 [@arm3]
 #SAY
 * AncientPlate
-* Defense stats : Ac 6-15 - Amc 5-10 - Sc 0-6 - Hp +10. 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 DemonLeather
-- 32 LightLeather
+* 属性 : Ac 6-15 - Amc 5-10 - Sc 0-6 - Hp +10. 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 白狼皮
+- 32 轻皮
 - 30 大骨头
-- 12 ArmourBook(SC)
+- 12 盔甲之书(仙术)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Forge Now/@arm33>    <Back/@main>
+<现在制作/@arm33>    <返回/@main>
 
 
 [@arm33]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM DemonLeather 34
-CHECKITEM LightLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 白狼皮 34
+CHECKITEM 轻皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(SC) 12
+CHECKITEM 盔甲之书(仙术) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM DemonLeather 34
-TAKEITEM LightLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 白狼皮 34
+TAKEITEM 轻皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBookSC) 12
+TAKEITEM 盔甲之书(仙术) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEitem AncientPlate(男) 1
-LINEMESSAGE "You have forged AncientPlate." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm33F
 
 [@arm33F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM DemonLeather 34
-CHECKITEM LightLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 白狼皮 34
+CHECKITEM 轻皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(SC) 12
+CHECKITEM 盔甲之书(仙术) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM DemonLeather 34
-TAKEITEM LightLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 白狼皮 34
+TAKEITEM 轻皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(SC) 12
+TAKEITEM 盔甲之书(仙术) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientPlate(女) 1
-LINEMESSAGE "You have forged AncientPlate." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the AncientPlate, 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 DemonLeather
-- 32 LightLeather
+你没有足够的材料,请再次检查你的包裹.
+* 制作AncientPlate需要: 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 白狼皮
+- 32 轻皮
 - 30 大骨头
-- 12 ArmourBook(SC)
+- 12 盔甲之书(仙术)
 - 10 白金矿
--  5 StrongRope   
+-  5 粗缆绳   
 
-<Back/@main>
+<返回/@main>
 
 
 [@arm4]
 #SAY
 * AncientSuit
-* Defense stats : Ac 6-15 - Amc 5-10 - Dc 0-1 - Hp +10. 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 MammothLeather
-- 32 BaboonLeather
+* 属性 : Ac 6-15 - Amc 5-10 - Dc 0-1 - Hp +10. 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 白象皮
+- 32 狒狒皮
 - 30 大骨头
-- 12 ArmourBook(DC)
+- 12 盔甲之书(勇猛)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Forge Now/@arm43>    <Back/@main>
+<现在制作/@arm43>    <返回/@main>
 
 
 [@arm43]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM MammothLeather 34
-CHECKITEM BaboonLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 白象皮 34
+CHECKITEM 狒狒皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(DC) 12
+CHECKITEM 盔甲之书(勇猛) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM MammothLeather 34
-TAKEITEM BaboonLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 白象皮 34
+TAKEITEM 狒狒皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(DC) 12
+TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientSuit(男) 1
-LINEMESSAGE "You have forged AncientSuit." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm43F
 
 [@arm43F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM MammothLeather 34
-CHECKITEM BaboonLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 白象皮 34
+CHECKITEM 狒狒皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(DC) 12
+CHECKITEM 盔甲之书(勇猛) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM DemonLeather 34
-TAKEITEM BaboonLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 白象皮 34
+TAKEITEM 狒狒皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(DC) 12
+TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientSuit(女) 1 
-LINEMESSAGE "You have forged AncientSuit." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the AncientSuit, 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 MammothLeather
-- 32 BaboonLeather
+你没有足够的材料,请再次检查你的包裹.
+* 制作AncientSuit需要: 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 白象皮
+- 32 狒狒皮
 - 30 大骨头
-- 12 ArmourBook(DC)
+- 12 盔甲之书(勇猛)
 - 10 白金矿
--  5 StrongRope   
+-  5 粗缆绳   
 
-<Back/@main>                       
+<返回/@main>                       
 
 [@arm5]
 #SAY
 * AncientLeather
-* Defense stats : Ac 4-16 - Amc 6-10 - Mc 1-2 - Hp +10. 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 BeastLeather
-- 32 MammothLeather
+* 属性 : Ac 4-16 - Amc 6-10 - Mc 1-2 - Hp +10. 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 黑豹皮
+- 32 白象皮
 - 30 大骨头
-- 12 ArmourBook(MC)
+- 12 盔甲之书(魔界)
 - 10 白金矿
--  5 StrongRope
+-  5 粗缆绳
 
-<Forge Now/@arm53>    <Back/@main>
+<现在制作/@arm53>    <返回/@main>
 
 
 [@arm53]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM BeastLeather 34
-CHECKITEM MammothLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 黑豹皮 34
+CHECKITEM 白象皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(MC) 12
+CHECKITEM 盔甲之书(魔界) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM BeastLeather 34
-TAKEITEM MammothLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 黑豹皮 34
+TAKEITEM 白象皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(MC) 12
+TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientLeather(男) 1
-LINEMESSAGE "You have forged AncientLeather." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm53F
 
 [@arm53F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
-CHECKITEM RustyArmour 40
-CHECKITEM BeastLeather 34
-CHECKITEM MammothLeather 32
+CHECKITEM 锈蚀的古代盔甲 40
+CHECKITEM 黑豹皮 34
+CHECKITEM 白象皮 32
 CHECKITEM 大骨头 30
-CHECKITEM ArmourBook(MC) 12
+CHECKITEM 盔甲之书(魔界) 12
 CHECKITEM 白金矿 10
-CHECKITEM StrongRope 5
+CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
-TAKEITEM RustyArmour 40
-TAKEITEM BeastLeather 34
-TAKEITEM MammothLeather 32
+TAKEITEM 锈蚀的古代盔甲 40
+TAKEITEM 黑豹皮 34
+TAKEITEM 白象皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBook(MC) 12
+TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 白金矿 10
-TAKEITEM StrongRope 5
+TAKEITEM 粗缆绳 5
 GIVEITEM AncientLeather(女) 1
-LINEMESSAGE "You have forged AncientLeather." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the AncientLeather, 
-* Items required for forging, 
-- 40 RustyArmour
-- 34 BeastLeather
-- 32 UndeadLeather
+你没有足够的材料,请再次检查你的包裹.
+* 制作AncientLeather需要: 
+* 制作需要以下物品: 
+- 40 锈蚀的古代盔甲
+- 34 黑豹皮
+- 32 白象皮
 - 30 大骨头
-- 12 ArmourBook(MC)
+- 12 盔甲之书(魔界)
 - 10 白金矿
--  5 StrongRope   
+-  5 粗缆绳   
 
-<Back/@main>                                                                                                                                                                                                                                               
+<返回/@main>                                                                                                                                                                                                                                               

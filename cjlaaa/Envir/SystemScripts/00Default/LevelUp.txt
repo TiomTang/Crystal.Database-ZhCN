@@ -43,5 +43,5 @@ LEVEL > 55
 LEVEL < 57
 #INCLUDE [SystemScripts\00Default\LevelUp\AncientPrajnaStoneCave.txt] @Main
 #ELSEACT
-GOTO @_LevelUp7
+BREAK
 

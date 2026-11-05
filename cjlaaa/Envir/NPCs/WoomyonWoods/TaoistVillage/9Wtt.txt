@@ -16,38 +16,38 @@ GOTO @Main-2
 
 [@Main-1]
 #SAY
-If you want to know it quickly.
-Go and see the owner of this school.
-<Okay/@exit>
+如果你想尽快了解这件事，
+就去见见这所道馆的掌门吧。
+<好/@exit>
 
 [@Main-2]
 #SAY
 圣剑... 那只是一个传说罢了.
-<Close/@Exit>
+<关闭/@Exit>
 
 [@Main-3]
 #SAY
-Holysword? Huh.. don't believe in the apprentice's words
-it means nothing to us who stay in the Taoist world,
-it's just a piece of Iron...
-<Then, is the sword an actual thing?/@next> 
-<I see, I wont depend on it/@deney>
+圣剑？哼……别听那些学徒胡说，
+对我们这些修道之人来说，它毫无意义，
+不过是一块铁罢了……
+<那么，圣剑真的存在吗？/@next> 
+<我明白了，不会依赖它的/@deney>
 
 
 [@deney]
 #IF
 #SAY
-What a good attitude you take!
-I'll scold these boys who are still silly
-Leave us alone, please!
-<Ok/@exit>
+有这样的态度就对了！
+我会好好训斥那些仍在犯傻的小子。
+请别再打扰我们了！
+<好/@exit>
 
 [@next]
 #IF
 #SAY
-Defenitly there is such a legend from the past but...
-the owner of this school knows more details about it
-go and ask him about it.
-<Ok/@exit>
+过去确实流传过这样的传说，不过……
+这所道馆的掌门知道更多详情，
+你去向他打听吧。
+<好/@exit>
 #ACT
 SET [527] 1

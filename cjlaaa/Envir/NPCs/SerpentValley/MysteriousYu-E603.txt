@@ -12,16 +12,16 @@ DAYOFWEEK SUNDAY
 HOUR 20
 MIN 20
 #ACT
-goto talkwith_2
+GOTO @talkwith_2
 
 #IF
-DAYOFWEEK SATURADAY
+DAYOFWEEK SATURDAY
 HOUR 20
 MIN 20
 #ACT
-goto talkwith_2
+GOTO @talkwith_2
 #ELSEACT
-goto untalkwith
+GOTO @untalkwith
    
 [@talkwith_2]
 好吧，看在你陪我聊天的份上，我告诉你一个秘密.

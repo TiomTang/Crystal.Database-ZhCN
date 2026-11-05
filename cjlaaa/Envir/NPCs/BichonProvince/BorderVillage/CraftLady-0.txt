@@ -1,6 +1,6 @@
 [@MAIN]
 #SAY
-Coming soon.
+功能即将开放。
 
 [Quests]
 -1

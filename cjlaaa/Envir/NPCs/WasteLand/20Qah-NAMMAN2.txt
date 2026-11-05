@@ -38,7 +38,7 @@
 
 [@arm12]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
 CHECKITEM 犀牛皮 34
@@ -57,9 +57,9 @@ TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 青之魔甲(男) 1
-LINEMESSAGE "恭喜你,成功制作青之魔甲(男)." Hint
+LOCALMESSAGE "恭喜你,成功制作青之魔甲(男)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm12F
@@ -84,9 +84,9 @@ TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 青之魔甲(女) 1
-LINEMESSAGE "恭喜你,成功制作青之魔甲(女)." Hint
+LOCALMESSAGE "恭喜你,成功制作青之魔甲(女)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
 你没有足够的材料,请再次检查你的包裹.
@@ -119,7 +119,7 @@ CLOSE
 
 [@arm23]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
 CHECKITEM 黑豹皮 34
@@ -138,9 +138,9 @@ TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 赤之魔甲(男) 1
-LINEMESSAGE "恭喜你,成功制作赤之魔甲(男)." Hint
+LOCALMESSAGE "恭喜你,成功制作赤之魔甲(男)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm23F
@@ -165,9 +165,9 @@ TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 赤之魔甲(女) 1
-LINEMESSAGE "恭喜你,成功制作赤之魔甲(女)." Hint
+LOCALMESSAGE "恭喜你,成功制作赤之魔甲(女)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
 你没有足够的材料,请再次检查你的包裹.
@@ -201,7 +201,7 @@ CLOSE
 
 [@arm33]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
 CHECKITEM 白狼皮 34
@@ -216,13 +216,13 @@ TAKEITEM 锈蚀的古代盔甲 40
 TAKEITEM 白狼皮 34
 TAKEITEM 轻皮 32
 TAKEITEM 大骨头 30
-TAKEITEM ArmourBookSC) 12
+TAKEITEM 盔甲之书(仙术) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEitem 绿之魔甲(男) 1
-LINEMESSAGE "恭喜你,成功制作绿之魔甲(男)." Hint
+LOCALMESSAGE "恭喜你,成功制作绿之魔甲(男)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm33F
@@ -247,9 +247,9 @@ TAKEITEM 盔甲之书(仙术) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 绿之魔甲(女) 1
-LINEMESSAGE "恭喜你,成功制作绿之魔甲(女)." Hint
+LOCALMESSAGE "恭喜你,成功制作绿之魔甲(女)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
 你没有足够的材料,请再次检查你的包裹.
@@ -283,7 +283,7 @@ CLOSE
 
 [@arm43]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
 CHECKITEM 白象皮 34
@@ -302,9 +302,9 @@ TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 黑之魔甲(男) 1
-LINEMESSAGE "恭喜你,成功制作黑之魔甲(男)." Hint
+LOCALMESSAGE "恭喜你,成功制作黑之魔甲(男)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm43F
@@ -322,16 +322,16 @@ CHECKITEM 粗缆绳 5
 #ACT
 TAKEGOLD 20000
 TAKEITEM 锈蚀的古代盔甲 40
-TAKEITEM 白狼皮 34
+TAKEITEM 白象皮 34
 TAKEITEM 狒狒皮 32
 TAKEITEM 大骨头 30
 TAKEITEM 盔甲之书(勇猛) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM 黑之魔甲(女) 1 
-LINEMESSAGE "恭喜你,成功制作黑之魔甲(女)." Hint
+LOCALMESSAGE "恭喜你,成功制作黑之魔甲(女)." Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
 你没有足够的材料,请再次检查你的包裹.
@@ -349,8 +349,8 @@ CLOSE
 [@arm5]
 #SAY
 * AncientLeather
-* Defense stats : Ac 4-16 - Amc 6-10 - Mc 1-2 - Hp +10. 
-* Items required for forging, 
+* 防御属性 : 防御 4-16 - 魔御 6-10 - 魔法 1-2 - 生命值 +10. 
+* 制作需要以下物品： 
 - 40 锈蚀的古代盔甲
 - 34 黑豹皮
 - 32 白象皮
@@ -359,12 +359,15 @@ CLOSE
 - 10 红宝石矿
 -  5 粗缆绳
 
-<Forge Now/@arm53>    <Back/@main>
+<现在制作/@arm53>    <返回/@main>
 
 
 [@arm53]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
 CHECKITEM 黑豹皮 34
@@ -383,14 +386,17 @@ TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM AncientLeather(男) 1
-LINEMESSAGE "You have forged AncientLeather." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSEACT
 GOTO @arm53F
 
 [@arm53F]
+#ACT
+LOCALMESSAGE "此配方配置尚未完成，暂不可制作；未扣除金币或材料。" Hint
+BREAK
 #IF
 CHECKGOLD > 20000
 CHECKITEM 锈蚀的古代盔甲 40
@@ -410,20 +416,20 @@ TAKEITEM 盔甲之书(魔界) 12
 TAKEITEM 红宝石矿 10
 TAKEITEM 粗缆绳 5
 GIVEITEM AncientLeather(女) 1
-LINEMESSAGE "You have forged AncientLeather." Hint
+LOCALMESSAGE "制作完成。" Hint
 BREAK
-CLOSE
+GOTO @exit
 
 #ELSESAY
-You don't have enough ingredients.
-Please check again.In order to make the AncientLeather, 
-* Items required for forging, 
+你没有足够的材料。
+请再次检查你的包裹。若要制作AncientLeather， 
+* 需要准备以下物品： 
 - 40 锈蚀的古代盔甲
 - 34 黑豹皮
-- 32 魔化狼皮
+- 32 白象皮
 - 30 大骨头
 - 12 盔甲之书(魔界)
 - 10 红宝石矿
 -  5 粗缆绳   
 
-<Back/@main>                                                                                                                                                                                                                                               
+<返回/@main>                                                                                                                                                                                                                                               

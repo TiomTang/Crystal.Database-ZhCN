@@ -1,40 +1,40 @@
 [@Main]
-To Teleport back to this map: {@MOVE R001 100 100/LimeGreen}
-Tip: {@observer/LIMEGREEN} if you want to be invisible to other players.
+返回本地图的传送命令：{@MOVE R001 100 100/LimeGreen}
+提示：输入 {@observer/LIMEGREEN} 可让其他玩家看不到你。
  
-Teleport to <Town/@TeleTownMain> , <Dungeon Entrance/@TeleDungeonEntranceMain> , <Dungeon Boss/@TeleDungeonBossMain>
-Teleport to <Contest Room/@ContestRoom> , <Prison/@Prison> , <Ghoul Cave/@GhoulCave> , <Mystery Cave/@MysteryCave>
+传送到 <城镇/@TeleTownMain> , <副本入口/@TeleDungeonEntranceMain> , <副本首领/@TeleDungeonBossMain>
+传送到 <竞技场地下一层/@ContestRoom> , <监狱/@Prison> , <尸王殿/@GhoulCave> , <未知暗殿/@MysteryCave>
  
-Menu: <Exit/@Exit>
+菜单: <退出/@Exit>
 
 [@TeleTownMain]
  
-<Bichon Province/@TeleBichonProvince> , <Border Village/@TeleBorderVillage> , <Woomyon Woods/@TeleWoomyonWoods> , <Serpent Valley/@TeleSerpentValley>
-<Mongcon Province/@TeleMongconProvince> , <Sabuk Wall/@TeleSabukWall> , <Castle Gi-Ryoong/@TeleCastleGiRyoong> , <Prajna Island/@TelePrajnaIsland>
-<Past Bichon/@TelePastBichon> , <Tao Village/@TeleTaoVillage> , <Waste Land/@TeleWasteLand> , <Seokcho Valley/@TeleSeokchoValley> , <White Village/@TeleWhiteVillage>
+<比奇省/@TeleBichonProvince> , <边境村庄/@TeleBorderVillage> , <沃玛森林/@TeleWoomyonWoods> , <毒蛇山谷/@TeleSerpentValley>
+<盟重省/@TeleMongconProvince> , <沙巴克/@TeleSabukWall> , <封魔谷/@TeleCastleGiRyoong> , <苍月岛/@TelePrajnaIsland>
+<远古比奇/@TelePastBichon> , <道馆/@TeleTaoVillage> , <废弃之地/@TeleWasteLand> , <壶中天/@TeleSeokchoValley> , <雪原/@TeleWhiteVillage>
  
  
-Menu: <Main Menu/@Main> - <Exit/@Exit>
+菜单: <主菜单/@Main> - <退出/@Exit>
 
 
 [@TeleDungeonEntranceMain]
  
-<Oma Cave/@OmaCave> , <Insect Cave/@InsectCave> , <Wooma Temple/@WoomaTemple> , <Dead Mine/@DeadMine> , <Fox Cave/@FoxCave>
-<Zuma Temple/@ZumaTemple> , <Bug Cave/@BugCave> , <Stone Temple/@StoneTemple> , <Forgoten City/@ForgotenCity> , <Red Valley/@RedValley>
-<Mineral Mine/@MineralMine> , <Hell Cavern/@HellCavern> , <Red Cavern/@RedCavern> , <Prajna Temple/@PrajnaTemple>
-<Prajna Stone Cave/@PrajnaStoneCave> , <Black Dragon Dungeon/@BlackDragonDungeon> , <Dragon Swamp/@DragonSwamp>
+<兽人古墓/@OmaCave> , <昆虫洞/@InsectCave> , <沃玛寺庙/@WoomaTemple> , <蛇谷矿区/@DeadMine> , <狐月山/@FoxCave>
+<祖玛寺庙/@ZumaTemple> , <地牢/@BugCave> , <石墓/@StoneTemple> , <沙遗迹/@ForgotenCity> , <赤月峡谷/@RedValley>
+<道馆矿区/@MineralMine> , <地狱道/@HellCavern> , <血红洞窟/@RedCavern> , <骨魔洞/@PrajnaTemple>
+<牛魔寺庙/@PrajnaStoneCave> , <黑龙地牢/@BlackDragonDungeon> , <Dragon Swamp/@DragonSwamp>
  
-Menu: <Main Menu/@Main> - <Exit/@Exit>
+菜单: <主菜单/@Main> - <退出/@Exit>
 
 
 [@TeleDungeonBossMain]
-Tip: {@gamemaster/LimeGreen} before you move.
+提示：传送前请先输入 {@gamemaster/LimeGreen}。
  
-<Oma King Spirit/@OmaKingSpirit> , <Evil Centipede/@EvilCentipede> , <Evil Snake/@EvilSnake> , <Zuma Taurus/@ZumaTaurus>
-<Great Fox Spirit/@GreatFoxSpirit> , <Wooma Taurus/@WoomaTaurus> , <King Scorpion/@KingScorpion> , <King Hog/@KingHog>
-<Dark Devil/@DarkDevil> , <Red Moon Evil/@RedMoonEvil> , <Minotaur King/@MinotaurKing>
+<Oma King Spirit/@OmaKingSpirit> , <触龙神/@EvilCentipede> , <邪恶毒蛇/@EvilSnake> , <祖玛教主/@ZumaTaurus>
+<圣狐魂/@GreatFoxSpirit> , <沃玛教主/@WoomaTaurus> , <虹魔蝎卫/@KingScorpion> , <虹魔猪卫/@KingHog>
+<黑暗魔王/@DarkDevil> , <赤月恶魔/@RedMoonEvil> , <邪牛天王/@MinotaurKing>
  
-Menu: <Main Menu/@Main> - <Exit/@Exit>
+菜单: <主菜单/@Main> - <退出/@Exit>
 
 
 [@ContestRoom]

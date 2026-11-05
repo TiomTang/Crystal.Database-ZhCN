@@ -1,15 +1,15 @@
 [@Main]
 #Say
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好，{<$USERNAME>/KHAKI}，我叫{<$NPCNAME>/KHAKI}。
  
-<Look at Awakening Items/@Buy>
+<浏览觉醒物品/@Buy>
 
 
 [@Buy]
 #SAY
-Buy.
+你想买什么？
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

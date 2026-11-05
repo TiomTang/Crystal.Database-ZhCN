@@ -5,7 +5,7 @@ CHECKPKPOINT > 2
 我绝对不会为你这样的恶人服务...
  
  
-<Close/@exit>
+<关闭/@exit>
 #ELSEACT
 GOTO @Main-1
 
@@ -22,7 +22,7 @@ GOTO @Main-1
 你想买卖什么东西?
 <买回/@BuyBack>
  
-<关闭/@Main>
+<返回/@Main>
 
 [@BuyBack]
 #SAY

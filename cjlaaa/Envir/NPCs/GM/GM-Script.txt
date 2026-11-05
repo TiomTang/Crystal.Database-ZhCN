@@ -1,22 +1,22 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-You appear to have {<$GAMEGOLD>/ORANGE} gold coins to spend.
+你好，{<$USERNAME>/KHAKI}，我的名字叫{<$NPCNAME>/KHAKI}。
+你有{<$GAMEGOLD>/ORANGE}金币可用。
  
-<Buy/@Buy> Script
-<Sell/@Sell> Script
+<购买/@Buy> 脚本物品
+<出售/@Sell> 脚本物品
 
 [@Sell]
 #SAY
-Sell.
+把你要卖的东西拿给我看看。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+请选择你想购买的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

@@ -1,26 +1,26 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you have {<$HP> | <$MAXHP> HP/RED} and {<$MP> | <$MAXMP> MP/ROYALBLUE}
+你好，{<$USERNAME>/KHAKI}，我的名字叫{<$NPCNAME>/KHAKI}。
+你当前的生命值为{<$HP> | <$MAXHP> HP/RED}，魔法值为{<$MP> | <$MAXMP> MP/ROYALBLUE}。
  
-<Buy/@Buy> Potion
-<Sell/@Sell> Potion
+<购买/@Buy> 药水
+<出售/@Sell> 药水
  
-Tip: Use {@superman/LIMEGREEN} for an infinite amount of HP and MP.
+提示：使用{@superman/LIMEGREEN}命令可获得无限生命值和魔法值。
 
 
 [@Buy]
 #SAY
-Buy.
+请选择你想购买的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [@Sell]
 #SAY
-Sell.
+把你要卖的东西拿给我看看。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

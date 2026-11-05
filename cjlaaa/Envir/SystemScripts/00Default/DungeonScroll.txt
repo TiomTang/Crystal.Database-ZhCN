@@ -63,10 +63,10 @@
 
 [@SeoVD1]
 #SAY
-Available Dungeons in SeokchoValley.
+壶中天的地牢如下.
  
-Teleport to: <TrollMines/@TM1>
-<Back/@DungeonPage2>
+传送到: <石槽矿区/@TM1>
+<返回/@DungeonPage2>
 
 [@CGCD1]
 #SAY
@@ -91,21 +91,21 @@ LEVEL > 42
 #SAY
 远古比奇的地牢如下.
  
-传送到: <EvilMirPalace/@EM1>
-<Back/@DungeonPage2>
+传送到: <闪电通道/@EM1>
+<返回/@DungeonPage2>
 
 #ELSESAY
 抱歉，你的等级不够.
  
-<Back/@DungeonPage2>
+<返回/@DungeonPage2>
 
 [@WLD1]
 #SAY
-Available Dungeons in WasteLands.
+废弃之地的地牢如下.
  
-Teleport to: <RedCave/@RC1>
-Teleport to: <HellCavern/@HC1>
-<Back/@DungeonPage2>
+传送到: <血红洞窟/@RC1>
+传送到: <地狱道/@HC1>
+<返回/@DungeonPage2>
 
 [@OC1]
 #ACT

@@ -8,4 +8,4 @@
 MOVE EBEEBOSS
 LocalMessage "你掉进了一个隐藏的洞口!" Hint
 BREAK
-CLOSE
+GOTO @exit

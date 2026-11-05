@@ -29,7 +29,7 @@ TAKEGOLD 2000
 Move 5 124 353
 break
 #ELSESAY
-你没有足够的 {Gold/Gold} 来支付此项服务!
+你没有足够的 {金币/Gold} 来支付此项服务!
 别浪费我的时间，快走吧!
 
 <离开/@exit>

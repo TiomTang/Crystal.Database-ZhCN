@@ -86,7 +86,7 @@ GOTO @MAIN1-2
 #IF
 CHECKQUEST 155 1
 #SAY
-你已经证明了自己，我将告诉你一个秘密 <listen/@listen>.
+你已经证明了自己，我将告诉你一个秘密 <听听/@listen>.
 <关闭/@exit>
 #ELSESAY
 我怎么相信你?现在我连你是谁都不知道... 

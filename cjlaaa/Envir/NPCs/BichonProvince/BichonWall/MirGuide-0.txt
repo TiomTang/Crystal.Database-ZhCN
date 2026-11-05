@@ -34,7 +34,7 @@ GOTO @Main-1
 LEVEL > 34
 check [007]  0
 #ACT
-GIVEITEM EXP100%3
+GIVEITEM +100%经验[3h]
 set [007] 1
 #SAY
 这是你的奖励，请拿好。

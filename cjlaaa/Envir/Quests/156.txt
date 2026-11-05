@@ -21,7 +21,7 @@
 [@CarryItems]
 
 [@FixedRewards]
-+100%经验[3小时]
++100%经验[3h]
 
 [@SelectRewards]
 

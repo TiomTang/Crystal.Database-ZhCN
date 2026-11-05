@@ -1,36 +1,36 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're wearing: {<$NECKLACE>/CORAL}
+你好，{<$USERNAME>/KHAKI}，我的名字叫{<$NPCNAME>/KHAKI}。
+你现在佩戴的是：{<$NECKLACE>/CORAL}
  
-<Buy/@Buy> Necklace
-<Sell/@Sell> Necklace
-<Repair/@Repair> Necklace
-<Special Repair/@SRepair> Necklace
+<购买/@Buy> 项链
+<出售/@Sell> 项链
+<修理/@Repair> 项链
+<特殊修理/@SRepair> 项链
 
 [@Buy]
 #SAY
-Buy.
+请选择你想购买的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+把你要卖的东西拿给我看看。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Repair]
 #SAY
-Repair.
+请选择你想修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+请选择你想特殊修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]
@@ -63,13 +63,13 @@ Special repair.
 黑色水晶项链
 黑檀项链
 黄色水晶项链
-PlatinNecklace
+白金项链
 翡翠项链
 白色虎齿项链
-IllusionNecklace
+躲避手链
 魔鬼项链
 琥珀项链
-PheonixBead
+凤凰明珠
 灯笼项链
 狂风项链
 勇士项链
@@ -95,12 +95,12 @@ PheonixBead
 金刚陶坠
 曜紫天坠
 秀女十字盘
-PurpleFoxNecklace
-RedFoxNecklace
-BlueFoxNecklace
-GreatPurpleFoxNecklace
-GreatRedFoxNecklace
-GreatBlueFoxNecklace
+黑狐项链
+红狐项链
+蓝狐项链
+黑月神瑛
+赤月神瑛
+悲月神瑛
 黄金吊坠
 精密吊坠
 黑水晶吊坠

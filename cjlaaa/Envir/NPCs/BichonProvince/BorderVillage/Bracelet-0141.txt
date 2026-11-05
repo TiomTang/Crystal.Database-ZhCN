@@ -5,7 +5,7 @@ CHECKPKPOINT > 2
 我绝对不会为你这样的恶人服务...
  
  
-<Close/@exit>
+<关闭/@exit>
 #ELSEACT
 GOTO @Main-1
 

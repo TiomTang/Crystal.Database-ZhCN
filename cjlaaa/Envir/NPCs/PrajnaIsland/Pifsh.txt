@@ -13,4 +13,4 @@ GOTO @Main-1
 #SAY
 噢~<$USERNAME>. 我暂时没有什么需要你
 帮忙的了，谢谢你！
-<Ok/@exit>
+<好/@exit>

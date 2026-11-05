@@ -2,7 +2,7 @@
 #Say
 我是工艺使者，可以制作很多稀有物品
  
-<Craft/@craft>
+<制作/@craft>
 
 [@Craft]
 #SAY

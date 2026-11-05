@@ -4,106 +4,106 @@
 
 
 [@mainremoved]
-It is every warrior's dream to own the best
-available weapon in the world. Don't you agree?
-I can make your ordinary weapon much more special.
-What do you say? 
-<Ask to refine weapon/@upgrade>
-<Take the refined weapon/@getbackupgnow>
-<Close/@exit>
+拥有世上最好的武器，是每个战士的梦想，
+你说是不是？
+我能让你的普通武器变得与众不同。
+你意下如何？ 
+<请求升级武器/@upgrade>
+<取回升级后的武器/@getbackupgnow>
+<关闭/@exit>
 
 [@upgrade]
 #SAY
-So, Is this what you want to refine?
-Ir will cost <$UPGRADEWEAPONFEE>gold and You definately
-need <黑铁矿/@Biron>, <accessories/@Etc>, <money/@Gold> and
-<Weapon/@Weapon> you wish to refine. The other materials can
-be procured from the things in your bag.
-You want to go for it? 
-<Accept refining/@upgradenow>
-<Back/@main>
+这就是你想升级的武器吗？
+升级费用为 <$UPGRADEWEAPONFEE> 金币，另外还需要
+<黑铁矿/@Biron>、<首饰/@Etc>、<金币/@Gold>，以及
+你想升级的<武器/@Weapon>。其他所需材料
+可从你的包裹中取用。
+你决定开始了吗？ 
+<接受升级/@upgradenow>
+<返回/@main>
 
 [@Biron]
 #SAY
-黑铁矿 is a strong metal used for making weapons.
-黑铁矿 can be obtained from the mines, the higher
-the purity, the better chance of a good upgrade.
-My eyesight is poor, so i will take all 黑铁矿
-that is in your Bag 
-<Back/@upgrade>
+黑铁矿是一种用于打造武器的坚硬金属。
+黑铁矿可以从矿区挖得，纯度越高，
+升级效果理想的机会就越大。
+我眼神不太好，因此会把你包裹中的黑铁矿
+全部收走。 
+<返回/@upgrade>
 
 [@Etc]
 #SAY
-Accessories are items such as Necklaces, Bracelets and
-Rings. The higher level needed to wear, the better
-the chance of the refine working. My eyesight is not
-very good, so i will take all accessories from your bag 
-<Back/@upgrade>
+首饰包括项链、手镯和
+戒指。佩戴所需等级越高，
+武器升级成功的机会就越大。我眼神不太好，
+所以会把你包裹里的首饰全部收走。 
+<返回/@upgrade>
 
 [@Weapon]
 #SAY
-The weapon I will use is the weapon that is in your hand at 
-the time of the request. 
-<Back/@upgrade>
+升级所用的武器，是你提出请求时
+正握在手中的那一把。 
+<返回/@upgrade>
 
 [@Gold]
 #SAY
-I can't upgrade your weapon for free. As my work is of
-such a high standard i charge <$UPGRADEWEAPONFEE> per
-upgrade.
-<Back/@upgrade>
+我可不能免费替你升级武器。我的手艺
+值得这个价，每次升级需收取 <$UPGRADEWEAPONFEE>
+金币。
+<返回/@upgrade>
 
 [@upgradenow]
 #SAY
-I will take your <$USERWEAPON> from you to refine.
-My eyesight isn't very good so I will take 
-all the 黑铁矿 and accessories in refinery window.
-Please place what you would like to use in there.
-<Cancel Upgrade/@main>
+我会收下你的 <$USERWEAPON> 进行升级。
+我眼神不太好，所以会收走升级窗口里
+所有的黑铁矿和首饰。
+请把你想使用的材料放进窗口。
+<取消升级/@main>
 
 
 [~@upgradenow_ok]
 #SAY
-It was hard but I think I have done a good job. 
-<Get back weapon now/@getbackupgnow>
-<Collect weapon later/@main>
+费了不少工夫，不过我觉得这次干得不错。 
+<现在取回武器/@getbackupgnow>
+<稍后领取武器/@main>
 
 [~@upgradenow_ing]
 #SAY
-I am already working on an item for you
-Come back later... 
-<Back/@main>
+我已经在为你升级一件物品了。
+请过些时候再来…… 
+<返回/@main>
 
 [~@upgradenow_fail]
 #SAY
-Hey <$USERNAME>. Are you trying to confuse me?
-You are missing one or more of the vital ingredients
-Check you are wearing a weapon, have the 黑铁矿, accessories
-and most importantly the money.
-Then try again 
-<Back/@main>
+嘿，<$USERNAME>，你是在拿我寻开心吗？
+你缺少一种或多种必要的材料。
+请确认你已装备武器，并备齐黑铁矿、首饰，
+以及最重要的金币。
+然后再来试试。 
+<返回/@main>
 
 [~@getbackupgnow_ok]
 #SAY
-Here is your weapon.
-I have done my best.
-You need to try the weapon to see if the upgrade was successful
-<More Information/@Success> 
-<Ok/@exit>
+这是你的武器。
+我已经尽力了。
+你需要使用这把武器，才能知道升级是否成功。
+<了解更多/@Success> 
+<好/@exit>
 
 [@Success]
 #SAY
-I can't guarrantee successfull refining each and every time.
-You will need to check yourself to see if it worked. 
-<Ok/@exit>
+我无法保证每次升级都成功。
+是否成功，还需要你自己检查。 
+<好/@exit>
 
 [~@getbackupgnow_ing]
 #SAY
-The upgrade is not finished yet, come back later! 
-<Ok/@main>
+升级还没有完成，请过些时候再来！ 
+<好/@main>
 
 [~@getbackupgnow_fail]
 #SAY
-If you gave me a weapon a long time ago, you can forget about it now!
-You should have come back sooner! 
-<Ok/@main>
+如果你很久以前就把武器交给了我，那现在就别指望取回了！
+你早就该回来领取了！ 
+<好/@main>

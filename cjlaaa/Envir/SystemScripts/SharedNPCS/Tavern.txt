@@ -1,9 +1,9 @@
 ﻿[@MAIN]
 {
 #SAY
-Here's the list of wines i have available. 
+以下是我出售的酒。 
  
-<Close/@exit>
+<关闭/@exit>
 
 [Types]
 13

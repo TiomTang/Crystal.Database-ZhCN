@@ -1,22 +1,22 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're wearing: {<$STONE>/CORAL}
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
+你佩戴着：{<$STONE>/CORAL}
  
-<Buy/@Buy> Stone
-<Sell/@Sell> Stone
+<购买/@Buy> 守护石
+<出售/@Sell> 守护石
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

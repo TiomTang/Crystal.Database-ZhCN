@@ -1,3 +1,3 @@
 [@Main]
 #Say
-Feature to come..
+此功能暂未开放。

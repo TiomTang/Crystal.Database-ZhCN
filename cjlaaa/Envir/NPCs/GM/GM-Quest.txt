@@ -1,15 +1,15 @@
 [@Main]
 #Say
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
  
-<Look at Quest Items/@Buy>
+<查看任务物品/@Buy>
 
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]
@@ -58,7 +58,7 @@ BoxofHolyWater(3)
 失窃的金币
 隐藏的卷轴
 死亡之心
-TaineeSuit
+见习套装
 僵尸之心
 老树根
 旧斧子

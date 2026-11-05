@@ -26,9 +26,9 @@ GOTO @Main-1
 [@RefineCollect]
 #SAY
 武器似乎已经升级完毕，你可以使用检查功能检查是否升级成功.
-<Ok/@exit>
+<好/@exit>
 
 [@RefineCheck]
 #SAY
 我无法保证每次升级都成功.
-<Ok/@exit>
+<好/@exit>

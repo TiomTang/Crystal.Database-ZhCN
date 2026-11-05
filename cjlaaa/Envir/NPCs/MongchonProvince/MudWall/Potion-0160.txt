@@ -21,7 +21,7 @@ GOTO @Main-1
 你想买卖什么东西?
 <买回/@BuyBack>
  
-<关闭/@Main>
+<返回/@Main>
 
 [@BuyBack]
 #SAY

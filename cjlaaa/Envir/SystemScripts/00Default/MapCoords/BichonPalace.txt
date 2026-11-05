@@ -5,5 +5,5 @@ CHECKQUEST 154 COMPLETE
 #ACT
 ENTERMAP
 #ELSEACT
-LocalMessage "[Commander Luke] Halt! You may not enter come talk to me." Hint
+LocalMessage "[指挥官卢克] 站住！你不能进去，先过来与我谈谈。" Hint
 }

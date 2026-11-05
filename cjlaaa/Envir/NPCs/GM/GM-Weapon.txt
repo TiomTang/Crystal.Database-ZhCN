@@ -1,36 +1,36 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're wearing: {<$WEAPON>/CORAL} and have {<$PKPOINT>/ORANGE} PK Points.
+你好，{<$USERNAME>/KHAKI}，我的名字叫{<$NPCNAME>/KHAKI}。
+你现在装备的武器是：{<$WEAPON>/CORAL}，罪恶值为{<$PKPOINT>/ORANGE}。
  
-<Buy/@Buy> Weapon
-<Sell/@Sell> Weapon
-<Repair/@Repair> Weapon
-<Special Repair/@SRepair> Weapon
+<购买/@Buy> 武器
+<出售/@Sell> 武器
+<修理/@Repair> 武器
+<特殊修理/@SRepair> 武器
 
 [@Repair]
 #SAY
-Repair.
+请选择你想修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+请选择你想特殊修理的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+把你要卖的东西拿给我看看。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+请选择你想购买的物品。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]
@@ -52,7 +52,7 @@ Buy.
 凌风
 破魂
 血火之匕
-赤血魔剑
+赤月剑
 阎狱之剑
 八荒
 斩马刀
@@ -121,7 +121,7 @@ WeakTwinBlades
 冷月刀
 修罗刀
 暗真魔刀
-Stilleto
+片血刀
 月轮刀
 黑乌刀
 炎狱血匕
@@ -178,7 +178,7 @@ Sharp凌风
 精锐银蛇
 精锐双极刀
 精银弓
-赤血魔刀
+赤月双刃
 赤月弓
 猛虎刀1
 猛虎双刀

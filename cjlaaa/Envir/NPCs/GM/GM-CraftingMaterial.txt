@@ -1,22 +1,22 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
  
-<Buy/@Buy> Crafting Material
-<Sell/@Sell> Crafting Material
+<购买/@Buy> 制作材料
+<出售/@Sell> 制作材料
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]
@@ -59,18 +59,18 @@ Sell.
 祖玛头像
 沃玛号角
 细绳
-HealerLetter
+疗伤文书
 鹿茸
 鹿血
 恶魔碎片
 邪恶巨人油
 邪恶巨人心
 翡翠晶
-ArmourBook(DC)
-ArmourBook(MC)
-ArmourBook(SC)
+盔甲之书(勇猛)
+盔甲之书(魔界)
+盔甲之书(仙术)
 盔甲之书(ACC)
-RustyArmour
+锈蚀的古代盔甲
 半透明晶石
 浩劫水晶
 魔力之书

@@ -19,4 +19,4 @@
 #ACT
 MOVE gumi101 184 186
 BREAK
-CLOSE
+GOTO @exit

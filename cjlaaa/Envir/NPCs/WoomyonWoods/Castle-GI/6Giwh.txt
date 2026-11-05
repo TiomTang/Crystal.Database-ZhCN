@@ -10,7 +10,7 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello traveller. How can i help you?
+你好旅行者，我能帮你做些什么?
  
 <打开/@Storage> 仓库
 <货币/@mbind> 转换
@@ -81,7 +81,7 @@ GIVEGOLD 9980000
 1
 
 [Trade]
-Stamp
+邮票
 金条
 金砖
 金盒

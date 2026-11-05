@@ -32,12 +32,12 @@ GOTO @Main-1
 #SAY
 选择你想要降级的物品.
  
-<Back/@Main>
+<返回/@Main>
 
 [@Reset]
 #SAY
 选择你想重置的物品.
 
-<Back/@Main>
+<返回/@Main>
 
 [Types]

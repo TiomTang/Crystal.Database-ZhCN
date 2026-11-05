@@ -7,6 +7,6 @@ CHECKQUEST 111 0
 当你的手触摸到这个柱子，你感受到了一股澎湃的气息..
 #ELSEACT
 SET [522] 1
-LOCALMESSAGE "StrangePillar 被找到!" Hint
+LOCALMESSAGE "奇异石柱被找到!" Hint
 BREAK
-CLOSE
+GOTO @exit

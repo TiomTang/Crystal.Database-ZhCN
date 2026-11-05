@@ -1,22 +1,22 @@
 [@Main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're holding: {<$火把>/CORAL}
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
+你手中拿着：{<$TORCH>/CORAL}
  
-<Buy/@Buy> Grocery
-<Sell/@Sell> Grocery
+<购买/@Buy> 杂货
+<出售/@Sell> 杂货
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]
@@ -28,7 +28,7 @@ Sell.
 蜡烛
 火把
 永恒之焰
-Peddler火把
+大火把
 龙之火把
 修复油
 战神油

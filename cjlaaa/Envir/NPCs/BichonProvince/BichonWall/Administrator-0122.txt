@@ -5,7 +5,7 @@ CHECKPKPOINT > 2
 我绝对不会为你这样的恶人服务...
  
  
-<Close/@exit>
+<关闭/@exit>
 #ELSEACT
 GOTO @Main-1
 
@@ -23,7 +23,7 @@ GOTO @Main-1
 [@buildguildexp]
 #SAY
 建立行会需要如下物品:-
-1000000 {Gold/Gold} & 沃玛号角, 
+1000000 {金币/Gold} & 沃玛号角, 
 在建立行会时，行会名称不允许有无法识别的
 符号，当行会成员全部退出行会后，行会将自动解散.
 <返回/@main>
@@ -33,7 +33,7 @@ GOTO @Main-1
 <行会战争/@guildwar2> 是行会与行会之间发起的 
 <合法/@warrule> 战争，只有行会的会长才能发起行会战.
  当你 <请求/@propose>发起行会战后, 本场行会战将持续3小时. 
-你必须支付 <$GUILDWARFEE> {Gold/Gold} 来发起一场行会战争. 
+你必须支付 <$GUILDWARFEE> {金币/Gold} 来发起一场行会战争. 
  
 <返回/@main>
 

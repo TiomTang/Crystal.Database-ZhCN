@@ -36,7 +36,7 @@ GOTO @Main-1
 你想要修理你的首饰吗
  
  
-<Back/@main>
+<返回/@main>
 
 [Types]
 5

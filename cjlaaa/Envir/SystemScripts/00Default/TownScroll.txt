@@ -16,7 +16,7 @@
 传送到: <封魔谷/@CRCV&T1>
 传送到: <道馆/@TVV&T1>
 传送到: <苍月岛/@PTV&T1> 
-传送到: <远古比奇/@PBV&T1> Required Level30
+传送到: <远古比奇/@PBV&T1> 需要31级以上
 <返回/@_UseItem(3)>
 
 [@BVV&T1]
@@ -61,7 +61,7 @@ MOVE 5 142 334
 
 [@PBV&T1]
 #IF
-CHECKLEVEL > 30
+LEVEL > 30
 #ACT
 MOVE 6 124 157
 #ELSESAY

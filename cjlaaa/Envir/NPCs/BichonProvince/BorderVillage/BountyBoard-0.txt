@@ -3,7 +3,7 @@
 当前悬赏列表:
 
                     === 特殊悬赏 ===
-                    <新手公会招募/@NR1> {Level1~25./KHAKI}
+                    <新手公会招募/@NR1> {等级1~25./KHAKI}
 
 
 [@NR1]
@@ -14,7 +14,7 @@ GOTO @NR2
 #ELSESAY
 抱歉 <$USERNAME>, 你的等级太高了。
  
-<Back/@Main>
+<返回/@Main>
 
 [@NR2]
 #IF
@@ -23,7 +23,7 @@ INGUILD
 <$USERNAME>，你当前在一个公会中。
 请在重试之前离开此公会。
  
-<Back/@Main>
+<返回/@Main>
 #ELSEACT
 AddToGuild NewbieGuild
 ADDNAMELIST NewbieGuild
