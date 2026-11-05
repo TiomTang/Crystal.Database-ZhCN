@@ -32,5 +32,5 @@ MOVE 1007
 
 [@ped]
 #ACT
-MOVE 1006
+MOVE 1007
 

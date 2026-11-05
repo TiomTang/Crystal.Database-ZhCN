@@ -30,7 +30,7 @@
 [@TeleDungeonBossMain]
 提示：传送前请先输入 {@gamemaster/LimeGreen}。
  
-<Oma King Spirit/@OmaKingSpirit> , <触龙神/@EvilCentipede> , <邪恶毒蛇/@EvilSnake> , <祖玛教主/@ZumaTaurus>
+<凰天魔魂/@OmaKingSpirit> , <触龙神/@EvilCentipede> , <邪恶毒蛇/@EvilSnake> , <祖玛教主/@ZumaTaurus>
 <圣狐魂/@GreatFoxSpirit> , <沃玛教主/@WoomaTaurus> , <虹魔蝎卫/@KingScorpion> , <虹魔猪卫/@KingHog>
 <黑暗魔王/@DarkDevil> , <赤月恶魔/@RedMoonEvil> , <邪牛天王/@MinotaurKing>
  

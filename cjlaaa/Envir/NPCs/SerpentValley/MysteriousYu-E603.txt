@@ -13,6 +13,7 @@ HOUR 20
 MIN 20
 #ACT
 GOTO @talkwith_2
+BREAK
 
 #IF
 DAYOFWEEK SATURDAY
@@ -34,7 +35,7 @@ GOTO @untalkwith
 
 [@talkwith_3]
 #SAY
-好吧！我会送你进去。但是里面只能呆3小时，你自己小心！
+好吧！我会送你进去，里面凶险，你自己小心！
 
 <前往/@talkwith_4>
    
@@ -46,7 +47,7 @@ MOVE M001
 [@untalkwith]
 #SAY
 我现在没有什么可以告诉你的，白天这里耳目众多.
-如果你想了解更多信息，那就周末的晚上来吧！
+如果你想了解更多信息，请在周六或周日20:20（UTC）来找我！
 
 <返回/@Main>
 
