@@ -2,27 +2,6 @@
 [@_CUSTOMCOMMAND(召唤护卫)]
 #INCLUDE [SystemScripts\00Default\GuardsHelp.txt] @Main
 
-;;远古神石.
-
-[@_CUSTOMCOMMAND(神石开启)]
-#IF
-CHECKITEM 远古神石[3d]
-#ACT
-GIVEBUFF Exp 0 50 TRUE
-LocalMessage "经验获取提高50%。" Hint
-#ELSEACT
-LocalMessage "你没有远古神石！" Hint
-
-[@_CUSTOMCOMMAND(神石关闭)]
-#IF
-CHECKITEM 远古神石[3d]
-#ACT
-REMOVEBUFF Exp
-LocalMessage "额外经验加成已移除。" Hint
-#ELSEACT
-LocalMessage "你没有远古神石！" Hint
-
-
 ;;PKPoint Command.
 [@_CUSTOMCOMMAND(PKPOINT)]
 #ACT
