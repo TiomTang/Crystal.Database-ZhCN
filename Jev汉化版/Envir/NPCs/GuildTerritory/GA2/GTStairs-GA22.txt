@@ -1,6 +1,6 @@
 [@main]
-<移动/@move3nd> to the 3rd floor.
-<移动/@move1st> to the 1st floor.
+<移动/@move3nd> 前往3层。
+<移动/@move1st> 前往1层。
 <关闭/@exit>
 
 

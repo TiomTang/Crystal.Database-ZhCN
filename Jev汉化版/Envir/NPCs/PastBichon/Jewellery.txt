@@ -19,7 +19,7 @@ GOTO @Main-1
 
 
 <查看/@BuySell> 商店
-<Repair/@Repair> Jewellery.
+<修理/@Repair> 首饰.
  
 <关闭/@exit>
 
@@ -38,7 +38,7 @@ GOTO @Main-1
 
 [@Repair]
 #SAY
-You can repair various kinds of Jewellery.
+你可以在我这里修理各种首饰.
   
 <返回/@main>
 
@@ -49,7 +49,7 @@ You can repair various kinds of Jewellery.
 
 [Trade]
 魔鬼项链
-PheonixBead
+凤凰明珠
 琥珀项链
 灯笼项链
 角戒指

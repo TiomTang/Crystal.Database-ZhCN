@@ -20,10 +20,10 @@ GOTO @Main-1
 <也许下次吧/@exit> 
 
 
-<<尸王殿/@Ghoul>>
-<<沃玛神庙二层/@Wooma>>
-<<祖玛神殿七层/@Zuma>>
-<<猪洞六层/@Pig7>>
+<尸王殿/@Ghoul>
+<沃玛神庙二层/@Wooma>
+<祖玛神殿七层/@Zuma>
+<猪洞六层/@Pig7>
 
 [@Ghoul]
 #IF

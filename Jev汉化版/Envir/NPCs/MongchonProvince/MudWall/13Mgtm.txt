@@ -1,6 +1,6 @@
 [@main]
 #SAY
-你好吗？Mirian <$USERNAME>！
+你好吗？玛法人 <$USERNAME>！
 我是公会领地商人，
 负责公会领地的租赁和销售事宜。
 
@@ -22,24 +22,24 @@
 
 [@rent]
 #SAY
-You need 10,000,000 {Gold/Gold} to rent a guild territory and the initial
-period for rent is 7 days.
-If you want to extend, talk to the 'GT Steward' in the territory.
-After paying the fee of 1,000,000 {Gold/Gold},
-the rent will be extended for an additional 7 days.
+租用行会领地需要 10,000,000 {金币/Gold}，初始
+租期为 7 天。
+如果要续租，请与领地内的“GT 管理员”交谈。
+支付 1,000,000 {金币/Gold} 的费用后，
+租期将再延长 7 天。
 
-Do you still want to rent a territory? <Rent/@agitreg> <取消/@exit>
+你还想租用领地吗？ <租用/@agitreg> <取消/@exit>
 
 [@move]
 #SAY
-Then I will teleport you to the territory of you guild.
-However, only the guild masters or the members who
-have their own territories can be transported.
-If you wish to return to castles or villages, look
-for the Armed Transporter at the entrance of the
-guild territory.
+然后我会把你传送到你的行会领地。
+不过，只有行会掌门或
+拥有自己领地的成员才能被传送。
+如果你想返回城堡或村庄，请
+在行会领地入口处寻找
+武装传送员。
 
-Do you want to move to the guild territory? <移动/@agitmove> <取消/@exit>
+要移动到行会领地吗？ <移动/@agitmove> <取消/@exit>
 
 [@agitbuy]
 #SAY

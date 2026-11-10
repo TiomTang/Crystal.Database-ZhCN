@@ -27,5 +27,5 @@ GOTO @Main-1
 13
 
 [Trade]
-GrenPoison
+绿毒
 红毒

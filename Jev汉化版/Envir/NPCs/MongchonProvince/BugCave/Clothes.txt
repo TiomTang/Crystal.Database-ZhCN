@@ -1,14 +1,14 @@
 [@Main]
 #SAY
-Welcome, how may I help you?
+你好旅行者，我能为你做些什么?
  
-<Repair/@Repair> Clothes
+<修补/@Repair> 衣服.
  
 <关闭/@Exit>
 
 
 [@Repair]
-You can repair Clothes here.
+这里可以修理衣服。
 
 <返回/@Main>
 

@@ -14,7 +14,7 @@ GOTO @Main-1
 欢迎旅行者，
 我为您的老虎出售物品！请看一看！
 我看到你有： {<$MOUNT>/CORAL}
-Mount Loyalty: {<$MOUNTLOYALTY>/CORAL}
+坐骑忠诚度：{<$MOUNTLOYALTY>/CORAL}
 
 <查看/@BuySell> 商店
  
@@ -27,7 +27,7 @@ Mount Loyalty: {<$MOUNTLOYALTY>/CORAL}
  
 <返回/@main>
 
-[Type]
+[Types]
 19
 
 [Trade]

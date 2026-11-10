@@ -7,7 +7,7 @@
 #SAY
 <武器店/@weap>   <盔甲店/@cloth>
 <药剂店/@pot>   <饰品店/@jewel>
-<Village Chief House/@chief>  
+<村长家/@chief>  
 
 [@jewel]
 #ACT

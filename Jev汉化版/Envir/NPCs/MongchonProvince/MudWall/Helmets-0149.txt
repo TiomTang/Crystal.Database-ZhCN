@@ -11,26 +11,26 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Welcome, how may I help you?
+你好旅行者，我能为你做些什么?
 
-<Purchase/@BuySell> Helmets.
-<Repair/@Repair> Helmet.
+<购买/@BuySell> 头盔.
+<修补/@Repair> 头盔.
  
 <关闭/@Exit>
 
 [@BuySell]
-What Helmet do you want to buy or sell?
+你想买或卖什么头盔？
 <回购/@BuyBack>
  
 <返回/@Main>
 
 [@BuyBack]
-Please Choose which item you wish to repurchase.
+请选择你想回购的物品。
  
 <返回/@Main>
 
 [@Repair]
-You can repair Helmets here.
+这里可以修理头盔。
 
 <返回/@Main>
 

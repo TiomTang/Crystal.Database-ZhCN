@@ -3,9 +3,9 @@
 <使用传送./@main-1> 至村庄商店
 听一听村里的<新闻/@ask>
 
-<<Create Hero/@CreateHero/Green>>
-<<ReviveHero/@ReviveHero/Red>>
-<<SealHero/@SealHero/Yellow>>
+<创建英雄/@CreateHero/Green>
+<复活英雄/@ReviveHero/Red>
+<封印英雄/@SealHero/Yellow>
 
 [@main-1]
 #SAY

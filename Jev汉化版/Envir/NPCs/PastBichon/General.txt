@@ -1,10 +1,10 @@
 [@main]
 #SAY
-We've come here to subdue the Omas and already 3 months
-have passed. Many soldiers were killed in action due to
-fierece attacks from the Omas.
-I can not afford to lose my precious men any more so I need
-a new strategy to deal with the Omas.
-Do you have any good idea?
+我们来此讨伐半兽人，转眼已过了
+三个月。许多士兵因半兽人的
+凶猛攻击而阵亡。
+我再也承受不起折损宝贵的部下了，所以我需要
+一套对付半兽人的新策略。
+你有什么好主意吗？
 <关闭/@exit>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

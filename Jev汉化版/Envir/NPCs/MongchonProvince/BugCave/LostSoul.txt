@@ -1,6 +1,6 @@
 [@main]
 #SAY
-Ahh...where am i?
+是谁?
 
 <离开/@exit>
 

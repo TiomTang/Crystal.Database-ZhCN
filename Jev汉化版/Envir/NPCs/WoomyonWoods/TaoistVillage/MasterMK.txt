@@ -11,8 +11,8 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Soo many Monsters.. I hate Monsters, I wish they would all just die!
-I wonder... No that's crazy talk!
+怪物真多……我恨怪物，真希望它们全死光！
+我在想……不，那太荒唐了！
 
 [Quests]
 85

@@ -11,7 +11,7 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello there <$USERNAME>. I don't have any work that
-needs doing at the moment. Come back next week and I
-may be able to help you.
+你好，<$USERNAME>。目前我没有什么
+需要人做的活。下周再来，我
+也许能帮上你。
 <好的/@exit>

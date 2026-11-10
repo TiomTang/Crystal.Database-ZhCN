@@ -11,10 +11,10 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-How can i help you? 
+有什么能帮你的？ 
  
 <购买/@Buy> 葡萄酒.
-<Talk/@talk>
+<交谈/@talk>
 <关闭/@exit>
 
 [@Buy]
@@ -25,14 +25,14 @@ How can i help you?
 CHECK [533] 1
 CHECK [534] 1
 #SAY
-Rumours... Rumours... What have people have saying about me now?
+传闻……传闻……现在人们又在说我什么了？
  
-"You once researched a Ancient <Language/@Lang>."
-"You are a crazy old <fool/@Fool>."
-"Would rather not say.. Have you seen this <before?/@Before1>"
-"Never <Mind/@exit>
+"你曾经研究过一种远古 <语言/@Lang>。"
+"你是个疯狂的老 <傻瓜/@Fool>。"
+"不想说……你以前见过这个 <吗？/@Before1>"
+"算了 <退出/@exit>
 #ELSESAY
-Sorry, I dont have anything to tell you.
+抱歉，我没什么可告诉你的。
  
 <关闭/@exit> 
 
@@ -40,27 +40,27 @@ Sorry, I dont have anything to tell you.
 #ACT
 SET [537] 1
 #SAY
-Well guess the rumours are true this time.. 
-Yes I researched a Ancient Language... I didn't have much luck
-though. The most helpful information i found was at the Palace.
-Speak with Emperor Far, he is crazy though but also lazy... I would take
-him some Wine to motivate him.
+看来这次传闻是真的…… 
+是的，我研究过一种远古语言……不过运气不好，
+我找到的最有用的资料在宫殿里。
+去找法尔皇帝谈谈，他疯了，而且很懒……我会给他
+带些酒去，好让他打起精神。
 <关闭/@exit>
 
 [@fool]
 #SAY
-What a crazy old fool, I would like to know told you that. 
-I will show them a crazy old fool.
-"Have you seen this Language <Before/@before1>?"
+真是个疯老头，我倒想知道是谁告诉你的。 
+我会让他们见识见识什么叫疯老头。
+"你以前见过这种语言 <吗/@before1>？"
 <关闭/@exit>
 
-[@before1>
+[@before1]
 #ACT
 SET [537] 1
 #SAY
-Oh yes... I have seen that language before... I spent years 
-researching it. Go speak to Emperor Far in the Palace he knows
-quite alot about it.
+哦，是的……我以前见过那种文字……我花了几年 
+研究它。去宫殿找法尔皇帝，他知道
+不少这方面的事。
 <关闭/@exit>
 
 [Quests]

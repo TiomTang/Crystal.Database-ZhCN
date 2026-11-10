@@ -11,15 +11,15 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Traveller, I will purchase any Stones you have.
+旅行者，你有多少石头我都收购。
  
-<出售/@sell> Stones.
+<出售/@sell> 石头。
  
 <关闭/@exit>
 
 [@Sell]
 #SAY
-Show me which Stones you wish to sell.
+让我看看你想卖哪些石头。
  
 <返回/@main>
 

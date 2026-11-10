@@ -1,9 +1,9 @@
 [@Main]
 #SAY
-This is a temporary base for the explorers.
-It's very dangerous around here,
-so there aren't many merchants out in the valley.
-You should get yourself prepared here
-if you are going to the valley.
+这里是探险者的临时营地。
+这附近非常危险，
+所以山谷里没什么商人。
+如果你要进山谷，
+最好先在这里做好准备。
 <离开/@exit>
 

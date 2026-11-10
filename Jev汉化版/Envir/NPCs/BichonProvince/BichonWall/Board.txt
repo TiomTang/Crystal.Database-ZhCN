@@ -5,10 +5,10 @@
 
 我想了解 <转生/@RebirthMain>
 
-<<创建英雄/@CreateHero/Green>>
-<<复活英雄/@ReviveHero/Red>>
-<<封印英雄/@SealHero/Yellow>>
-<<删除英雄/@DeleteHero/Blue>>
+<创建英雄/@CreateHero/Green>
+<复活英雄/@ReviveHero/Red>
+<封印英雄/@SealHero/Yellow>
+<删除英雄/@DeleteHero/Blue>
 
 [@main-1]
 #SAY

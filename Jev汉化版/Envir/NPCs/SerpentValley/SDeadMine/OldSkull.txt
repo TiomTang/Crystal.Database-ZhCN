@@ -1,6 +1,6 @@
 [@Main]
 #SAY
-A pile of skull and bones.
+一堆枯骨.
  
 <关闭/@exit>
 

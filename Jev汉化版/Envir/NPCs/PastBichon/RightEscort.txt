@@ -1,12 +1,12 @@
 [@main]
 #SAY
-My duty is to protect the general at all cost.
-<Talk/@talk>
+我的职责是不惜一切保护将军。
+<交谈/@talk>
 <关闭/@exit>
 
 [@talk]
 #SAY
-My task is important but I feel sorry watching my fellow
-soldiers dying at the battlefield while fighting against
-the omas.
+我的任务很重要，可看着同袍
+在与半兽人
+的战斗中倒下，我心里难受。
 <关闭/@exit>

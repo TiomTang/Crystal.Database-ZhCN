@@ -11,7 +11,7 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello traveler. I have the lastest Mirian News.
+你好旅行者. 冒险进行的还顺利吗?
 <关闭/@exit>
 
 [Quests]

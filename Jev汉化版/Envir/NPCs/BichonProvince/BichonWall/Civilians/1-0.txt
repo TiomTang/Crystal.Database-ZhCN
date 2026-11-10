@@ -8,7 +8,7 @@ GOTO @MAIN-2
 
 [@MAIN-1]
 #SAY
-Hello again traveler.. How are you on this fine day? 
+很高兴再见到你旅行者，今天过得怎么样? 
  
 <关闭/@exit>
 
@@ -16,12 +16,12 @@ Hello again traveler.. How are you on this fine day?
 #IF
 CHECKQUEST 155 1
 #SAY
-Well you have proven yourself to me. 
-I shall inform those will <listen/@listen>.
+你已经向我证明了自己。 
+我会把所知告诉愿意<聆听/@listen>的人。
 <关闭/@exit>
 #ELSESAY
-How can I trust you? I don't even know who you are.
-Maybe you could do something for me? 
+我怎么相信你?现在我连你是谁都不知道...
+也许你能先帮我做些事？ 
  
 <关闭/@exit>
 
@@ -29,7 +29,7 @@ Maybe you could do something for me?
 #ACT
 SET [539] 1
 #SAY
-Farewell traveler.
+再会，旅行者.
  
 <关闭/@exit>
 

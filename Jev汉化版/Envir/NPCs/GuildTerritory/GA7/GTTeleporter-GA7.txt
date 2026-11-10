@@ -1,18 +1,18 @@
 [@main]
 #SAY
-           	             {Players Online/Red} <$USERCOUNT> - {You Have/Red} <$PKPOINT> {Pk Points/Red}
-			                        {Next Sabuk Wall - <$CONQUESTSCHEDULE(1)> /LightBlue}
+           	             {在线玩家/Red} <$USERCOUNT> - {你有/Red} <$PKPOINT> {PK值/Red}
+			                        {下次沙巴克攻城 - <$CONQUESTSCHEDULE(1)> /LightBlue}
 
-Teleport to:<Bichon Wall/@move0>
-Teleport to:<Woomyon Woods/@move1>
-Teleport to:<CastleGi-Ryoong/@move2>
-Teleport to:<Serpent Valley/@move3>
-Teleport to:<Tao School/@move4>
-Teleport to:<Mongchon Province/@move5>
-Teleport to:<般若岛/@move9>
-Teleport to:<Past Bichon/@move10>
-Teleport to:<Waste Lands/@move6>
-Teleport to:<Seokcho Valley/@move7>
+传送至：<比奇城/@move0>
+传送至：<沃玛森林/@move1>
+传送至：<封魔谷/@move2>
+传送至：<蛇谷/@move3>
+传送至：<道士村/@move4>
+传送至：<盟重省/@move5>
+传送至:<般若岛/@move9>
+传送至：<比奇古城/@move10>
+传送至：<荒原/@move6>
+传送至：<石礁山谷/@move7>
 
 
 [@move0]

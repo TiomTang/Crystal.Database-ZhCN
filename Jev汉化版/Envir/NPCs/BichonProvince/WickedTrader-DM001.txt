@@ -1,5 +1,5 @@
 [@Main]
-Welcome, how may I help you?
+你好旅行者，我能为你做些什么?
  
 <查看/@BuySell> 商店
 <修理/@repair> 物品
@@ -7,7 +7,7 @@ Welcome, how may I help you?
 
 [@BuySell]
 #SAY
-What item do you want to buy or sell?
+你要买卖什么东西?
 <回购/@BuyBack>
   
 <返回/@main>
@@ -19,7 +19,7 @@ What item do you want to buy or sell?
 <返回/@Main>
 
 [@Repair]
-Show me the items you wish to repair.
+把你要修理的物品给我看。
  
 <返回/@main>
 

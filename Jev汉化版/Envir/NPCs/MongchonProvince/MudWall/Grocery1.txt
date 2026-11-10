@@ -1,12 +1,12 @@
 [@MAIN]
 #SAY
-Ah are you one of those villains?
-I think i have seen you before...
-I can sell you items or you can sell them to me..
-But do not forgot my prices are not low...
+啊，你是那些恶徒中的一员吗？
+我好像以前见过你……
+我可以卖你东西，你也可以把东西卖给我……
+但别忘了，我的价格可不低……
 
-<View /@BuySell> Store.
-<询问/@Ask> about Item
+<查看 /@BuySell> 商店。
+<询问/@Ask>物品信息
  
 <关闭/@exit>
 
@@ -40,10 +40,10 @@ But do not forgot my prices are not low...
 
 [@dungeonescape]
 #SAY
-A Dungeonescape scroll is a magic paper that moves you promptly
-to certain fields near the last village you visited.
-The power of Dungeonescape scroll is weak compared with
-TownTeleport scrolls but it could still save your liefe.
+地牢逃脱卷轴是一种魔法纸，可以立刻把你
+送到上一次到访村庄附近的野外。
+地牢逃脱卷轴的效力比不上
+城镇传送卷轴，但它仍然能救你一命。
  
 <返回/@Ask>
 

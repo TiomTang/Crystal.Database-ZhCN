@@ -11,11 +11,11 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Your the Traveler, I keep hearing about.
-Welcome to MudWall. Your good deed's around the these Land's.
-are greatly admired.
-Please speak with the Local Vendor's im sure they would welcome any
-help.
+你就是我常听人提起的旅行者吧。
+欢迎来到泥墙城。你在这片土地上做的善事
+深受敬仰。
+去和当地的商人谈谈吧，我想他们会很欢迎
+任何帮助。
 <关闭/@exit>
 
 [Quests]

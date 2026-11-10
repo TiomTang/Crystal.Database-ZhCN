@@ -11,7 +11,7 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello traveler, What can i do for you? 
+你好，旅行者，有什么能帮你的？ 
  
 <兑换/@mbind> 材料
  
@@ -29,9 +29,9 @@ Hello traveler, What can i do for you?
 
 [@GBar]
 #IF
-CHECKITEM GoldBar 1
+CHECKITEM 金条 1
 #ACT
-TAKEITEM GoldBar 1
+TAKEITEM 金条 1
 GIVEGOLD 998000
 #ELSESAY
 你没有金条可以给我兑换……
@@ -41,9 +41,9 @@ GIVEGOLD 998000
 
 [@GBBundle]
 #IF
-CHECKITEM GoldBarBundle 1
+CHECKITEM 一捆金条 1
 #ACT
-TAKEITEM GoldBarBundle 1
+TAKEITEM 一捆金条 1
 GIVEGOLD 4990000
 #ELSESAY
 你没有一捆金条可以给我兑换……
@@ -53,9 +53,9 @@ GIVEGOLD 4990000
 
 [@GChest]
 #IF
-CHECKITEM GoldChest 1
+CHECKITEM 一箱金条 1
 #ACT
-TAKEITEM GoldChest 1
+TAKEITEM 一箱金条 1
 GIVEGOLD 9980000
 #ELSESAY
 你没有一捆金条可以给我兑换……

@@ -1,6 +1,6 @@
 [@MAIN]
 #IF
-CHECKITEM Wine 1
+CHECKITEM 酒 1
 #ACT
 GOTO @MAIN-1
 #ELSEACT
@@ -10,14 +10,14 @@ GOTO @MAIN-2
 #IF
 CHECK [537] 1
 #ACT
-TAKEITEM Wine 1
+TAKEITEM 酒 1
 #SAY
-HAHA... Mogu sent you...
-Ah those symbols... Theres not much information about the Language.
-But this is what the Stone says. 
-      "{Dungeon of the Ancient Ones./Gray}"
+哈哈……是摩古派你来的……
+啊，那些符号……关于这种语言，资料并不多。
+但石头上是这样写的。 
+      "{远古者的地牢。/Gray}"
  
-Thank you <Emperor Far/@THX2>
+谢谢你 <法尔皇帝/@THX2>
 #ELSEACT
 GOTO @MAIN-3
 
@@ -25,12 +25,12 @@ GOTO @MAIN-3
 #IF
 CHECK [537] 1
 #SAY
-Ah those symbols... I helped Sir Mogu with them in the past.
-Theres not much information about the Language..
-But this is what the Stone says. 
-      "{Dungeon of the Ancient Ones./Gray}"
+啊，那些符号……我以前帮过摩古先生研究。
+关于这种语言的资料不多……
+但石头上是这样写的。 
+      "{远古者的地牢。/Gray}"
  
-Thank you <Emperor Far/@THX>
+谢谢你 <法尔皇帝/@THX>
 #ELSEACT
 GOTO @MAIN-3
 
@@ -38,9 +38,9 @@ GOTO @MAIN-3
 #ACT
 SET [535] 1
 #SAY
-Hmm... Think ive seen those symbols before...
-Sir Mogu was asking about that language many years ago.
-Travel to the Tavern and talk to him about it.
+嗯……我想我以前见过那些符号……
+蒙固爵士很多年前就在打听那种语言。
+去酒馆找他谈谈这件事。
 <谢谢你/@exit>
 
 [@THX2]
@@ -50,7 +50,7 @@ SET [538] 1
 
 [@MAIN-3]
 #SAY
-More to come.
+后续还有更多。
 
 [Quests]
 -154

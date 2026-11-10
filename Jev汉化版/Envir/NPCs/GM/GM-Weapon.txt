@@ -2,37 +2,37 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-我看到你穿着： {<$WEAPON>/CORAL} and have {<$PKPOINT>/ORANGE} PK Points.
-<Buy/@Buy> Weapon
-<出售/@Sell> Weapon
-<Repair/@Repair> Weapon
-<Special Repair/@SRepair> Weapon
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
+我看到你穿着： {<$WEAPON>/CORAL}，PK 值为 {<$PKPOINT>/ORANGE}。
+<购买/@Buy> 武器
+<出售/@Sell> 武器
+<修理/@Repair> 武器
+<特修/@SRepair> 武器
 
 #ELSEACT
 MOVE 0 300 300
  
 [@Repair]
 #SAY
-Repair.
+修理。
  
 <返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+特修。
  
 <返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
 <返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 
@@ -125,7 +125,7 @@ WeakTwinBlades
 冷月刀
 修罗刀
 暗真魔刀
-Stilleto
+片血刀
 玄月双手刀
 黑乌刀
 炎狱血匕
@@ -185,6 +185,6 @@ SharpSteelSword
 赤月双刀
 赤月弓
 坚固虎牙刀
-强力木弓
+强力华剑
 硬木弓
 坚韧木弓

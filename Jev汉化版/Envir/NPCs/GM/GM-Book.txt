@@ -135,7 +135,7 @@ GIVESKILL SummonSnakes 3
 GIVESKILL NapalmShot 3
 GIVESKILL OneWithNature 3
 GIVESKILL StoneTrap 3
-GIVESKILL Portal 3
+GIVESKILL 时空门 3
 
 [Types]
 20
@@ -144,7 +144,7 @@ GIVESKILL Portal 3
 基本剑术
 攻杀剑术
 刺杀剑术
-半月剑法
+半月弯刀
 野蛮冲撞
 双龙斩
 困陷之术
@@ -166,7 +166,7 @@ GIVESKILL Portal 3
 雷电术
 瞬息移动
 爆裂火焰
-火墙术
+火墙
 疾光电影
 霜鸣碎裂
 地狱雷光
@@ -183,20 +183,20 @@ GIVESKILL Portal 3
 冰刺术
 风暴逃脱
 疾行术
-治疗术
+治愈术
 精神力战法
 施毒术
 灵魂火符
 召唤骷髅
 隐身术
-群体隐身术
+集体隐身术
 幽灵盾
 心灵启示
 神圣战甲术
 气功波
 困魔咒
 净化术
-群体治疗
+群体治愈术
 迷魂术
 无极真气
 召唤神兽
@@ -212,7 +212,7 @@ GIVESKILL Portal 3
 急速术
 闪影冲
 轻身术
-天剑剑法
+天剑诀
 火焰爆裂
 陷阱术
 毒剑术
@@ -223,7 +223,7 @@ GIVESKILL Portal 3
 流血术
 弯月斩
 月雾术
-CatTongue
+猫舌功
 凝神术
 直射术
 双重射术
@@ -231,7 +231,7 @@ CatTongue
 延迟爆炸
 冥想术
 后撤步
-元素射术
+元素射击
 专注术
 元素屏障
 召唤吸血鬼

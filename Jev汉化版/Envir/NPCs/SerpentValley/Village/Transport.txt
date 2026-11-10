@@ -25,12 +25,12 @@ GOTO @Main-1
 
 我的服务费是2000金币。
 
-<<边境村/@Border>>
-<<比奇城/@BichonWall>>
-<<土城/@MudWall>>
-<<道士馆/@TaoVillage>>
-<<封魔谷/@CastleGi>>
-<<沃玛营地/@Camp>>
+<边境村/@Border>
+<比奇城/@BichonWall>
+<土城/@MudWall>
+<道士馆/@TaoVillage>
+<封魔谷/@CastleGi>
+<沃玛营地/@Camp>
 
 [@Border]
 #IF

@@ -11,26 +11,26 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-If you really want to go back to the past, possess a piece
-of TimeStone. This piece of stone will help you to
-timetravel back to the past. But if your level is below 33,
-you can not timetravel even with the stone. I know it is
-expensive. If you don't want to buy it try the drops from
-monsters. It may take some time but you can save money...
-<Buy/@buystone> TimeStonePiece
-<出售/@sell> TimeStonePiece
+你若真想回到过去，就得有一块
+时间之石。这块石头能帮你
+穿越回过去。但若你的等级低于33，
+就算有石头也无法穿越。我知道它
+不便宜。不想买的话，可以试试从
+怪物身上打落。可能要花些时间，但能省钱……
+<购买/@buystone> 时光石碎片
+<出售/@sell> 时光石碎片
 <关闭/@exit>
 
 
 [@buystone]
 #say
-20000 Gold for one piece...You want it?
+一块两万金币……你要吗？
 <是的/@buystonenow>\
-<No. too expensive/@exit>
+<不，太贵了/@exit>
 
 [@buystonenow]
 #IF
 CHECKGOLD > 20000
 #ACT
 TAKEGOLD 20000
-GIVEITEM TimeStonePiece 1
+GIVEITEM 时光石碎片 1

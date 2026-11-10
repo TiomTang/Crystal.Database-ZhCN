@@ -1,8 +1,8 @@
 [@main]
-There is a cursed mountain at the end of the vicious woods,
-the red moon is over the ridge of the mountain..
-the whole world may be under blood.
-Wow it's a scribbling written in an old book I never saw before.
-It seems to indicate something but I have no idea what.
-<Thanks/@exit>
+在这片险恶森林的尽头有一座受诅咒的山，
+红月就悬在山脊之上……
+整个世界恐怕都要浸在血里。
+哇，这是写在一本我从没见过的古书上的潦草字迹。
+似乎暗示着什么，可我完全看不懂。
+<谢谢/@exit>
 

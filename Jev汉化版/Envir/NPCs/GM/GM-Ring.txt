@@ -2,37 +2,37 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
 我看到你穿着： {L: <$RING_L> R: <$RING_R>/CORAL}
-<Buy/@Buy> Ring
-<出售/@Sell> Ring
-<Repair/@Repair> Ring
-<Special Repair/@SRepair> Ring
+<购买/@Buy> 戒指
+<出售/@Sell> 戒指
+<修理/@Repair> 戒指
+<特修/@SRepair> 戒指
 
 #ELSEACT
 MOVE 0 300 300
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
 <返回/@Main>
 
 [@Repair]
 #SAY
-Repair.
+修理。
  
 <返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+特修。
  
 <返回/@Main>
 
@@ -41,7 +41,7 @@ Special repair.
 7
 
 [Trade]
-心灵戒指
+灵魂戒指
 记忆戒指
 红兰戒指
 红花戒指

@@ -14,15 +14,15 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Greetings! You have come to purchase Creature Eggs, have you?
+你好！你是来买怪物蛋的吧？
  
-<List/@Buy> available Eggs to purchase.
+<列出/@Buy> 可购买的蛋。
  
 <关闭/@Exit>
 
 [@Buy]
 #SAY
-Please select the Egg you want to buy.
+请选择你想买的蛋。
  
  
 <返回/@Main>

@@ -2,29 +2,29 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-<Buy/@Buy> Crafting Material
-<出售/@Sell> Crafting Material
-<Craft/@Craft>
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
+<购买/@Buy> 制作材料
+<出售/@Sell> 制作材料
+<制作/@Craft>
 
 #ELSEACT
 MOVE 0 300 300
  
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
 <返回/@Main>
 
 [@Craft]
-What would you like to craft?
+你想制作什么？
 
 [Types]
 16

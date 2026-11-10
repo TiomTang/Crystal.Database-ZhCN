@@ -11,16 +11,16 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-I'm dispatched from the Bichon Wall,
-preventing the crossed force from Bottomless Pit breaking out..
-It may sound simple,but as a matter of fact,very difficult.
-The monsters attempt to break the seal endlessly.
-<We intend to protect the seal as well../@next>
-<I understand/@exit>
+我是比奇城派来的，
+阻止无底洞的邪恶力量涌出……
+听起来简单，实际上非常困难。
+怪物们不断试图打破封印。
+<我们也想保护封印……/@next>
+<我明白了/@exit>
 
 
 
 [@next]
-What? Do you know what kind of danger you are stepping into?
-Even if it is to slay the monsters in BichonWall,
-I cannot get involved in such nonsense.
+什么？你知道自己正踏进多大的危险吗？
+就算是为了斩杀比奇城的怪物，
+我也不能掺和这种荒唐事。

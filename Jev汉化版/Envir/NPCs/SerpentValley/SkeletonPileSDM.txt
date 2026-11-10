@@ -1,6 +1,6 @@
 [@MAIN]
 #SAY
-The Bones.. They look freshly eaten.
+这...似乎是刚刚被啃食过的骨头.
  
 <关闭/@exit>
 

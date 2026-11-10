@@ -11,13 +11,13 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello, Are you looking for something particular? 
-How can I be of assistance.
+你好，你在找什么特定的东西吗？ 
+我能帮你什么忙？
 
 我看到你穿着： {<$WEAPON>/CORAL}
 
 <查看/@BuySell> 商店
-<Repair/@Repair> Weapon.
+<修理/@Repair> 武器.
  
 <关闭/@exit>
 
@@ -36,8 +36,8 @@ How can I be of assistance.
 
 [@Repair]
 #SAY
-Would you like to repair a weapon?
-Show me the weapon that needs it.
+你想要修理武器?
+请把它拿来让我看看.
  
 <返回/@main>
 
@@ -63,6 +63,6 @@ Show me the weapon that needs it.
 八荒
 海魂
 半月
-BladesofVelocity
+音速刀
 杉木铁弓
 矿镐

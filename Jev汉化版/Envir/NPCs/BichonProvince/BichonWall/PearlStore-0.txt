@@ -11,14 +11,14 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Greetings! How can i help you?
-<交易/@PEARLBUY> Creature Pearls.
+你好，你想要点什么?
+<交易/@PEARLBUY> 怪物珍珠。
  
 <关闭/@exit>
  
 [@PEARLBUY]
 #SAY
-Please select the item you want to buy.
+看看你需要什么.
  
 <返回/@Main>
 

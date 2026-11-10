@@ -2,16 +2,16 @@
 #IF
 ISADMIN
 #Say
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
 
-<Look at Awakening Items/@Buy>
+<查看觉醒物品/@Buy>
 
 #ELSEACT
 MOVE 0 300 300
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 

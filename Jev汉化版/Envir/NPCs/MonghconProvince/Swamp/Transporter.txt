@@ -1,6 +1,6 @@
 [@main]
 #SAY
-Have you had enough and want to go back?
+待够了吗？想回去吗？
 
 <是的/@yes>  <不是/@exit>
 

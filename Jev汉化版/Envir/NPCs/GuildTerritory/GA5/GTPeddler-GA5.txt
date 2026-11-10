@@ -23,21 +23,21 @@
 
 [@Repair]
 #SAY
-You can repair various kinds of Torch's.
+这里可以修理各种火把。
 
 [@Ask]
 #SAY
-I deal with <Candles/@candle>, <DungeonEscapes/@dungeonescape>, <RandomTeleports/@randomteleport>,
-<RepairOil/@repairoil> and so on forth.
-I have heard that there are <TownTeleport/@townteleport> which monsters
-drop sometimes.
+我经营<蜡烛/@candle>、<地牢逃脱卷轴/@dungeonescape>、<随机传送卷轴/@randomteleport>，
+<修理油/@repairoil>等等。
+听说还有<城镇传送卷轴/@townteleport>，连怪物也会
+偶尔会掉落。
  
 <返回/@Main>
 
 [@candle]
 #SAY
-Candles are needed when it's dark. Without a candle
-you can not see anything.
+天黑时需要蜡烛。没有蜡烛
+你什么都看不见。
  
 <返回/@Ask>
 
@@ -50,33 +50,33 @@ you can not see anything.
 
 [@randomteleport]
 #SAY
-A Randomteleport scroll is a magic paper that can
-make you randomly move to another place in the same map.
-For example if you were in a dungeon 1st floor, you will
-move to another place on that floor by using the RT.
-If the situation is dangerous but you still have potions, use this
-to help you out of a tight situation.
+随机传送卷轴轴是一种魔法纸，可以
+让你在同一地图内随机移动到另一个地方。
+例如，如果你在地牢1层，你就能
+用随机传送卷轴轴移动到该层的另一个地方。
+如果情况危险但你还有药水，就用它
+帮你摆脱困境。
  
 <返回/@Ask>
 
 [@repairoil]
 #SAY
-A RepairOil makes the durability of your hand weapon rise.
-This oil doesn't special repair your weapon, so
-remember that the maximum durability of the weapon
-goes down as time goes by.
-If the weapon was not expensive,
-repair with this oil occasionally during hunting.
-This will make hunts last longer.
+修理油可以提升你手持武器的持久度。
+这种油不会对武器进行特修，所以
+请记住武器的最大持久度
+会随着时间推移而下降。
+如果武器不值钱，
+打猎时偶尔用这种油修一修。
+这样能让打猎持续更久。
  
 <返回/@Ask>
 
 [@townteleport]
 #SAY
-TownTeleport scrolls can't be made now because the ancient
-skill is lost.... however....
-I have heard that they might come randomly from monsters
-and you can return to a village promptly by using it...
+城镇传送卷轴现在造不出来，因为古代的
+技艺已经失传……不过……
+我听说它们可能会随机从怪物身上掉落
+用它可以迅速回到村庄……
  
 <返回/@Ask>
 
@@ -89,12 +89,12 @@ and you can return to a village promptly by using it...
 [Trade]
 蜡烛
 火把
-EternalFlame
+永恒火焰
 城镇传送卷轴
 随机传送卷轴
 地牢逃脱卷轴
 回城传送卷轴
-GtTeleport
+行会领地传送卷
 武斗邀请
 护身符 1
 护身符 100
@@ -104,7 +104,7 @@ Amulet(L) 1
 Amulet(L) 600
 Amulet(XL) 1
 Amulet(XL) 800
-AmuletRevival
+复活护身符
 AmuletOfRevival(L)
 GreenPoison(S) 1
 GreenPoison(S) 100

@@ -14,7 +14,7 @@ GOTO @Main-1
 你好，旅行者，有什么可以帮你的吗？
  
 <查看/@BuySell> 商店 
-<询问/@Ask> about Item
+<询问/@Ask>物品信息
  
 <关闭/@exit>
 

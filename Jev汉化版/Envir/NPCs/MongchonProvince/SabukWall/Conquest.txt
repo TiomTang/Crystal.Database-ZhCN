@@ -55,7 +55,7 @@ CONQUESTOWNER 1
 CHECKPERMISSION 1
 #ACT
 SETCONQUESTRATE 1 15
-GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！" Announcement
 
 [@tax3]
 #IF
@@ -63,7 +63,7 @@ CONQUESTOWNER 1
 CHECKPERMISSION 1
 #ACT
 SETCONQUESTRATE 1 20
-GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！" Announcement
 
 [@tax4]
 #IF
@@ -71,7 +71,7 @@ CONQUESTOWNER 1
 CHECKPERMISSION 1
 #ACT
 SETCONQUESTRATE 1 25
-GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！" Announcement
 
 
 
@@ -208,7 +208,7 @@ AFFORDGUARD 1 2
 CONQUESTGUARD 1 2
 LocalMessage "你已经重新雇佣了弓箭手二！" Hint
 #ELSEACT
-LocalMessage "你没有足够的资金来重新雇佣弓箭手二！!" Hint
+LocalMessage "你没有足够的资金来重新雇佣弓箭手二！" Hint
 
 [@ach3]
 #IF
@@ -253,7 +253,7 @@ AFFORDGUARD 1 7
 CONQUESTGUARD 1 7
 LocalMessage "你已经重新雇佣了弓箭手七！" Hint
 #ELSEACT
-LocalMessage 你没有足够的资金来重新雇佣弓箭手七！" Hint
+LocalMessage "你没有足够的资金来重新雇佣弓箭手七！" Hint
 
 [@ach8]
 #IF

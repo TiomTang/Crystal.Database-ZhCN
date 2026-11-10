@@ -11,9 +11,9 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello Traveler. 
-Do you have anything for sale? 
-<出售/@Sell> Items
+你好，旅行者。 
+你有什么东西想出售吗？ 
+<出售/@Sell> 物品
 
 <关闭/@exit>
 

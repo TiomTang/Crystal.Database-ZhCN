@@ -11,8 +11,8 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Something dosent seem right in this Village.
-I will get to the bottom of it.
+这村庄里似乎隐藏着邪恶.
+我一定会一查到底.
 
 <关闭/@exit>
 

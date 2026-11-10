@@ -11,8 +11,8 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello Mirian, We need to improve on how we teach our 
-Taoists.
+你好，玛法人。我们得改进教导道士的 
+方式。
 
 <关闭/@exit>
 

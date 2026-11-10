@@ -15,9 +15,9 @@ GOTO @Main-1
 我的职责是引导新手。
 有什么我可以帮忙的吗？
 
-<<狩猎/@hunting>>
-<<战斗 & 技能/@combat>>
-<<基本信息/@basic>>
+<狩猎/@hunting>
+<战斗 & 技能/@combat>
+<基本信息/@basic>
 
 -------------------------------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ GOTO @Main-1
 主要狩猎区域包括比奇省、沃玛森林、盟重省、桃源村和封魔城。
 按B键可查看完整地图。
 
-<<等级 1>3/@lvl1-3>>      <<等级 3>7/@lvl3-7>>      <<等级 7>11/@lvl7-11>>
+<等级 1~3/@lvl1-3>      <等级 3~7/@lvl3-7>      <等级 7~11/@lvl7-11>
 
 <返回/@hunting>                           <前往主页/@main>
 
@@ -47,13 +47,13 @@ GOTO @Main-1
 #SAY
 若想安全狩猎，不妨试试镇子附近的鸡、鹿和绵羊。
 它们在被攻击前不会主动伤人。
-事实上，你可以获取新鲜<肉/ @slicemeat>，与任意城镇的肉铺老板交易即可换得报酬。
+事实上，你可以获取新鲜<肉/@slicemeat>，与任意城镇的肉铺老板交易即可换得报酬。
 
 <返回/@level1-11>                              <前往主页/@main>
 
 [@lvl3-7]
 #SAY
-一旦远离城镇，就猎捕钩爪猫、钉耙猫、蛤蟆、狼、螯钳兽、角虫等。
+一旦远离城镇，就猎捕多钩猫、钉耙猫、蛤蟆、狼、螯钳兽、角虫等。
 
 <返回/@level1-11>            <前往主页/@main>
 
@@ -70,7 +70,7 @@ GOTO @Main-1
 从11级开始进入地下城。那是个黑暗之地，蜡烛和传送卷轴被视为必备物品。
 此外，请备足药水，因为该地距离城镇十分遥远。
 
-<<等级 11>14/@lvl11-14>>      <<等级 14>17/@lvl14-17>>      <<等级 17>22/@lvl17-22>>
+<等级 11~14/@lvl11-14>      <等级 14~17/@lvl14-17>      <等级 17~22/@lvl17-22>
 
 <返回/@hunting>                    <前往主页/@main>
 
@@ -128,11 +128,11 @@ GOTO @Main-1
 要在传奇世界中生存，你必须成为一名坚韧的战士。首要条件是熟练掌握各种战斗技巧与作战方式。 随时问我，我很乐意为你指引。
 
 <技能的学习与方法/@skilllearning>
-<<战士技能/@warrskill>>
-<<法师技能/@wizskill>>
-<<道士技能/@taoskill>>
-<<刺客技能/@sinskill>>
-<<弓箭手技能/@arcskill>>
+<战士技能/@warrskill>
+<法师技能/@wizskill>
+<道士技能/@taoskill>
+<刺客技能/@sinskill>
+<弓箭手技能/@arcskill>
 <战斗技巧/@combattech>*开发中*
 
 <前往主页/@main>
@@ -152,108 +152,108 @@ GOTO @Main-1
 
 [@warrskill]
 #SAY
-Warrior skill type:
-Select any skill you wish to know.
-Remember, Warrior skills are all melee type.
+战士技能类型：
+选择你想了解的技能。
+记住，战士技能都是近身类型。
 
-<基本剑术 7/@fencing>      <攻杀剑术 30/@sdash>     <LionsRoar 36/@lionsroar>
-<Slaying 15/@slaying>     <TwinDrakeBlade 32/@tdb>     <CrossHalfmoon 38/@chm>
-<Thrusting 22/@thrusting>     <Entrapment 32/@entrapment>     <BladeAvalanche 38/@BA>
-<Halfmoon 26/@halfmoon>     <FlamingSword 35/@fsword>     <Rage 44/@rage>
-<ProtectionField 39/@profield>
+<基本剑术 7/@fencing>      <攻杀剑术 30/@sdash>     <狮子吼 36/@lionsroar>
+<攻杀剑术 15/@slaying>     <双龙斩 32/@tdb>     <穿心半月 38/@chm>
+<刺杀剑术 22/@thrusting>     <困陷之术 32/@entrapment>     <刀锋雪崩 38/@BA>
+<半月弯刀 26/@halfmoon>     <烈火剑法 35/@fsword>     <狂战 44/@rage>
+<护身气幕 39/@profield>
 
 <返回/@combat>                 <前往主页/@main>
 
 [@wizskill]
 #SAY
-Wizard skill page 1:
-Characteristic of Wizard skills are all long range attack and some does
-multiple attack. But it consumes much MP.
+法师技能 第1页：
+法师技能的特点都是远程攻击，有些还能
+群体攻击。但会消耗大量MP。
 
-<Fireball 7/@fireball>     <Hellfire 16/@hellfire>     <FireWall 24/@fwall>
-<Repulsion 12/@repulse>     <Thunderbolt 17/@tbolt>     <Lightning 26/@lightning>
-<ElecShock 13/@eshock>     <Teleport 19/@tele>     <FrostCrunch 28/@fcrunch>
-<GreatFireBall 15/@gfball>     <FireBang 22/@fbang>     <Thunderstorm 30/@tstorm>
+<火球术 7/@fireball>     <地狱火 16/@hellfire>     <火墙 24/@fwall>
+<抗拒火环 12/@repulse>     <雷电术 17/@tbolt>     <疾光电影 26/@lightning>
+<诱惑之光 13/@eshock>     <瞬息移动 19/@tele>     <霜鸣碎裂 28/@fcrunch>
+<大火球术 15/@gfball>     <爆裂火焰 22/@fbang>     <地狱雷光 30/@tstorm>
 
 <返回/@combat>              <下一页/@wizskill2>
 
 [@wizskill2]
 #SAY
-Wizard skill page 2:
+法师技能 第2页：
 
-<MagicShield 31/@mshield>     <Mirroring 41/@mirror>
-<TurnUndead 32/@turnundead>     <FlameField 42/@ffield>
-<Vampirism 33/@vamp>     <Blizzard 44/@blizzard>
-<IceStorm 35/@icestorm>   <MeteorStrike 49/@meteor>
-<FlameDisruptor 38/@fdisrupt>
+<魔法盾 31/@mshield>     <镜像术 41/@mirror>
+<圣言术 32/@turnundead>     <烈焰领域 42/@ffield>
+<吸血术 33/@vamp>     <暴风雪 44/@blizzard>
+<冰咆哮 35/@icestorm>   <陨石术 49/@meteor>
+<焰光冲击 38/@fdisrupt>
 
 <返回/@combat>                   <前往主页/@main>
 
 [@taoskill]
 #SAY
-Taoist skill page 1:
-Only Taoists can use tallisman or poison as one of the skills.
+道士技能 第1页：
+只有道士才能使用护身符或毒药类技能。
 
-<Healing 7/@healing>     <SummonSkeleton 19/@summonskel>     <Revelation 23/@rev>
-<SpiritSword 9/@ssword>     <Hiding 20/@hiding>     <BlessedArmour 25/@blessarm>
-<Poisoning 14/@poison>     <MassHiding 21/@masshide>     <EnergyRepulsor 27/@energyrep>
-<SoulFireBall 18/@sfb>   <SoulShield 22/@soulshield>   <TrapHexagon 28/@traphex>
+<治愈术 7/@healing>     <召唤骷髅 19/@summonskel>     <心灵启示 23/@rev>
+<精神力战法 9/@ssword>     <隐身术 20/@hiding>     <神圣战甲术 25/@blessarm>
+<施毒术 14/@poison>     <集体隐身术 21/@masshide>     <气功波 27/@energyrep>
+<灵魂火符 18/@sfb>   <幽灵盾 22/@soulshield>   <困魔咒 28/@traphex>
 
 <返回/@combat>                         <下一页/@taoskill2>
 
 [@taoskill2]
 #SAY
-Taoist skill page 2:
+道士技能 第2页：
 
-<Purification 30/@puri>     <MassHealing 31/@massheal>     <Hallucination 31/@halluc>
-<UltimateEnhancer 33/@ultimateenhance>     <SummonShinsu 35/@summonshin>     <Reincarnation 37/@rein>
-<SummonHolyDeva 38/@summondeva>     <Curse 40/@curse>     <PoisonCloud 43/@poisoncloud>
+<净化术 30/@puri>     <群体治愈术 31/@massheal>     <迷魂术 31/@halluc>
+<无极真气 33/@ultimateenhance>     <召唤神兽 35/@summonshin>     <复活术 37/@rein>
+<召唤圣灵 38/@summondeva>     <诅咒术 40/@curse>     <毒雾术 43/@poisoncloud>
 
 <返回/@combat>                         <前往主页/@main>
 
 [@sinskill]
 #SAY
-Assassin skill page 1:
-Assassins are members of a secret organization and their history is relatively unknown. 
-They're capable of hiding themselves and performing attacks while being unseen by 
-others, which naturally makes them excellent at making fast kills. It is necessary 
-for them to avoid being in battles with multiple enemies due to their weak vitality 
-and strength.
+刺客技能第 1 页：
+刺客是一个秘密组织的成员，他们的来历鲜为人知。 
+他们能隐身潜行，在别人看不见的情况下发动攻击， 
+这自然让他们极擅长快速击杀。但他们必须 
+避免陷入以少打多的混战，因为他们的体力和 
+力量都很弱。
 
-<FatalSword 7/@fatalsword>     <LightBody 27/@lightbody>     <PoisonSword 34/@poisonsword>
-<DoubleSlash 15/@doubleslash>     <HeavenlySword 30/@heavenlysword>     <MoonLight 36/@moonlight>
-<Haste 20/@haste>     <FireBurst 33/@fireburst>     <MPEater 38/@mpeater>
-<FlashDash 25/@flashdash>     <Trap 33/@trap>     <SwiftFeet 40/@swiftfeet>
-<DarkBody 46/@darkbody>     <CresentSlash 50/@cresentslash>     <Hemorrhage 47/@hemorrhage>
-<MoonMist 60/@moonmist>
+<致命剑法 7/@fatalsword>     <轻身术 27/@lightbody>     <毒剑术 34/@poisonsword>
+<双重斩 15/@doubleslash>     <天剑诀 30/@heavenlysword>     <月影剑法 36/@moonlight>
+<急速术 20/@haste>     <火焰爆裂 33/@fireburst>     <吞魔术 38/@mpeater>
+<闪影冲 25/@flashdash>     <陷阱术 33/@trap>     <迅足术 40/@swiftfeet>
+<暗身术 46/@darkbody>     <弯月斩 50/@cresentslash>     <流血术 47/@hemorrhage>
+<月雾术 60/@moonmist>
 
 <返回/@combat>              <前往主页/@main>
 
 [@arcskill]
 #SAY
-Archer skill page 1:
-Archers are a class of great accuracy and strength, 
-using their powerful skills with bows to deal extraordinary 
-damage from range. Much like wizards, they rely on their 
-keen instincts to dodge oncoming attacks as they tend to 
-leave themselves open to frontal attacks. However, 
-their physical prowess and deadly aim allows them to instil 
-fear into anyone they hit.
+弓箭手技能第 1 页：
+弓箭手是精准与力量兼备的职业， 
+凭借弓术的强力技能，能在远处造成 
+惊人的伤害。和法师一样，他们依靠 
+敏锐的本能闪避来袭的攻击，因为他们往往 
+在正面攻击下毫无防备。不过， 
+强健的体魄和致命的箭术让他们能震慑 
+让任何被他们击中的人心生恐惧。
 
-<Focus 7/@focus>     <ElementalShot 20/@elementalshot>     <Backstep 30/@backstep>
-<StraightShot 9/@straightshot>     <ExplosiveTrap 22/@explosivetrap>     <DelayedExplosion 31/@delayedexplosion>
-<MentalState 11/@mentalstate>     <Concentration 23/@concentration>     <ElementalBarrier 33/@elementalbarrier>
-<DoubleShot 14/@doubleshot>     <VampireShot 26/@vampireshot>     <BindingShot 35/@bindingshot>
-<Meditation 19/@meditation>     <SummonVampire 28/@summonvampire> <SummonToad 37/@summontoad>
+<凝神术 7/@focus>     <元素射击 20/@elementalshot>     <后撤步 30/@backstep>
+<直射术 9/@straightshot>     <爆裂陷阱 22/@explosivetrap>     <延迟爆炸 31/@delayedexplosion>
+<精神状态 11/@mentalstate>     <专注术 23/@concentration>     <元素屏障 33/@elementalbarrier>
+<双重射术 14/@doubleshot>     <吸血箭术 26/@vampireshot>     <束缚箭 35/@bindingshot>
+<冥想术 19/@meditation>     <召唤吸血鬼 28/@summonvampire> <召唤蟾蜍 37/@summontoad>
 
 <返回/@combat>              <下一页/@arcskill2>
 
 [@arcskill2]
 #SAY
-Archer skill page 2:
+弓箭手技能第 2 页：
 
-<PoisonShot 40/@poisonshot>      <StoneTrap 40/@stonetrap>       <CrippleShot 43/@crippleshot>   
-<SummonSnakes 46/@summonsnakes>  <NapalmShot 48/@napalmshot>     <OneWithNature 50/@onewithnature>
+<毒箭术 40/@poisonshot>      <石化陷阱 40/@stonetrap>       <致残箭 43/@crippleshot>   
+<召唤毒蛇 46/@summonsnakes>  <凝固汽油弹 48/@napalmshot>     <天人合一 50/@onewithnature>
 
 <返回/@combat>                         <前往主页/@main>
 
@@ -262,536 +262,536 @@ Archer skill page 2:
 
 [@fencing]
 #SAY
-Fencing (Level 7)
+基本剑术 (等级 7)
 
-HItting accuracy will be increased in accordance with practice level.
+命中准确度会随修炼等级提高。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@slaying]
 #SAY
-Slaying (Level 15)
+攻杀剑术 (等级 15)
 
-HItting accuracy and destructive power will be increased
-in accordance with practice level.
+命中准确度和破坏力会
+随修炼等级提高。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@thrusting]
 #SAY
-Thrusting (Level 22)
+刺杀剑术 (等级 22)
 
-Attack two people straight in a row. Click to activate or deactivate the skill.
-No MP will be consumed.
+直线上攻击两个人。点击开启或关闭该技能。
+不消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@halfmoon]
 #SAY
-HalfMoon (Level 26)
+半月弯刀 (等级 26)
 
-Damage 4 enemies at once near by. MP will be consumed.
+同时伤害周围4个敌人。会消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@sdash]
 #SAY
-ShoulderDash (Level 30)
+野蛮冲撞 (等级 30)
 
-Push away enemies by charging them with his shoulder, inflicting damage if
-they hit any obstacles. Skill will be ineffective at higher level enemy.
-MP will be consumed.
+用肩膀冲撞推开敌人，若敌人撞到障碍物
+则会受到伤害。对等级更高的敌人无效。
+将消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@tdb]
 #SAY
-TwinDrakeBlade (Level 32)
+双龙斩 (等级 32)
 
-The art of making multiple power attacks that have the energy equivalent to
-two identical drakes rising the sky.
-It has a low chance of making the enemy stunned for a while.
-(Stunned Enemies get 1.5 times more damage than when they are hit under
-normal condition).
+连续发出强力攻击的剑法，其力量相当于
+两条同样的蛟龙腾空而起。
+有小概率使敌人眩晕一段时间。
+(眩晕的敌人受到的伤害是正常状态下
+的1.5倍)。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@entrapment]
 #SAY
-Entrapment (Level 32)
+困陷之术 (等级 32)
 
-Pull one enemy nearby.
-MP will be consumed.
+拉近一个附近的敌人。
+将消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@fsword]
 #SAY
-FlamingSword (Level 35)
+烈火剑法 (等级 35)
 
-Powerful hit on enemy.
-Keep clicking skill key and left click the target in 15 seconds.
-MP will be consumed.
+对敌人造成强力一击。
+15秒内持续按技能键并左键点击目标。
+将消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@lionsroar]
 #SAY
-LionsRoar (Level 36)
+狮子吼 (等级 36)
 
-Paralyze enemies within 5x5 square range for certain probability.
-Skill will be ineffective at higher level enemy.
-MP will be consumed.
+有一定概率麻痹5x5范围内的敌人。
+对等级高于自己的敌人，此技能无效。
+将消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@chm]
 #SAY
-CrossHalfMoon (Level 38)
+穿心半月 (等级 38)
 
-All the enemies nearby 8 o'clock direction at once.
-Skill key must be clicked. MP will be consumed.
+同时攻击8点钟方向附近的所有敌人。
+必须点击技能键。会消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@BA]
 #SAY
-BladeAvalanche (Level 38)
+刀锋雪崩 (等级 38)
 
-Multiple area attack against enemies a distance away.
-MP will be consumed.
+对远处敌人进行多目标范围攻击。
+将消耗MP。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@rage]
 #SAY
-Rage (Level 44)
+狂战 (等级 44)
 
-Enhances your inner force to increase its power for a certain time.
-Defense power and duration time will depend on the skill level.
-Once the skill has been used, you will have to wait to use it again.
+强化你的内力，在一定时间内提升攻击力。
+防御力与持续时间取决于技能等级。
+技能使用后要等一段时间才能再次使用。
 
 <返回/@warrskill>                     <前往主页/@main>
 
 [@profield]
 #SAY
-ProtectionField (Level 39)
+护身气幕 (等级 39)
 
-Concentrate inner force and spreads it to all the parts of your body. 
-This will enhance the protection from enemies.
-Defense power and duration time will depend on the skill level.
-Once the skill has been used, you will have to wait to use it again.
+凝聚内力并将其散布到全身各处。 
+这会增强对敌人攻击的防护。
+防御力与持续时间取决于技能等级。
+技能使用后要等一段时间才能再次使用。
 
 <返回/@warrskill>                     <前往主页/@main>
 ------------------------------------------------------------------------------------------------------
 [@fireball]
 #SAY
-Fireball (Level 7)
+火球术 (等级 7)
 
-Long distance flaming attack which is basic skill of Wizard as a beginner.
-Flame attack can damage the target distance away.
+远距离火焰攻击，是法师新手的基础技能。
+火焰攻击可以伤害远处的目标。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@repulse]
 #SAY
-Repulsion (Level 12)
+抗拒火环 (等级 12)
 
-Allows you to push away mobs and people at 8 o'clock direction.
-Skill will be ineffective at higher level enemy.
-MP will be consumed.
+可以将8点钟方向的怪物和人推开。
+对等级高于自己的敌人，此技能无效。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@eshock]
 #SAY
-ElecShock (Level 13)
+诱惑之光 (等级 13)
 
-A skill that paralyses or confuses enemies by emitting a strong electric shock
-in a flash. It's also useful for taming monsters.
-Skill will be ineffective at higher level enemy.
-MP will be consumed.
+瞬间释放强烈电击，使敌人麻痹或混乱
+的技能。对驯服怪物也很有用。
+对等级高于自己的敌人，此技能无效。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@gfball]
 #SAY
-GreatFireBall (Level 15)
+大火球术 (等级 15)
 
-More powerful skill of the basic fireball.
-MP will be consumed.
+比基础火球术更强的技能。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@hellfire]
 #SAY
-Hellfire (Level 16)
+地狱火 (等级 16)
 
-Throws a column of flame straight ahead of the caster. (5 square range)
-MP will be consumed.
+向施法者正前方投出一柱火焰。(5格范围)
+将消耗MP。
                                 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@tbolt]
 #SAY
-Thunderbolt (Level 17)
+雷电术 (等级 17)
 
-Attacks enemies by calling a thunderbolt that will hit the target from the sky.
-Specialized on undead type monsters.
-MP will be consumed.
+召唤雷电从天空击中目标来攻击敌人。
+对不死系怪物有特效。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@tele]
 #SAY
-Teleport (Level 19)
+瞬息移动 (等级 19)
 
-Allows a wizard to move instantly to a random place in a Marian Province.
-Skill training will increase the chance of landing near towns.
-MP will be consumed.
+让法师瞬间移动到本省内的随机地点。
+技能等级越高，越容易落在城镇附近。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@fbang]
 #SAY
-FireBang (Level 22)
+爆裂火焰 (等级 22)
 
-Create a 3x3 square high temperature fire flash,
-instantly damaging every enemy in range.
-MP will be consumed.
+产生3x3范围的高温火焰闪光，
+瞬间伤害范围内的所有敌人。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@fwall]
 #SAY
-FireWall (Level 24)
+火墙 (等级 24)
 
-A strong flame around targeted area with 3x3 square range.
-MP will be consumed.
+在目标区域形成3x3范围的强烈火焰。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@lightning]
 #SAY
-Lightning (Level 26)
-Throws a boly of lightning forwards from the casters hands.
-It damages all objects(9-10 enemies) in its path.
-MP will be consumed.
+疾光电影 (等级 26)
+从施法者手中向前方投出一道闪电。
+它会伤害路径上的所有目标(9-10个敌人)。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@fcrunch]
 #SAY
-FrostCrunch (Level 28)
+霜鸣碎裂 (等级 28)
 
-The art of freezing that uses the force of ice.
-When it is cast, it randomly freezes enemies and after they are frozen, their
-speed drops significantly.
-MP will be consumed.
+运用冰之力量进行冰冻的法术。
+施放时会随机冰冻敌人，被冰冻后他们的
+速度会大幅下降。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@tstorm]
 #SAY
-Thunderstorm (Level 30)
+地狱雷光 (等级 30)
 
-Specialized skill on Undead type monsters.
-5x5 square range attack around player(max.24 enemies).
-MP will be consumed.
+对不死系怪物有特效的技能。
+以玩家为中心5x5范围攻击(最多24个敌人)。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@mshield]
 #SAY
-MagicShield (Level 31)
+魔法盾 (等级 31)
 
-Creates a shield which protects damage from monsters.
-Duration time depends on the skill level.
-MP will be consumed.
+制造一个护盾，抵挡怪物造成的伤害。
+持续时间取决于技能等级。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@turnundead]
 #SAY
-TurnUndead (Level 32)
+圣言术 (等级 32)
 
-Specialized in undead type monsters.
-As the skill level reaches max, one shot one kill will be possible.
-MP will be consumed.
+对不死系怪物有特效。
+技能等级满级后可以做到一击必杀。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@vamp]
 #SAY
-Vampirism (Level 33)
-Absorbs strength of enemy to recover players strength.
-MP will be consumed.
+吸血术 (等级 33)
+吸取敌人的力量来恢复玩家的生命。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@icestorm]
 #SAY
-IceStorm (Level 35)
+冰咆哮 (等级 35)
 
-Brings snow storm in a targetted area (5x5 square).
-MP will be consumed.
+在目标区域(5x5)召唤暴风雪。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@fdisrupt]
 #SAY
-FlameDisruptor (Level 38)
+焰光冲击 (等级 38)
 
-Create a powerful column on enemy no matter of any obstacles.
-(Physical objects).
-MP will be consumed.
+无视任何障碍物，在敌人身上形成强力火柱。
+(实体障碍)。
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@mirror]
 #SAY
-Mirroring (Level 41)
+镜像术 (等级 41)
 
-Create an image and fight enemy together. Image appears when skill is
-clicked, click once more will remove image.
-MP will continously be consumed while the image is in use.
+制造一个镜像一起战斗。点击技能时
+镜像出现，再点一次会取消镜像。
+镜像存在期间会持续消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@ffield]
 #SAY
-FlameField (Level 42)
+烈焰领域 (等级 42)
 
-5x5 square range attack with a dreadful flame. (Max. 24 enemies at once)
-MP will be consumed.
+用可怕的火焰进行5x5范围攻击。(最多同时24个敌人)
+将消耗MP。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@blizzard]
 #SAY
-Blizzard (Level 44)
+暴风雪 (等级 44)
 
-Attacks all monsters in a certain area with meteors of fire falling from the sky.
-This will burn all the objects within the area.
-It has a very long casting time but gives a higher damage than the Blizzard skill.
-If the caster is attacked while using the skill, it will be cancelled.
-The damage inflicted raises with the skill level.
+召唤天降火流星，攻击一定范围内的所有怪物。
+范围内的所有目标都会被灼烧。
+施法时间很长，但伤害高于暴风雪。
+施法时若受到攻击，技能会被打断。
+造成的伤害随技能等级提升。
 
 <返回/@wizskill>                     <前往主页/@main>
 
 [@meteor]
 #SAY
-MeteorStrike (Level 49)
+陨石术 (等级 49)
 
-Attacks all monsters in a certain area with meteors of fire falling from the sky.
-This will burn all the objects within the area. 
-It has a very long casting time but gives a higher damage than the Blizzard skill.
-If the caster is attacked while using the skill, it will be cancelled. 
-The damage inflicted raises with the skill level.
+召唤天降火流星，攻击一定范围内的所有怪物。
+范围内的所有目标都会被灼烧。 
+施法时间很长，但伤害高于暴风雪。
+施法时若受到攻击，技能会被打断。 
+造成的伤害随技能等级提升。
 
 <返回/@wizskill>                     <前往主页/@main>
 ------------------------------------------------------------------------------------------------------
 [@healing]
 #SAY
-Healing (Level 7)
-Heal himself or other players.
-MP will be consumed.
+治愈术 (等级 7)
+治疗自己或其他玩家。
+将消耗MP。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@ssword]
 #SAY
-SpiritSword (Level 9)
+精神力战法 (等级 9)
 
-Increase attack accuracy.
+提高攻击准确度。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@poison]
 #SAY
-Poisoning (Level 14)
+施毒术 (等级 14)
 
-Poison that keeps giving damage over certain time to enemies.
-MP and Poison will be consumed.
+使敌人持续受到伤害的毒。
+会消耗MP和毒药。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@sfb]
 #SAY
-SoulFireBall (Level 18)
+灵魂火符 (等级 18)
 
-Executes long-distance attacks like a wizards fireball skill,
-by hurling an amulet.
-MP and amulet will be consumed.
+像法师的火球术一样进行远程攻击，
+通过掷出护身符。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@summonskel]
 #SAY
-SummonSkeleton (Level 19)
+召唤骷髅 (等级 19)
 
-Create a familiar by making his shape through strong magic and resurrecting
-a spirit of strong power into this shape.
-MP and amulet will be consumed.
+用强力法术塑形，并将强大的灵魂
+复活到这个形体中，创造一只召唤兽。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@hiding]
 #SAY
-Hiding (Level 20)
+隐身术 (等级 20)
 
-Makes invisible to mobs by hiding traces. Hiding will allow player not to be
-seen if unless do not move or attack after exercising this skill.
-It's a useful skill to make any situation 1 on 1, as you can hide and use a
-distance attack and only attacked mobs will approach you.
+隐藏踪迹使怪物看不见你。使用隐身后
+只要不移动或攻击，玩家就不会被发现。
+这是制造一对一局面的实用技能，你可以隐身并使用
+远程攻击，只有被攻击的怪物才会靠近你。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@masshide]
 #SAY
-MassHiding (Level 21)
+集体隐身术 (等级 21)
 
-Upgrade version of hiding skill which also affect other players to be invisible.
-Max. 9 people can be invisible if all are in 3x3 square area.
-MP and amulet will be consumed.
+隐身术的升级版，也能让其他玩家隐身。
+3x3范围内最多可让9人隐身。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@soulshield]
 #SAY
-SoulShield (Level 22)
+幽灵盾 (等级 22)
 
-Increases magic defensive power.
-Its duration will be extended according to practice levels and SC power.
-MP and amulet will be consumed.
+提高魔法防御力。
+持续时间随修炼等级和道术提升而延长。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@rev]
 #SAY
-Revelation (Level 23)
-Reveals other HP (players or mobs).
-Its duration will be extended according to practice levels and SC power.
-MP will be consumed.
+心灵启示 (等级 23)
+显示其他目标(玩家或怪物)的HP。
+持续时间随修炼等级和道术提升而延长。
+将消耗MP。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@blessarm]
 #SAY
-BlessedArmour (Level 25)
+神圣战甲术 (等级 25)
 
-Increases physical defensive power which also affects people around
-the player. Duration time increases are practices level.
-MP and amulet will be consumed.
+提高物理防御力，同时影响玩家周围
+的人。持续时间随修炼等级提高。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@energyrep]
 #SAY
-EnergyRepulsor (Level 27)
+气功波 (等级 27)
 
-A wave of energy that sends anything stood next to them
-at 8o'clock direction reeling backwards.
-This skill is ineffective at higher level enemy.
-MP will be consumed.
+一道能量波，把站在身边的目标
+向8点钟方向击退。
+对等级更高的敌人无效。
+将消耗MP。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@traphex]
 #SAY
-TrapHexagon (Level 28)
+困魔咒 (等级 28)
 
-Trap a mob - confining it from the outer world.
-This trap will disappear if approach nearby hexagon.
-Trapped mob can evade it when they are attacked from distance.
-The trap Hexagon emits light to indicate its boundary.
-His skill is ineffective at higher level enemy.
-MP and amulet will be consumed.
+困住一个怪物——使其与外界隔绝。
+靠近六边形陷阱时它会消失。
+被远程攻击时，被困的怪物可以脱离。
+六边形陷阱会发光标示其边界。
+该技能对等级更高的敌人无效。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@puri]
 #SAY
-Purification (Level 30)
+净化术 (等级 30)
 
-Purifies poisoned or corrupted body by dark foce.
-MP and amulet will be consumed.
+净化被毒或黑暗力量侵蚀的身体。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@massheal]
 #SAY
-MassHealing (Level 31)
+群体治愈术 (等级 31)
 
-Heal several players at once 3X3 square max. 9 people.
-MP will be consumed.
+同时治疗多名玩家，3X3范围最多9人。
+将消耗MP。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@halluc]
 #SAY
-Hallucination (Level 31)
+迷魂术 (等级 31)
 
-Distracts enemy in chaos to fight each other.
-MP and amulet will be consumed.
+使敌人混乱并互相攻击。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@ultimateenhance]
 #SAY
-UltimateEnhancer (Level 33)
+无极真气 (等级 33)
 
-Increases physical attack.
-MP and amulet will be consumed.
+提高物理攻击力。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@summonshin]
 #SAY
-SummonShinsu (Level 35)
+召唤神兽 (等级 35)
 
-Summons a powerful fire breathing beast called Shinsu that will act as
-his or her own familiar.
-MP and amulet will be consumed.
+召唤一只会喷火的强大神兽，它将作为
+召唤者的召唤兽。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@summondeva]
 #SAY
-SummonHolyDeva (Level 38)
+召唤圣灵 (等级 38)
 
-Summons a HolyDeva.
-MP and amulet will be consumed.
+召唤一只圣灵。
+将消耗MP和护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@curse]
 #SAY
-Curse (Level 40)
+诅咒术 (等级 40)
 
-Reduces mob attacks (Attack Speed, DC, MC, SC)
+降低怪物攻击(攻击速度、DC、MC、SC)
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@rein]
 #SAY
-Reincarnation (Level 37)
+复活术 (等级 37)
 
-A supreme skill of Taoists which can revive a dead player.
-This skill requires long casting time and cast can be cancelled if attacked.
-So it is suggested to clean up the area and cast the skill with alliance protection.
-Success rate depends on the skill level. It requires an Amulet of Revival.
+道士的至高技能，可以复活死亡的玩家。
+该技能施法时间长，被攻击时会中断。
+建议先清空周围区域，并在行会保护下施放。
+成功率取决于技能等级。需要消耗一个复活护身符。
 
 <返回/@taoskill>                     <前往主页/@main>
 
 [@poisoncloud]
 #SAY
-PoisonCloud (Level 43)
+毒雾术 (等级 43)
 
-Throw the amulet and a very strong poison cloud will appear in the area.
-This requires high concentration of Taoism and mentality.
-Once the skill has been used, you will have to wait to use it again.
-It requires Grey Poison.
+掷出护身符，区域内会出现极强烈的毒雾。
+这需要极高的道术与精神力。
+技能使用后要等一段时间才能再次使用。
+需要消耗灰毒。
 
 <返回/@taoskill>                     <前往主页/@main>
 
@@ -799,187 +799,187 @@ It requires Grey Poison.
 
 [@focus]
 #SAY
-Focus (Level 7)
+凝神术（等级 7）
 
-Passively increases chance to hit with physical attacks. 
-Can also proc a critical attack to do extra damage.
+被动提高物理攻击的命中率。 
+还有几率触发暴击，造成额外伤害。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@straightshot]
 #SAY
-StraightShot (Level 9)
+直射术（等级 9）
 
-Infuses your arrow with mana to deal extra damage.
+为箭矢注入法力，造成额外伤害。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@mentalstate]
 #SAY
-MentalState (Level 11)
+精神状态（等级 11）
 
-TO BE ADDED
+待添加
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@doubleshot]
 #SAY
-DoubleShot (Level 14)
+双重射术（等级 14）
 
-Fire double arrows at your target.
+向目标射出双箭。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@meditation]
 #SAY
-Meditation (Level 19)
+冥想术（等级 19）
 
-Allows gathering of elements when attacking monsters. 
-Can gain up to 4 elements.
+攻击怪物时可以聚集元素。 
+最多可聚集 4 个元素。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@elementalshot]
 #SAY
-ElementalShot (Level 20)
+元素射击（等级 20）
 
-High damage magical attack. Damage is increased per element. 
-Generates 2 elements if none exist. Pushes back target if 
-archer is higher level.
+高伤害法术攻击，伤害随元素数量提升。 
+若无元素则生成 2 个元素。若弓箭手 
+等级更高，可击退目标。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@explosivetrap]
 #SAY
-ExplosiveTrap (Level 22)
+爆裂陷阱（等级 22）
 
-Lay down a row of traps that explode on contact with an enemy.
+布置一排陷阱，接触敌人时爆炸。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@concentration]
 #SAY
-Concentration (Level 23)
+专注术（等级 23）
 
-Increase the chance of gathering elements whilst active.
+生效期间提高聚集元素的几率。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@vampireshot]
 #SAY
-VamnpireShot (Level 26)
+吸血箭术（等级 26）
 
-Fire a leaching arrow that can heal the archer based on 
-damage done. Chance to gain Vampire buff which enhances 
-Cripple Shot and OneWithNature spells.
+射出一支吸血箭，按造成的伤害 
+为弓箭手回复生命。有几率获得吸血增益，强化 
+致残箭和天人合一法术。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@summonvampire]
 #SAY
-SummonVampire (Level 28)
+召唤吸血鬼（等级 28）
 
-Summon a spider vampire every 40 seconds to fight for you. 
-The vampire pet can leach HP to its master.
+每 40 秒召唤一只蜘蛛吸血鬼为你战斗。 
+吸血宠物可以把 HP 吸给主人。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@backstep]
 #SAY
-BackStep (Level 30)
+后撤步（等级 30）
 
-Leap backwards out of danger.
+向后跃出脱离危险。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@delayedexplosion]
 #SAY
-DelayedExplosion (Level 31)
+延迟爆炸（等级 31）
 
-Fire an arrow that has a delayed explosion. 
-Gather more elements for more damage.
+射出一支延迟爆炸的箭。 
+聚集更多元素可造成更高伤害。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@elementalbarrier]
 #SAY
-ElementalBarrier (Level 33)
+元素屏障（等级 33）
 
-Protects the caster with an elemental barrier. 
-More elements on cast increases damage reduction.
+用元素屏障保护施法者。 
+施法时元素越多，减伤越高。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@bindingshot]
 #SAY
-BindingShot (Level 35)
+束缚箭（等级 35）
 
-TO BE ADDED
+待添加
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@summontoad]
 #SAY
-SummonToad (Level 37)
+召唤蟾蜍（等级 37）
 
-Summon a toad to fight for you for 15 seconds. 
-The toad cannot move and will explode if its master 
-leaves its view range.
+召唤一只蟾蜍为你战斗 15 秒。 
+蟾蜍无法移动，如果主人 
+离开其视野范围，它就会爆炸。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@poisonshot]
 #SAY
-PoisonShot (Level 40)
+毒箭术（等级 40）
 
-Fire a poison arrow to green poison enemies. 
-Lasts maximum of 15 seconds. Chance to gain Poison 
-Buff which enhances Cripple Shot and OneWithNature spells.
+射出毒箭，使敌人染上绿毒。 
+最长持续 15 秒。有几率获得毒 
+增益，强化致残箭和天人合一法术。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@crippleshot]
 #SAY
-CrippleShot (Level 43)
+致残箭（等级 43）
 
-A special arrow that has enhances effects. 
-PoisonShot buff will make Cripple shot produce a 3×3 
-AOE poison attack. VampBuff will make Cripple shot 
-hit twice and steal HP.
+一支带有强化效果的特殊箭矢。 
+毒箭术增益会让致残箭产生 3×3 
+范围的毒攻击。吸血增益会让致残箭 
+命中两次并窃取 HP。
 <返回/@arcskill>                     <前往主页/@main>
 
 [@summonsnakes]
 #SAY
-SummonSnakes (Level 46)
+召唤毒蛇（等级 46）
 
-Summon a Totem that spawns a swarm of snakes that aggro 
-all monsters nearby and attack with a chance to paralysis 
-the target. Can only be cast every 80 seconds.
+召唤一根图腾，生成一群毒蛇，吸引 
+附近所有怪物的仇恨，攻击时有几率麻痹 
+目标。每 80 秒只能施放一次。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@napalmshot]
 #SAY
-NapalmShot (Level 48)
+凝固汽油弹（等级 48）
 
-Fire an arrow that explodes in a 5×5 radius around the target.
+射出一支在目标周围 5×5 范围爆炸的箭。
 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@onewithnature]
 #SAY
-OneWithNature (Level 50)
+天人合一（等级 50）
 
-Summon an elemental ring around the archer that deals damage 
-to all targets within a 5×5 radius of the archer.
+在弓箭手周围召唤元素环，对 
+弓箭手周围 5×5 内的所有目标造成伤害。
                                 
 <返回/@arcskill>                     <前往主页/@main>
 
 [@stonetrap]
 #SAY
-StoneTrap (Level 40)
+石化陷阱 (等级 40)
 
-TO BE ADDED.
+待补充。
                                 
 <返回/@arcskill>                     <前往主页/@main>
 
@@ -987,88 +987,88 @@ TO BE ADDED.
 
 [@basic]
 #SAY
-These are the basic info. You must know as beginner.
+这些是基础知识，新手必须掌握。
 
-<Basic control(rooting etc)/@basiccontrol>
-<Shop & NPC function/@shop>
-<Collection (slice meat, mining etc)/@slicemeat>
-<Production(Craft&upgrade)/@craft>
-<Check other user info./@checkother>
-<Command(part, guild, chat and etc)/@command>
+<基本操作(拾取等)/@basiccontrol>
+<商店与NPC功能/@shop>
+<采集 (割肉、挖矿等)/@slicemeat>
+<生产(制作与升级)/@craft>
+<查看其他玩家信息/@checkother>
+<命令(组队、行会、聊天等)/@command>
 
 <前往主页/@main>
 
 [@basiccontrol]
 #SAY
-Basic control:
+基本操作：
 
-*Item root: Left click to root the item in ground. If inventory is full or heavy
-enough, you can't root anymore.
-If other has priority, it will take some time to root the item.
-*Item dispose: Open the inventory and left click the item
-that will be disposed and click ground.
+*拾取物品：左键点击可拾取地上的物品。如果背包已满或超重，
+就无法再拾取。
+如果别人有优先权，拾取该物品需要一些时间。
+*丢弃物品：打开背包，左键点击要
+丢弃的物品，然后点击地面。
 
 <返回/@basic>                               <前往主页/@main>
 
 [@shop]
 #SAY
-<Item shop/@34678>
-*Weapon  *Accessory  *Clothing  *Blacksmith  *Regent  *Peddler
-<Special shop/@36487>
-*Meat store  *Lottery  *Bookstore  *Warehouse
-<Special structure/@37894>
-*Palace  *Competing room
-<Special NPC/@37682>
-*CraftLady  *SignPost  *Coordinate  *Guard
+<物品商店/@34678>
+*武器  *首饰  *服装  *铁匠  *药剂  *小贩
+<特殊商店/@36487>
+*肉铺  *彩票  *书店  *仓库
+<特殊建筑/@37894>
+*宫殿  *竞技场
+<特殊NPC/@37682>
+*女工匠  *路牌  *坐标  *守卫
 
 <返回/@basic>                               <前往主页/@main>
 
 [@craft]
 #SAY
-Production (Craft & Upgrade)
+生产 (制作与升级)
 
-This will be provided later.
+这部分以后提供。
 
 <返回/@basic>                               <前往主页/@main>
 
 [@checkother]
 #SAY
-Check other user info. <Ctrl+right click> to check the equipped item,
-guild information and etc.
+查看其他玩家信息。按 <Ctrl+右键> 查看其装备、
+行会信息等。
 
 <返回/@basic>                               <前往主页/@main>
 
 [@command]
 #SAY
-<Chat/@54678>            <Group/@46783>          <Guild/@54768>
+<聊天/@54678>            <组队/@46783>          <行会/@54768>
 
-*Private chat /Username  *Group shout !!         *Guild shout !~
-*Shout !                                         *Block guild chat
-*Ban private chat                                *Withdraw guild
-*Ban shout
+*私聊 /角色名  *组队喊话 !!         *行会喊话 !~
+*喊话 !                                         *屏蔽行会聊天
+*禁止私聊                                *退出行会
+*禁止喊话
 
 <返回/@basic>                               <前往主页/@main>
 
 [@slicemeat]
 #SAY
-Slice meat: Getting Meat from domestic animal such as chicken, Deer.
-Click at dead a body of those (Alt+left click) and acquire meat after slicing action.
+切肉：从鸡、鹿等家畜身上获取肉。
+对着它们的尸体（Alt+左键点击），切肉后即可获得肉。
 
-Mining: Equip PickAxe to mine. Left click will automatically of mining.
-Those acquired minerals will be used as raw material for
-crafting items or for selling.
+挖矿：装备矿镐即可挖矿。左键点击会自动挖矿。
+挖到的矿石可以作为原料用于
+制作物品或出售。
 
 <返回/@basic>              <下一页/@slicemeatnext>
 
 [@slicemeatnext]
 #SAY
-Medicinal stuff: You can acquire some medicinal stuff from dead body of
-some monsters when taken such slicing meat action.
-( SpittingSpider, CannibalPlant, CaveMaggot )
+药材：你可以从一些怪物的尸体上获取药材，
+只需对其尸体执行割肉动作。
+( 喷毒蜘蛛、食人花、洞蛆 )
 
-Item: You can acquire some item from dead body of some
-monsters when taken such slicing meat action.
-( SpiderBat, ToxicGhoul, Dung, etc )
+物品：你可以从一些怪物的尸体上获取物品，
+只需对其尸体执行割肉动作。
+( 蜘蛛蝙蝠、剧毒尸王、粪虫 等 )
 
 <返回/@basic>                <前往主页/@main>
 

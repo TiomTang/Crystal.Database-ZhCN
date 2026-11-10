@@ -11,38 +11,38 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello I'm the inspector dispatched from Bichon.
-I sincerely ask you to cooperate with the authorities
-if and when something happens around here.
- <询问/@ask1> what he is investigating
- <询问/@ask2> about the Bottomless Pit
+你好，我是从比奇派来的督察。
+如果这一带发生什么事情，
+还请你积极配合官府调查。
+ <询问/@ask1> 他在调查什么
+ <询问/@ask2> 关于无底洞
  <关闭/@exit>
 
 [@ask1]
-Lately, a number of unidentified monsters have been seen
-lurking around here,so I've been sent to find the cause.
-according to some rumors, there is a place called the
-"Bottomless Pit" on this island. I'm investigating
-whether that place has something to do with monsters.
- <Next/@next1>
+近来有许多不明怪物
+在这一带出没，所以派我来查明原因。
+据一些传言，这座岛上有个地方
+叫做“无底洞”。我正在调查
+那地方是否与怪物有关。
+ <下一页/@next1>
 
 [@next1]
-We haven't been able to locate the exact position of this
-Bottomless Pit... If you discover it's whereabouts,
-please make sure you inform me as soon as you can.
+我们一直无法确定这
+无底洞的确切位置……你若找到它的下落，
+请务必尽快告知我。
  <关闭/@exit>
 
 [@ask2]
-I dont actually know in great detail, but from what I heard,
-the place is haunted by mysterious forces, and because of that
-many villagers have disappeared without trace. People here are
-now calling it the "Bottomless Pit", an they have taken to
-avoid being out in the wilderness alone.
- <Next/@next2>
+详细情形我并不清楚，但我听说
+那地方被神秘力量萦绕，正因如此
+许多村民消失得无影无踪。这里的人
+现在都叫它“无底洞”，他们也因此
+避免独自待在荒野。
+ <下一页/@next2>
 
 [@next2]
-I'm afraid that's all the information I have. If you want to
-know more about it, go and speak to the village chief
+我恐怕只知道这些了。你若想
+了解更多，就去问村长吧
  <关闭/@exit>
 
 [Quests]

@@ -1,6 +1,6 @@
 [@Main]
 #SAY
-你好吗？Mirian <$USERNAME>！
+你好吗？玛法人 <$USERNAME>！
 我是公会领地商人，
 负责公会领地的租赁和销售事宜。
  

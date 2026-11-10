@@ -1,45 +1,45 @@
 [@Main]
 #SAY
-How are you. <$USERNAME>. I am the 'Guild Territory Steward'.
-How can I help you?
-Rental days remaining: <$GUILDGTRENTALDAYSLEFT>.
-I want to <Extend/@extend> the rental period.
-I want to <Summon/@summon> members to the territory.
-I want to <Apply or Cancel/@appcancel> sale of my guild territory.
+你好，<$USERNAME>。我是“行会领地管家”。
+我能帮你什么？
+租赁剩余天数：<$GUILDGTRENTALDAYSLEFT>。
+我想<延长/@extend>租期。
+我想<召唤/@summon>成员到领地。
+我想<申请或取消/@appcancel>行会领地的出售。
 
 [@summon]
 #SAY
-I will summon the members scattered in the Mir continent now.
-<Total summon/@agitrecall>
-<Individual summon/@agitonerecall>
+我现在把散布在玛法大陆的成员召唤过来。
+<全体召唤/@agitrecall>
+<单人召唤/@agitonerecall>
 <返回/@main>
 
 [@extend]
 #SAY
-<$GUILDEXTENDFEE> gold is required. 
-To extend the rental period of this territory for 7 additional days.
-After the rental period expiration, the guild is given 7 days
-to extend. If no fee is paid even within the additional 7 days,
-the ownership of the guild territory will be completely removed.
-<Extend rental period/@agitextend>
+需要支付 <$GUILDEXTENDFEE> 金币。 
+把这片领地的租期再延长7天。
+租期到期后，行会还有7天
+时间来续租。若在这额外的7天内仍未缴费，
+行会对该领地的所有权将被彻底收回。
+<延长租期/@agitextend>
 <返回/@main>
 
 #ELSEACT
-LocalMessage "Come back when you own this territory!" Hint
+LocalMessage "等你拥有了这片领地再来吧！" Hint
 
 [@agitextend]
 #IF
 HASGT
 #ACT
 EXTENDGT
-LOCALMESSAGE "Rental extend 7 additional days." Hint
+LOCALMESSAGE "租期已延长7天。" Hint
 
 [@agitrecall]
 #ACT
 GTALLRECALL
 
 [@agitonerecall]
-<Who do you wish to summon?/@@summontest>
+<你想召唤谁？/@@summontest>
 
 [@@summontest]
 #ACT
@@ -48,11 +48,11 @@ GTRECALL <$OUTPUT(A1)>
 
 [@appcancel]
 #SAY
-I will start & cancel the sale of guild territory.
-After a successful transaction, the ownership shall be
-transferred to the buyer 24 hours later.
-The master and members of the guild that sold the territory
-will be booted out automatically.
-<Apply for sale of Guild territory/@@agitforsale>
-<Cancel sale of Guild territory/@agitforsalecancel>
+我负责发起和取消行会领地的出售。
+交易成功后，所有权将在
+24小时后转移给买家。
+出售领地的行会会长与成员
+将被自动驱逐。
+<申请出售行会领地/@@agitforsale>
+<取消出售行会领地/@agitforsalecancel>
 <返回/@main>

@@ -317,9 +317,9 @@ SET [501] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen SpittingSpider 2
-MonGen Oma 3
-MonGen RakingCat 2
+MonGen 喷毒蜘蛛 2
+MonGen 半兽人 3
+MonGen 钉耙猫 2
 [@check1]
 #IF
 CHECKMON >= 1 em003
@@ -336,11 +336,11 @@ GOTO @say2
 <好的./@exit>
 [@say2]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start2>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start2>
+<我受够了，让我走。/@oldman>
 [@start2]
 #ACT
 SET [501] 0
@@ -348,10 +348,10 @@ SET [502] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen CaveMaggot 2
-MonGen AxeSkeleton 1
-MonGen BoneWarrior 2
-MonGen BoneFighter 3
+MonGen 洞蛆 2
+MonGen 掷斧骷髅 1
+MonGen 骷髅战士 2
+MonGen 骷髅斗士 3
 [@check2]
 #IF
 CHECKMON >= 1 em003
@@ -381,10 +381,10 @@ SET [503] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen CursedShaman 3
-MonGen CursedPriest 2
-MonGen ShamanZombie 2
-MonGen CrawlerZombie 3
+MonGen 被诅咒的萨满 3
+MonGen 被诅咒的祭司 2
+MonGen 萨满僵尸 2
+MonGen 爬行僵尸 3
 [@check3]
 #IF
 CHECKMON >= 1 em003
@@ -414,10 +414,10 @@ SET [504] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen SandWorm 3
-MonGen VisceralWorm 3
-MonGen OmaFighter 4
-MonGen OmaWarrior 1
+MonGen 沙虫 3
+MonGen 肠虫 3
+MonGen 半兽战士 4
+MonGen 半兽勇士 1
 [@check4]
 #IF
 CHECKMON >= 1 em003
@@ -447,7 +447,7 @@ SET [505] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen Ghoul 1
+MonGen 尸王 1
 [@check5]
 #IF
 CHECKMON >= 1 em003
@@ -464,11 +464,11 @@ GOTO @say10
 <好的./@exit>
 [@say10]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start6>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start6>
+<我受够了，让我走。/@oldman>
 [@start6]
 #ACT
 SET [505] 0
@@ -476,10 +476,10 @@ SET [506] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen Dung 2
-MonGen Dark 2
-MonGen FlamingWooma 4
-MonGen WoomaFighter 4
+MonGen 粪虫 2
+MonGen 黑暗 2
+MonGen 火焰沃玛 4
+MonGen 沃玛战士 4
 [@check6]
 #IF
 CHECKMON >= 1 em003
@@ -496,11 +496,11 @@ GOTO @say12
 <好的./@exit>
 [@say12]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start7>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start7>
+<我受够了，让我走。/@oldman>
 [@start7]
 #ACT
 SET [506] 0
@@ -508,9 +508,9 @@ SET [507] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen GiantWorm 3
-MonGen Centipede 4
-MonGen Tongs 4
+MonGen 巨型蠕虫 3
+MonGen 蜈蚣 4
+MonGen 钳虫 4
 [@check7]
 #IF
 CHECKMON >= 1 em003
@@ -527,11 +527,11 @@ GOTO @say14
 <好的./@exit>
 [@say14]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start8>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start8>
+<我受够了，让我走。/@oldman>
 [@start8]
 #ACT
 SET [507] 0
@@ -539,9 +539,9 @@ SET [508] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen WedgeMoth 3
-MonGen RedBoar 3
-MonGen BlackBoar 3
+MonGen 楔蛾 3
+MonGen 红野猪 3
+MonGen 黑野猪 3
 [@check8]
 #IF
 CHECKMON >= 1 em003
@@ -558,11 +558,11 @@ GOTO @say16
 <好的./@exit>
 [@say16]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start9>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start9>
+<我受够了，让我走。/@oldman>
 [@start9]
 #ACT
 SET [508] 0
@@ -570,10 +570,10 @@ SET [509] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen SpiderBat 3
-MonGen GreatSpider 2
-MonGen LureSpider 2
-MonGen VenomSpider 2
+MonGen 蜘蛛蝙蝠 3
+MonGen 巨蜘蛛 2
+MonGen 诱捕蜘蛛 2
+MonGen 毒蜘蛛 2
 [@check9]
 #IF
 CHECKMON >= 1 em003
@@ -590,11 +590,11 @@ GOTO @say18
 <好的./@exit>
 [@say18]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start10>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start10>
+<我受够了，让我走。/@oldman>
 [@start10]
 #ACT
 SET [509] 0
@@ -602,7 +602,7 @@ SET [510] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen WoomaGuardian 1
+MonGen 沃玛卫士 1
 [@check10]
 #IF
 CHECKMON >= 1 em003
@@ -619,11 +619,11 @@ GOTO @say20
 <好的./@exit>
 [@say20]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start11>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start11>
+<我受够了，让我走。/@oldman>
 [@start11]
 #ACT
 SET [510] 0
@@ -631,10 +631,10 @@ SET [511] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen BigApe 2
-MonGen EvilApe 2
-MonGen RedEvilApe 1
-MonGen GreyEvilApe 1
+MonGen 巨猿 2
+MonGen 邪恶猿 2
+MonGen 红色邪恶巨猿 1
+MonGen 灰色邪恶巨猿 1
 [@check11]
 #IF
 CHECKMON >= 1 em003
@@ -651,11 +651,11 @@ GOTO @say22
 <好的./@exit>
 [@say22]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start12>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start12>
+<我受够了，让我走。/@oldman>
 [@start12]
 #ACT
 SET [511] 0
@@ -663,9 +663,9 @@ SET [512] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen BoneArcher 2
-MonGen BoneBlademan 2
-MonGen BoneCaptain 2
+MonGen 骷髅弓箭手 2
+MonGen 骷髅刀兵 2
+MonGen 骷髅队长 2
 [@check12]
 #IF
 CHECKMON >= 1 em003
@@ -682,11 +682,11 @@ GOTO @say24
 <好的./@exit>
 [@say24]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start13>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start13>
+<我受够了，让我走。/@oldman>
 [@start13]
 #ACT
 SET [512] 0
@@ -694,11 +694,11 @@ SET [513] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen LeftGuard 1
-MonGen RightGuard 1
-MonGen WindMinotaur 1
-MonGen IceMinotaur 2
-MonGen FireMinotaur 2
+MonGen 左护卫 1
+MonGen 右护卫 1
+MonGen 风牛头魔 1
+MonGen 冰牛头魔 2
+MonGen 火牛头魔 2
 [@check13]
 #IF
 CHECKMON >= 1 em003
@@ -715,11 +715,11 @@ GOTO @say26
 <好的./@exit>
 [@say26]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start14>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start14>
+<我受够了，让我走。/@oldman>
 [@start14]
 #ACT
 SET [513] 0
@@ -727,12 +727,12 @@ SET [514] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen EvilApe 1
-MonGen RedEvilApe 1
-MonGen LeftGuard 1
-MonGen RightGuard 1
-MonGen WindMinotaur 1
-MonGen IceMinotaur 2
+MonGen 邪恶猿 1
+MonGen 红色邪恶巨猿 1
+MonGen 左护卫 1
+MonGen 右护卫 1
+MonGen 风牛头魔 1
+MonGen 冰牛头魔 2
 [@check14]
 #IF
 CHECKMON >= 1 em003
@@ -749,11 +749,11 @@ GOTO @say28
 <好的./@exit>
 [@say28]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start15>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start15>
+<我受够了，让我走。/@oldman>
 [@start15]
 #ACT
 SET [514] 0
@@ -761,7 +761,7 @@ SET [515] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen WhiteBoar 1
+MonGen 白野猪 1
 [@check15]
 #IF
 CHECKMON >= 1 em003
@@ -778,11 +778,11 @@ GOTO @say30
 <好的./@exit>
 [@say30]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start16>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start16>
+<我受够了，让我走。/@oldman>
 [@start16]
 #ACT
 SET [515] 0
@@ -790,9 +790,9 @@ SET [516] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen ZumaArcher 2
-MonGen ZumaStatue 1
-MonGen ZumaGuardian 1
+MonGen 祖玛弓箭手 2
+MonGen 祖玛雕像 1
+MonGen 祖玛卫士 1
 [@check16]
 #IF
 CHECKMON >= 1 em003
@@ -809,11 +809,11 @@ GOTO @say32
 <好的./@exit>
 [@say32]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start17>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start17>
+<我受够了，让我走。/@oldman>
 [@start17]
 #ACT
 SET [516] 0
@@ -821,10 +821,10 @@ SET [517] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen LeftGuard 1
-MonGen RightGuard 1
-MonGen WedgeMoth 2
-MonGen ZumaGuardian 3
+MonGen 左护卫 1
+MonGen 右护卫 1
+MonGen 楔蛾 2
+MonGen 祖玛卫士 3
 [@check17]
 #IF
 CHECKMON >= 1 em003
@@ -841,11 +841,11 @@ GOTO @say34
 <好的./@exit>
 [@say34]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start18>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start18>
+<我受够了，让我走。/@oldman>
 [@start18]
 #ACT
 SET [517] 0
@@ -853,9 +853,9 @@ SET [518] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen CrossbowOma 1
-MonGen SwordOma 1
-MonGen AxeOma 1
+MonGen 半兽弩手 1
+MonGen 半兽剑士 1
+MonGen 半兽斧兵 1
 [@check18]
 #IF
 CHECKMON >= 1 em003
@@ -872,11 +872,11 @@ GOTO @say36
 <好的./@exit>
 [@say36]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start19>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start19>
+<我受够了，让我走。/@oldman>
 [@start19]
 #ACT
 SET [518] 0
@@ -884,7 +884,7 @@ SET [519] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen EvilSnake 1
+MonGen 邪恶之蛇 1
 [@check19]
 #IF
 CHECKMON >= 1 em003
@@ -901,11 +901,11 @@ GOTO @say38
 <好的./@exit>
 [@say38]
 #SAY
-You defeated them all already.
-But there are still more to go.
-Will you continue the challenge?
-<Proceed./@start20>
-<I've had enough. Let me go./@oldman>
+你已经把它们全部击败了。
+但后面还有更多。
+你要继续挑战吗？
+<继续/@start20>
+<我受够了，让我走。/@oldman>
 
 [@start20]
 #ACT
@@ -914,7 +914,7 @@ SET [520] 1
 Param1 em003
 Param2 13
 Param3 16
-MonGen KingScorpion 1
+MonGen 蝎王 1
 [@check20]
 #IF
 CHECKMON >= 1 em003
@@ -931,13 +931,13 @@ GOTO @say40
 <好的./@exit>
 [@say40]
 #SAY
-Wow, you defeated them all!!
-Oh... how can someone be so mighty...
-I'm so honored to meet you.
-You are the true hero can save the continent
-when the crisis arrives.
-I'll send you back to the village with a prize.
-<Thank you./@finish>
+哇，你把它们全打败了！！
+哦……怎么会有人这么强大……
+见到你真是我的荣幸。
+你是真正的英雄，能在大难来临时
+拯救这片大陆。
+我会送你回村，并给你一份奖励。
+<谢谢你/@finish>
 [@finish]
 #IF
 CHECK [520] 1
@@ -964,7 +964,7 @@ SET [517] 0
 SET [518] 0
 SET [519] 0
 SET [520] 0
-GIVEITEM BenedictionOil 1
+GIVEITEM 祝福油 1
 GIVEGOLD 50000
 MOVE 0 355 237
 #ELSEACT

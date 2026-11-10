@@ -14,7 +14,7 @@ GOTO @Main-1
 你好，旅行者，有什么可以帮你的吗？
  
 <查看/@BuySell> 商店 
-<询问/@Ask> about Item
+<询问/@Ask>物品信息
  
 <关闭/@exit>
 
@@ -44,10 +44,10 @@ GOTO @Main-1
 
 [@dungeonescape]
 #SAY
-A Dungeonescape scroll is a magic paper that moves you promptly
-to certain fields near the last village you visited.
-The power of Dungeonescape scroll is weak compared with
-TownTeleport scrolls but it could still save your liefe.
+地牢逃脱卷轴是一种魔法纸，可以立刻把你
+送到上一次到访村庄附近的野外。
+地牢逃脱卷轴的效力比不上
+城镇传送卷轴，但它仍然能救你一命。
  
 <返回/@Ask>
 

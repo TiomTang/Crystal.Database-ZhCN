@@ -1,5 +1,5 @@
 [@main]
-<移动/@move2nd> to the 2nd floor.
+<移动/@move2nd> 前往2层。
 <关闭/@exit>
 
 [@move2nd]

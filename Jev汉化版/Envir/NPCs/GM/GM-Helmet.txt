@@ -2,37 +2,37 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
 我看到你穿着： {<$HELMET>/CORAL}
-<Buy/@Buy> Helmet
-<出售/@Sell> Helmet
-<Repair/@Repair> Helmet
-<Special Repair/@SRepair> Helmet
+<购买/@Buy> 头盔
+<出售/@Sell> 头盔
+<修理/@Repair> 头盔
+<特修/@SRepair> 头盔
 
 #ELSEACT
 MOVE 0 300 300
  
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
 <返回/@Main>
 
 [@Repair]
 #SAY
-Repair.
+修理。
  
 <返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+特修。
  
 <返回/@Main>
 
@@ -41,7 +41,7 @@ Special repair.
 4
 
 [Trade]
-祈祷头盔
+灵魂头盔
 记忆头盔
 传奇头盔
 白骨头巾

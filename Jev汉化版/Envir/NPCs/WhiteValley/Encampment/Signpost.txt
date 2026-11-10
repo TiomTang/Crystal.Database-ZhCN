@@ -6,7 +6,7 @@
 [@main-1]
 #SAY
 <武器店/@go-weap>   <盔甲店/@go-cloth>   <饰品店/@go-access>   
-<General Store/@go-pot>   <书店/@go-book>
+<杂货店/@go-pot>   <书店/@go-book>
 
 <关闭/@Exit>
  

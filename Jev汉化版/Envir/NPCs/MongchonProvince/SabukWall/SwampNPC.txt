@@ -1,16 +1,16 @@
 [@Main]
 #SAY
-Hello Mirian, I'm currently protecting the Entrance to the Swamp.
+你好，玛法人，我现在守着沼泽入口。
  
-<Bribe/@next1> to enter the swamp.
-<Show Relic/@next2> - (Quest Reward Item).
+<贿赂/@next1> 进入沼泽。
+<出示圣物/@next2> - （任务奖励物品）。
 <关闭/@exit>
 
 [@next1]
 #SAY
-Are you crazy? The swamp is very dangerous.
+你疯了吗？沼泽非常危险。
  
-<Bribe/@next1_1> 150,000 Gold
+<贿赂/@next1_1> 150,000 金币
 <关闭/@exit>
 
 [@next1_1]
@@ -22,7 +22,7 @@ MOVE EBEE01 15 271
 BREAK 
 CLOSE
 #ELSESAY
-You don't have enough funds..
+你的钱不够……
  
 <关闭/@exit>
 
@@ -30,13 +30,13 @@ You don't have enough funds..
 #IF
 CHECKITEM SwampRelic
 #SAY
-Ah that Relic, such a beautiful piece of work.
-Be safe traveler.
+啊，那件遗物，做工真是精美。
+路上小心，旅人。
 
-<Enter/@next2_1> the swamp.
+<进入/@next2_1> 沼泽。
 <关闭/@exit>
 #ELSESAY
-Please don't try trick me.
+别想耍我。
  
 <关闭/@exit>
 

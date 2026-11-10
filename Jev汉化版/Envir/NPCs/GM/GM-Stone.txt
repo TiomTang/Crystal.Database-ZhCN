@@ -2,23 +2,23 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
 我看到你穿着： {<$STONE>/CORAL}
-<Buy/@Buy> Stone
-<出售/@Sell> Stone
+<购买/@Buy> 石头
+<出售/@Sell> 石头
 
 #ELSEACT
 MOVE 0 300 300
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
 <返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 

@@ -2,15 +2,15 @@
 #IF
 ISADMIN
 #Say
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-<Look at Quest Items/@Buy>
+你好 {<$USERNAME>/KHAKI}，我叫 {<$NPCNAME>/KHAKI}。
+<查看任务物品/@Buy>
 
 #ELSEACT
 MOVE 0 300 300
  
 [@Buy]
 #SAY
-Buy.
+购买。
  
 <返回/@Main>
 
@@ -21,7 +21,7 @@ Buy.
 [Trade]
 食人花叶
 姜茶
-蛮牛牙
+半兽牙
 食人花茎
 野猪牙
 毒囊
@@ -61,7 +61,7 @@ BoxofHolyWater(3)
 赃金
 隐藏卷轴
 亡者之心
-TaineeSuit
+学徒套装
 僵尸之心
 古树
 破旧斧

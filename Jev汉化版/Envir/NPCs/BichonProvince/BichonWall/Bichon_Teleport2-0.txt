@@ -11,24 +11,24 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello i'm Harrison, the wandering warrior.
-I transport men and goods to other places fast and safe. 
-Just pay the fee then ill escort you to anywhere.
-So what do you say?
+你好，我是流浪武士哈里森。
+我把人和货物快速安全地送到别处。 
+只要付钱，我就送你去任何地方。
+怎么样？
  
-I'll use this <Service/@tele>
-Maybe next <Time/@exit> 
+我要使用这个<服务/@tele>
+下次再说吧 <关闭/@exit> 
 
 [@tele]
 #SAY
-Which place would you like to go?
+你想去哪个地方？
  
-<<BorderVillage/@Border>>
-<<BichonWall/@BichonWall>>
-<<SerpentValley/@Serpent>>
-<<MudWall/@MudWall>>
-<<TaoistSchool/@TaoVillage>>
-<<CastleGi-Ryoong/@CastleGi>>
+<边境村/@Border>
+<比奇城/@BichonWall>
+<蛇谷/@Serpent>
+<土墙/@MudWall>
+<道士村/@TaoVillage>
+<封魔谷/@CastleGi>
 
 [@Border]
 #ACT

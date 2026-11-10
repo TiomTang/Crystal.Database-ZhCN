@@ -3,8 +3,8 @@
 船会去很多地方。船马上就要出发了。
 乘客们，请登船。
  
- <To Bichon Province/@brdmove> Pay 2,000 {Gold/Gold} and Board.
- <前往雪谷/@brdmove1> Pay 12,000 {Gold/Gold} and Board.
+ <前往比奇省/@brdmove> 支付 2,000 {金币/Gold} 即可登船。
+ <前往雪谷/@brdmove1> 付 12,000 {金币/Gold} 便可登船。
 <谈谈/@talk> 各条前线。
  
 [@talk]

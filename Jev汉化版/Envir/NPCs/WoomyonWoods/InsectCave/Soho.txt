@@ -1,6 +1,6 @@
 [@main]
 #SAY
-He seems to be pisoned, He has cold sweat on his face.
+他看起来中了毒, 脸色很差.
 
 <关闭/@exit>
 

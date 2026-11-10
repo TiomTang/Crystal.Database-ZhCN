@@ -14,7 +14,7 @@ GOTO @Main-1
 很高兴见到你，我能为你做些什么？
  
 <购买/@Buy> 钓鱼用品.
-<出售/@sell> Fish.
+<出售/@sell> 鱼。
  
 <关闭/@exit>
 
@@ -28,7 +28,7 @@ GOTO @Main-1
 
 [@sell]
 #SAY
-Lay down your fishies to be sold
+把你要卖的鱼放下
  
  
  <返回/@main>
@@ -39,7 +39,7 @@ Lay down your fishies to be sold
  
 <返回/@Main>
 
-[Type]
+[Types]
 
 
 [Trade]

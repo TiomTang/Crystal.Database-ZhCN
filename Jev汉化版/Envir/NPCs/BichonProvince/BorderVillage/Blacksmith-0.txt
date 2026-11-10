@@ -11,10 +11,10 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Welcome. Thanks for dropping in.
+你好，请问你需要些什么？
  
 <查看/@BuySell> 商店
-<Repair/@Repair> Weapon.
+<修理/@Repair> 武器.
  
 <关闭/@exit>
 
@@ -33,8 +33,8 @@ Welcome. Thanks for dropping in.
 
 [@Repair]
 #SAY
-Would you like to repair a weapon?
-Show me the weapon that needs it.
+你想要修理武器?
+请把它拿来让我看看.
  
 <返回/@main>
 
@@ -59,7 +59,7 @@ Show me the weapon that needs it.
 八荒
 海魂
 半月
-BladesofVelocity
+音速刀
 杉木铁弓
 矿镐
 

@@ -1,6 +1,6 @@
 [@Main]
 #SAY
-I'm the Cave researcher in this area.
+我是一名洞穴守护者，负责阻击怪物.
 
 <关闭/@exit>
 
