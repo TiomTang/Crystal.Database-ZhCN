@@ -1,0 +1,51 @@
+[@MAIN]
+#IF
+CHECK [540] 1
+#ACT
+GOTO @MAIN-1
+#ELSEACT
+GOTO @CHECK2
+
+[@CHECK2]
+#IF
+CHECK [541] 1
+#ACT
+GOTO @MAIN-2
+#ELSEACT
+GOTO @MAIN-3
+
+[@MAIN-1]
+#SAY
+你好，旅行者……我一直听闻皇帝陛下的善行美德。
+ 
+<关闭/@exit>
+
+[@MAIN-2]
+#SAY
+再次问候你，旅人。今天天气不错，不是吗。
+ 
+<关闭/@exit>
+
+[@MAIN-3]
+#IF
+CHECKQUEST 157 1
+#SAY
+感谢你，旅人，你为我省了不少时间。
+而且天啊，她废话可真多……
+
+所以你想让我帮忙传播<皇帝/@Emperor>的善行？
+<关闭/@exit>
+#ELSESAY
+你先为我做点事情怎么样？
+ 
+<关闭/@exit>
+
+[@Emperor]
+#ACT
+SET [541] 1
+#SAY
+好的，旅行者。
+ 
+<关闭/@exit>
+[Quests]
+156

@@ -1,0 +1,53 @@
+;Gold
+1/5 Gold 25
+
+;Pots + Other
+1/5 生命药剂(小) 
+1/5 魔力药剂(小) 
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/2 虫卵 
+1/10 虫卵 
+
+;Quests
+1/5 遗物 Q
+1/200 古代镰刀 Q

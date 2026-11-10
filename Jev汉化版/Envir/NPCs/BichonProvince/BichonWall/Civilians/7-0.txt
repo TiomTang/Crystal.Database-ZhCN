@@ -1,0 +1,41 @@
+[@MAIN]
+#IF
+CHECK [539] 1
+#ACT
+GOTO @MAIN-1
+#ELSEACT
+GOTO @CHECK2
+
+[@CHECK2]
+#IF
+CHECK [541] 1
+#ACT
+GOTO @MAIN-2
+#ELSEACT
+GOTO @MAIN-3
+
+[@MAIN-1]
+#ACT
+SET [539] 0
+#SAY
+啊，你就是那个旅行者……我最近一直有所耳闻。
+但我绝不会向任何人透露关于皇帝的事！
+ 
+<关闭/exit>
+
+[@MAIN-2]
+#ACT
+SET [541] 0
+#SAY
+啊，你就是那个旅行者……我最近一直有所耳闻。
+但我绝不会向任何人透露关于皇帝的事！
+ 
+<关闭/exit>
+
+[@MAIN-3]
+#SAY
+你可曾听闻过那位皇帝？
+他真是个懒惰无用的蠢货。我们越早将他赶下王座越好。
+现在是自由民众治理这片土地的时候了。
+ 
+<关闭/@exit>

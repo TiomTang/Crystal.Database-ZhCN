@@ -1,0 +1,30 @@
+[@Description]
+你听说过{林间小道/Yellow}吗？那是个收集资源的绝佳地点。
+请前往那里并收集我所需要的材料。
+
+[@TaskDescription]
+请通过击杀{毒蜘蛛/Crimson}和{巨蜘蛛/Crimson}，
+收集10个{红线/LightSteelBlue}和10个{黑线/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+红线 10
+黑线 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+5900
+
+[@GoldReward]
+5900
+
+// Pickup - Merchant_Sam 1003 13 16
+// Hand In - Merchant_Sam 1003 13 16

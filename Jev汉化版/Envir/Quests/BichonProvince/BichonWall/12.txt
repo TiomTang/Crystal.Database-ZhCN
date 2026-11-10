@@ -1,0 +1,27 @@
+[@Description]
+你知道{食人花茶/LightSteelBlue}吗？这是最棒的茶了。
+我很想喝一些，但不太容易得到。你能请{工艺女士/LimeGreen}
+帮我做些{食人花茶/LightSteelBlue}吗？
+ 
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+439
+
+[@GoldReward]
+580
+
+// Pickup - 
+// Hand In - CraftsLady_Alice 0 321 265

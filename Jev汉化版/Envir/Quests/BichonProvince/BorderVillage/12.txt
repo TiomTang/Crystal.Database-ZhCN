@@ -1,0 +1,28 @@
+[@Description]
+你现在看起来更像一位训练有素的法师了。
+我已经让 彼得 给你安排了一些事情去做。
+奖励会在许多方面对你有帮助，
+
+[@TaskDescription]
+去找 {传奇向导 彼得/LimeGreen} 坐标 328:258
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - ArchMage_Robert 0 8 11
+// Hand In - MirGuide_Peter 0 328 258

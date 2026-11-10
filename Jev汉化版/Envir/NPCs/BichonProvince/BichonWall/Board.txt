@@ -1,0 +1,202 @@
+[@Main]
+#SAY
+<使用传送./@main-1> 至村庄商店
+听一听村里的<新闻/@ask>
+
+我想了解 <转生/@RebirthMain>
+
+<<创建英雄/@CreateHero/Green>>
+<<复活英雄/@ReviveHero/Red>>
+<<封印英雄/@SealHero/Yellow>>
+<<删除英雄/@DeleteHero/Blue>>
+
+[@main-1]
+#SAY
+<武器店/@go-weap>   <盔甲店/@go-cloth>   <旅店/@go-inn>
+<饰品店/@go-access>   <药剂店/@go-pot>   <比奇内城/@go-palace>
+<书店/@go-book>  <肉铺/@go-meat>   <理发师/@go-hairdresser>
+
+<关闭/@Exit>
+
+[@ask]
+#SAY
+新闻：
+旅行商人达米安每天9:30至10:30期间出现
+你可以将所有战利品出售给他
+他经常在书店附近逗留
+
+<返回/@Main>
+
+[@go-weap]
+#ACT
+Move 0103
+
+[@go-cloth]
+#ACT
+Move 0106
+
+[@go-inn]
+#ACT
+Move 0125
+
+[@go-access]
+#ACT
+Move 0105
+
+[@go-pot]
+#ACT
+Move 0108
+
+[@go-palace]
+#ACT
+Move 0122
+
+[@go-book]
+#ACT
+Move 0104
+
+[@go-meat]
+#ACT
+Move 0102
+
+[@go-merchant]
+#ACT
+Move 0 263 256
+
+[@go-tavern]
+#ACT
+Move 0101
+
+[@go-statues]
+#ACT
+Move 0 351 243
+
+[@go-hairdresser]
+#ACT
+MOVE 0107
+
+[@ReviveHero]
+#ACT
+ReviveHero
+
+[@SealHero]
+#ACT
+SealHero
+
+[@DeleteHero]
+#ACT
+DeleteHero
+
+[@RebirthMain]
+#SAY
+转生从60级开始，根据您转生后的等级授予转生效果。
+
+转生 1 - <等级 60-69/@RB1>
+转生 2 - <等级 70-79/@RB2>
+转生 3 - <等级 80+/@RB3>
+
+查看上方的转生资格说明。
+
+[@RB1]
+#IF
+LEVEL < 60
+#SAY
+你需要达到60级以上才能转生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+#ELSEACT
+GOTO @RB1CHECK
+
+[@RB1CHECK]
+#IF
+CHECK [993] 0
+#SAY
+你想要转生吗？
+
+<是的/@RB1APPLY>       <不是/@RebirthMain>
+#ELSESAY
+你已经是重生1次了。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[@RB1APPLY]
+#ACT
+SET [993] 1
+SET [1000] 1
+ADDNAMELIST ../NameLists/Rebirth1.txt
+#SAY
+你现在重获新生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[@RB2]
+#IF
+LEVEL < 70
+#SAY
+你需要达到 70 级才能转生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+#ELSEACT
+GOTO @RB2CHECK
+
+[@RB2CHECK]
+#IF
+CHECK [994] 0
+#SAY
+你想要转生吗？
+
+<是的/@RB2APPLY>       <不是/@RebirthMain>
+#ELSESAY
+你已经是重生2次了。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[@RB2APPLY]
+#ACT
+SET [993] 0
+SET [994] 1
+DELNAMELIST ../NameLists/Rebirth1.txt
+ADDNAMELIST ../NameLists/Rebirth2.txt
+#SAY
+你现在重获新生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[@RB3]
+#IF
+LEVEL < 80
+#SAY
+你需要达到 80 级才能转生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+#ELSEACT
+GOTO @RB3CHECK
+
+[@RB3CHECK]
+#IF
+CHECK [995] 0
+#SAY
+你想要转生吗？
+
+<是的/@RB3APPLY>       <不是/@RebirthMain>
+#ELSESAY
+你已经是重生3次了。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[@RB3APPLY]
+#ACT
+SET [994] 0
+SET [995] 1
+DELNAMELIST ../NameLists/Rebirth2.txt
+ADDNAMELIST ../NameLists/Rebirth3.txt
+#SAY
+你现在重获新生。
+
+<返回/@RebirthMain>     <离开/@EXIT>
+
+[Quests]
+140
+-140
+141
+-141

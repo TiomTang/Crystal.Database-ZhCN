@@ -1,0 +1,26 @@
+[@Description]
+
+[@TaskDescription]
+消灭 20 个 {风牛头魔/Crimson}、{雷牛头魔/Crimson}、{火牛头魔/Crimson} 和 {冰牛头魔/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+雷牛头魔 20
+火牛头魔 20
+冰牛头魔 20
+风牛头魔 20
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+54000
+
+[@GoldReward]
+54000

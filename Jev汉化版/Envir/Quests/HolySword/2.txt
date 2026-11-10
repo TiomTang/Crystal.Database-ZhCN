@@ -1,0 +1,27 @@
+[@Description]
+前往 {林间小道/Yellow} 消灭 {根蜘蛛/Crimson}，
+然后返回位于 {道馆村/Yellow} 的 {佩里/LimeGreen}。
+
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+根蜘蛛 1 "在林间小道杀死根蜘蛛"
+
+[@ItemTasks]
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - Master_Perry 1002 14 13
+// Hand In - 

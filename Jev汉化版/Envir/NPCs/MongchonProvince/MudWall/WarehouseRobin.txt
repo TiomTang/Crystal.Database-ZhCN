@@ -1,0 +1,69 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Hello traveler, What can i do for you? 
+ 
+<兑换/@mbind> 材料
+ 
+<关闭/@exit>
+
+[@mbind]
+#SAY
+我可以将金条、一捆金条和一箱金条兑换回{金币/Gold}。
+告诉我你的要求。
+ 
+兑换: <金条/@GBar> 为 {金币/GOLD} - 佣金 {(2000 金币)/Gold}
+兑换: <一捆金条/@GBBundle> 为 {金币/GOLD} - 佣金 {(10000 金币)/Gold}
+兑换: <一箱金条/@GChest> 为 {金币/GOLD} - 佣金 {(20000 金币)/Gold}
+<返回/@main> - <关闭/@exit>
+
+[@GBar]
+#IF
+CHECKITEM GoldBar 1
+#ACT
+TAKEITEM GoldBar 1
+GIVEGOLD 998000
+#ELSESAY
+你没有金条可以给我兑换……
+除非你确实有，否则别回来。
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GBBundle]
+#IF
+CHECKITEM GoldBarBundle 1
+#ACT
+TAKEITEM GoldBarBundle 1
+GIVEGOLD 4990000
+#ELSESAY
+你没有一捆金条可以给我兑换……
+除非你确实有，否则别回来。
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GChest]
+#IF
+CHECKITEM GoldChest 1
+#ACT
+TAKEITEM GoldChest 1
+GIVEGOLD 9980000
+#ELSESAY
+你没有一捆金条可以给我兑换……
+除非你确实有，否则别回来。
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[Quests]
+-77
+78
+-78

@@ -1,0 +1,79 @@
+;Gold
+1/1 Gold 12500
+
+;Potions
+1/1 太阳药水(中) 
+1/1 太阳药水(中) 
+1/1 生命药剂(大) 
+1/1 魔力药剂(大) 
+1/1 生命药剂(大) 
+1/1 魔力药剂(大) 
+1/1 生命药剂(特大) 
+1/1 魔力药剂(特大) 
+1/1 生命药剂(特大) 
+1/1 魔力药剂(特大) 
+ 
+1/30 冲击合剂(小) 
+1/30 魔法合剂(小) 
+1/30 道术合剂(小) 
+1/30 风暴合剂(小) 
+1/30 体力合剂(小) 
+1/30 魔力合剂(小)
+
+1/50 觉醒魂魄0
+1/1 觉醒魂魄0
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Shields Rare
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;Crafting Materials
+1/15 蜘蛛网
+1/10 红线
+1/10 LunarPiece
+
+;Quests
+1/1 CrystalShard Q
+

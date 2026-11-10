@@ -1,0 +1,29 @@
+[@Description]
+嚎叫声……那可怕的嚎叫声……
+找到它的源头并杀掉那只怪物。
+
+[@TaskDescription]
+消灭{半兽战士/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+半兽战士 1
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+黑铁腰带
+
+[@SelectRewards]
+
+[@ExpReward]
+8200
+
+[@GoldReward]
+2050
+
+// Pickup - Master_Shok 1 312 73
+// Hand In - Master_Shok 1 312 73

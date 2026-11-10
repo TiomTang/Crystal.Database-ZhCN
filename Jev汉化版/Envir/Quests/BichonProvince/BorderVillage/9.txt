@@ -1,0 +1,28 @@
+[@Description]
+你现在看起来更像是一名训练有素的战士了。
+我已经让彼得给你安排一些任务，
+奖励会在许多方面帮助到你。
+
+[@TaskDescription]
+与 {传奇向导 彼得/LimeGreen} 对话 坐标 328:258
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Wa_Master 0 110 317
+// Hand In - MirGuide_Peter 0 328 258

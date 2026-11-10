@@ -1,0 +1,26 @@
+[@Description]
+墓穴里有更强的怪物。
+{骷髅刀兵/Crimson} 的速度比其他怪物更快。
+请消灭这些怪物。
+
+[@TaskDescription]
+请返回洞穴，消灭 15 个 {骷髅刀兵/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+骷髅刀兵 15
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+19000
+
+[@GoldReward]
+19000

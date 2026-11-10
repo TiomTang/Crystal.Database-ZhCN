@@ -1,0 +1,27 @@
+[@Description]
+我收到来自{沃玛森林/Yellow}的求助讯息。
+你能前往{沃玛森林/Yellow}，协助他们处理{虫洞/Yellow}中的麻烦吗？
+
+[@TaskDescription]
+请去{沃玛森林/Yellow}与{朔克大师/LimeGreen}交谈。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1232
+
+[@GoldReward]
+1480
+
+// Pickup - Teleport_Kyle 0 371 314
+// Hand In - Master_Shok 1 312 73

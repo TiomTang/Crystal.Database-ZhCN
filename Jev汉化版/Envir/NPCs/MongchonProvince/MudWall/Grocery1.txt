@@ -1,0 +1,87 @@
+[@MAIN]
+#SAY
+Ah are you one of those villains?
+I think i have seen you before...
+I can sell you items or you can sell them to me..
+But do not forgot my prices are not low...
+
+<View /@BuySell> Store.
+<询问/@Ask> about Item
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+您想购买或出售什么物品？
+
+我看到你拿着： {<$TORCH>/CORAL}
+我看到你拿着： {<$AMULET>/CORAL}
+
+<回购/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+以下是仍可回购的物品。
+ 
+<返回/@Main>
+
+[@Ask]
+#SAY
+我处理<蜡烛/candle>、<地牢逃脱卷轴/dungeonescape>、<随机传送卷轴/randomteleport>、<修理油/repairoil>等等。我听说还有<城镇传送卷轴/townteleport>，这些只能从怪物身上获得。 
+<返回/@Main>
+
+[@candle]
+#SAY
+蜡烛在黑暗中必不可少。没有蜡烛，你什么也看不见——黑暗之中连自己的脚都看不见。
+ 
+<返回/@Ask>
+
+[@dungeonescape]
+#SAY
+A Dungeonescape scroll is a magic paper that moves you promptly
+to certain fields near the last village you visited.
+The power of Dungeonescape scroll is weak compared with
+TownTeleport scrolls but it could still save your liefe.
+ 
+<返回/@Ask>
+
+[@randomteleport]
+#SAY
+随机传送卷轴是一种魔法纸张，能让你在同一地图内随机移动到另一地点。
+例如若你身处地下城第一层，使用随机传送卷轴后
+你将移动到该层的其他位置。
+当面临危险处境但仍有药水时，使用此卷轴可助你脱离险境。 
+<返回/@Ask>
+
+[@repairoil]
+#SAY
+修理油能提升你手中武器的耐久度，
+但这种油并不会特殊修理你的武器，
+所以请记住武器的最大耐久度会随着时间推移而下降。
+如果你手中的武器并不昂贵，
+狩猎期间可偶尔使用此油进行维修。
+这将使狩猎持续更长时间。 
+<返回/@Ask>
+
+[@townteleport]
+#SAY
+城镇传送卷轴现在无法制作，因为这项古老的技艺已经失传了…但是…
+我听说它可能会从怪物身上随机掉落，使用后就能立刻返回村庄… 
+<返回/@Ask>
+
+[Types]
+8
+12
+
+[Trade]
+蜡烛
+火把
+随机传送卷轴
+城镇传送卷轴
+地牢逃脱卷轴
+护身符
+修理油
+
+[Quests]

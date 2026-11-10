@@ -1,0 +1,53 @@
+[@main]
+#SAY
+船会去很多地方。船马上就要出发了。
+乘客们，请登船。
+ 
+ <前往般若岛/@brdmove> 支付2000金币并登船。
+ <前往雪谷/@brdmove1> 支付10000金币并登船。
+<谈谈/@talk> 各条前线。
+
+[@talk]
+#SAY
+你想谈论哪个前线？
+ <般若岛/@talkPI>
+ <雪谷/@talkWV>
+ <返回/@main>
+
+[@talkPI]
+ 般若岛上到处是狂暴的怪物。
+有些勇者或许会借此机会提升声望、扬名立万，
+但对当地居民而言，这无异于人间地狱。
+
+ <返回/@talk>
+
+[@talkWV]
+#SAY
+雪谷是刚被发现的新边疆。
+其中的邪恶力量强大，但财富更为丰厚。
+
+ <返回/@talk>
+ 
+[@brdmove]
+#IF
+CHECKGOLD > 2000
+#ACT
+TAKEGOLD 2000
+Move 5 124 353
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+<离开/@exit>
+
+[@brdmove1]
+#IF
+CHECKGOLD > 10000
+#ACT
+TAKEGOLD 10000
+MOVE WHITEVILLAGE 67 93
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+<离开/@exit>

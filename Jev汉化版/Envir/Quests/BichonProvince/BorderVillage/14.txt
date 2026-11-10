@@ -1,0 +1,33 @@
+[@Description]
+{助手简/LimeGreen} 让你来的？
+她推荐的人我从来不会拒绝，
+但我也不能随便收谁为弟子。
+你必须通过我的考验。
+
+[@TaskDescription]
+消灭 10 只 {半兽人/Crimson} 和 {钉耙猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽人 10
+钉耙猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧懒鞋
+治疗术
+
+[@SelectRewards]
+
+[@ExpReward]
+180
+
+[@GoldReward]
+45
+
+// Pickup - HighPriest_Jude 0 429 475
+// Hand In - HighPriest_Jude 0 429 475

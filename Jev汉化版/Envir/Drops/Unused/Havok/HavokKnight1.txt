@@ -1,0 +1,146 @@
+;Gold
+1/2 Gold 50000
+
+;Pots + Other
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 祝福油
+1/10 GoldenBenedictionOil
+
+1/5 觉醒魂魄0
+1/10 觉醒魂魄0
+
+
+;Weapons
+1/400 力量之弓
+1/400 独孤九剑
+1/400 映邪天神
+1/400 太极慧剑
+1/500 魔血剑
+1/500 神血枪
+1/500 龙血剑
+1/600 月光大刀
+1/600 圣月枪
+1/600 冷酷之弓
+1/600 赤血剑
+1/900 黑虎斧
+1/900 致命之弓
+1/900 火莲杖
+1/900 鹤羽扇
+1/1100 蛮荒剑
+1/1100 原始剑
+1/1100 阿普斯之弓
+1/1100 骨雕扇
+
+
+;Armour
+1/1300 HavokBraveArmour(M)
+1/1300 HavokBraveArmour(F)
+1/1300 HavokMagicArmour(M)
+1/1300 HavokMagicArmour(F)
+1/1300 HavokSoulArmour(M)
+1/1300 HavokSoulArmour(F)
+
+;Helmets
+1/400 PuiYuHelmet
+1/600 ArtBlackHelmet
+
+;Necklace
+1/600 DefenderNecklace
+1/600 痛苦项链
+
+;Necklace Rare
+1/800 SmasherNecklace
+1/800 BlizzardNecklace
+1/800 MistyNecklace
+1/800 SlicerNecklace
+
+;Bracelets
+1/600 DefenderGlove
+1/600 痛苦手镯
+
+;Bracelets Rare
+1/800 SmasherGlove
+1/800 BlizzardGlove
+1/800 MistyGlove
+1/800 SlicerGlove
+
+;Rings
+1/600 DefenderRing
+1/600 痛苦戒指
+
+;Rings Rare
+1/850 SmasherRing
+1/850 BlizzardRing
+1/850 MistyRing
+1/850 SlicerRing
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+1/820 HavokMedal
+
+;Shields
+1/830 HavokShield
+
+;Pads
+
+
+;Stone
+1/830 HavokStone
+
+;Books
+;;Warrior
+1/200 护身气幕
+1/400 狂战
+1/600 反击
+1/600 破空斩
+
+;;Wizard
+1/300 陨石术
+1/500 魔力强化
+1/700 风暴逃脱
+1/700 LavaKing
+1/750 FrozenRains
+
+;;Taoist
+1/300 毒雾术
+1/400 疫病术
+1/750 HeadShot
+1/900 HolyShield
+
+;;Assassin
+1/500 流血术
+1/700 月雾术
+1/750 ShadowStep
+1/880 FuryWaves
+
+;Gems/Orbs
+1/10 勇气宝珠
+1/10 魔法宝珠
+1/10 灵魂宝珠
+1/20 防护宝珠
+1/20 屠魔宝珠
+1/20 耐久宝珠
+1/30 毒素宝珠
+1/30 冰冻宝珠
+1/30 准确宝珠
+1/30 风暴宝珠
+1/30 耐力宝珠
+
+
+;CraftingMaterials
+
+
+;Quests
+1/2 HavokWorldMap Q

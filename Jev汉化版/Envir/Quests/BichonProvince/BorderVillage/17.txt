@@ -1,0 +1,33 @@
+[@Description]
+助手简派你来的？
+她推荐的人我从不会拒绝，
+但我也不能随便收谁做弟子。
+你必须通过我的考验。
+
+[@TaskDescription]
+消灭 10 只 {半兽人/Crimson} 和 {钉耙猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽人 10
+钉耙猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧懒鞋
+致命剑法
+
+[@SelectRewards]
+
+[@ExpReward]
+180
+
+[@GoldReward]
+45
+
+// Pickup - HighAssassin_Cloud 0 101 411
+// Hand In - HighAssassin_Cloud 0 101 411

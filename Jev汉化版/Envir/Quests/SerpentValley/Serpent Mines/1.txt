@@ -1,0 +1,28 @@
+[@Description]
+旅行者。请进入{蛇谷死亡矿井/Yellow}并清除威胁。
+
+[@TaskDescription]
+消灭10个{幽灵僵尸/Crimson}和{暗牧僵尸/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+幽灵僵尸 10
+暗牧僵尸 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+4900
+
+[@GoldReward]
+4900
+
+// Pickup - VulnerableSon_Alfie 2 562 172
+// Hand In - VulnerableSon_Alfie 2 562 172

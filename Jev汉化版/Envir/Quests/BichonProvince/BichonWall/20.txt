@@ -1,0 +1,30 @@
+[@Description]
+在{比奇/Yellow}附近有个小农场。这个农场正遭到虫族袭击。
+据报告说，这些虫子生活在{虫洞/Yellow}里。
+你能去{虫洞/Yellow}帮我猎杀它们吗？
+
+[@TaskDescription]
+沿着北方的小路前往{沃玛森林/Yellow}，
+在{虫洞/Yellow}消灭25只{蜘蛛蛙/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+蜘蛛蛙 25
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3100
+
+[@GoldReward]
+3100
+
+// Pickup - Examiner_Tony 0 340 257
+// Hand In - Examiner_Tony 0 340 257

@@ -1,0 +1,29 @@
+[@Description]
+你好，旅行者。我又有一项非常适合你本领的任务……
+我把项链遗落在{虫洞/Yellow}里了。
+你能帮我找到并带回来吗？
+
+[@TaskDescription]
+击杀{蜘蛛蛙/Crimson}并收集{蓝玉吊坠/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+蓝玉吊坠1 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+3800
+
+// Pickup - Merchant_Helen 1 292 84
+// Hand In - Merchant_Helen 1 292 84

@@ -1,0 +1,34 @@
+[@Description]
+我们收到了新的报告。
+在{寺庙/Yellow}中出现了一种新的生物。
+
+[@TaskDescription]
+消灭30只{沃玛勇士/Crimson}以及1只{沃玛守卫/Crimson}，
+并带回他的{角/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+沃玛战士 30
+沃玛守卫 1
+
+[@ItemTasks]
+沃玛之角 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+蓝玉吊坠1
+法师戒指
+道德之戒
+
+[@ExpReward]
+11000
+
+[@GoldReward]
+11000
+
+// Pickup - SubjugationManager_James 1 343 182
+// Hand In - 

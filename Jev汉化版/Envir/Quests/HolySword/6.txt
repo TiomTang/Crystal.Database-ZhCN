@@ -1,0 +1,30 @@
+[@Description]
+把 {红月碎片/LightSteelBlue} 带来给我。
+那是一把不祥的魔刃。
+在别人得到它之前，你应该先找到它。
+
+[@TaskDescription]
+击杀 {红色邪恶巨猿/Crimson} 来寻找 {红月碎片/LightSteelBlue}。
+在 11:27 走向角落，你就能通过隐藏的门。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+红月碎片 1
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - BigTaoist D10061 11 16
+// Hand In - BigTaoist D10061 11 16

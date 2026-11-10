@@ -1,0 +1,28 @@
+[@Description]
+你现在看起来更像是一名训练有素的弓箭手了。
+我已经让 {彼得/LimeGreen} 给你安排一些工作。
+奖励应该会在许多方面对你有所帮助。
+
+[@TaskDescription]
+去找 {传奇向导 彼得/LimeGreen} 坐标 328:258
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Captain_Jerald 0 320 476
+// Hand In - MirGuide_Peter 0 328 258

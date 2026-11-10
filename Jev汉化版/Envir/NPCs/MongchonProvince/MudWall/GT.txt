@@ -1,0 +1,61 @@
+[@main]
+#SAY
+你好吗？Mirian <$USERNAME>！
+我是公会领地商人，
+负责公会领地的租赁和销售事宜。
+
+<什么是/@info>公会领地？
+我想<租用/@rent>一个公会领地。
+我想<前往/@move>我的公会领地。
+我想查看公会领地的<列表/@agitbuy>。
+我想<交易/@trade>我的公会领地。
+
+[@info]
+#SAY
+公会领地是公会的专属空间，
+成员们在此享有私密性。拥有领地的公会成员
+无需再在村庄的隐蔽角落秘密会面，
+那些地方的隐私仍无法得到保障。公会成员可以
+在此私下交谈并与其他成员社交。
+简而言之，这是宗族的居所。
+<返回/@main>
+
+[@rent]
+#SAY
+You need 10,000,000 {Gold/Gold} to rent a guild territory and the initial
+period for rent is 7 days.
+If you want to extend, talk to the 'GT Steward' in the territory.
+After paying the fee of 1,000,000 {Gold/Gold},
+the rent will be extended for an additional 7 days.
+
+Do you still want to rent a territory? <Rent/@agitreg> <取消/@exit>
+
+[@move]
+#SAY
+Then I will teleport you to the territory of you guild.
+However, only the guild masters or the members who
+have their own territories can be transported.
+If you wish to return to castles or villages, look
+for the Armed Transporter at the entrance of the
+guild territory.
+
+Do you want to move to the guild territory? <移动/@agitmove> <取消/@exit>
+
+[@agitbuy]
+#SAY
+在此，您可以一览无余地查看所有关于公会领地的所有权、
+交易及出售信息。若您打算从列表中购买某块公会领地，
+请向拥有该领地的公会会长发送"纸条"联系。若双方达成一致
+后您希望购买该公会领地，请使用主界面的"交易"菜单完成操作。
+
+<返回/@main>
+
+[@trade]
+#SAY
+通过面对公会会长并选择“交易”，
+交易即告完成。交易成功后，
+所有权将在24小时内转移，原所有者
+将自动从领地中“被踢出”。
+因此，在交易公会领地前请仔细考虑。
+
+你要交易吗？ <交易/@agittrade> <取消/@exit>

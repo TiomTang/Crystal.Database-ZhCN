@@ -1,0 +1,23 @@
+[@Description]
+
+[@TaskDescription]
+向东南方向前往 {般若寺/Yellow}，击杀 30 个 {牛头魔/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+牛头魔 30
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48000
+
+[@GoldReward]
+48000

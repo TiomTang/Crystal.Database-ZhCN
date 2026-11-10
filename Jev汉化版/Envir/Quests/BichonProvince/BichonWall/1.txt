@@ -1,0 +1,26 @@
+[@Description]
+我收到报告说，{森林雪人/Crimson}最近专门袭击新的战士。
+你能帮忙吗？
+
+[@TaskDescription]
+消灭 5 只{森林雪人/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+森林雪人 5
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+精准吊坠
+
+[@SelectRewards]
+
+[@ExpReward]
+200
+
+[@GoldReward]
+50

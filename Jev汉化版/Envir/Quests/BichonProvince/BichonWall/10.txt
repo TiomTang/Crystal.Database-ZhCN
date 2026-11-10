@@ -1,0 +1,26 @@
+[@Description]
+你好，旅行者，我想请你帮个忙。我在 {半兽古墓/Yellow} 打猎时
+丢失了我妹妹的戒指。
+
+[@TaskDescription]
+在 {半兽古墓/Yellow} 中找到 {奥利维亚的戒指/LightSteelBlue}
+
+[@Completion]
+
+
+[@KillTasks]
+
+[@ItemTasks]
+奥利维亚戒指 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1400
+
+[@GoldReward]
+1400

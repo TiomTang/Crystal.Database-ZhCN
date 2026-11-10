@@ -1,0 +1,28 @@
+[@Description]
+你想让我给你做些{食人花茶/LightSteelBlue}吗？
+嗯……材料用完了。你能帮我弄来10个{食人花叶/LightSteelBlue}
+和10个{食人花种子/LightSteelBlue}吗？
+
+[@TaskDescription]
+从{食人花/Crimson}身上收集10个{食人花叶/LightSteelBlue}和{食人花种子/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+食人花叶2 10
+食人花种子 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - CraftsLady_Alice 0 321 265
+// Hand In - CraftsLady_Alice 0 321 265

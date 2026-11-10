@@ -1,0 +1,30 @@
+[@Description]
+你好，旅行者……
+{屠夫约翰/LimeGreen} 正在寻求帮助。
+我觉得这是紧急情况。
+
+[@TaskDescription]
+与 {屠夫约翰/LimeGreen} 对话，坐标 293:603
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+锋利匕首
+坚固虎牙刀
+硬木弓
+
+[@ExpReward]
+10
+
+[@GoldReward]
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - Merchant_John 0 292 604

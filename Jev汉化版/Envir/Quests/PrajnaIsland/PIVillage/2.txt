@@ -1,0 +1,27 @@
+[@Description]
+最近怪物的袭击越来越频繁了。
+你觉得能帮我们消除这个威胁吗？
+
+[@TaskDescription]
+在岛上旅行并消灭 15 个 {剧毒尸王/Crimson}
+以及 10 个 {浪人尸王/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+剧毒尸王 15
+浪人尸王 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+18500
+
+[@GoldReward]
+18500

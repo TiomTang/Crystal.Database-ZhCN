@@ -1,0 +1,27 @@
+[@Description]
+你对悬赏任务感兴趣吗？
+
+[@TaskDescription]
+在 {赤月峡谷/Yellow} 寻找并消灭 {邪恶巨猿/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+邪恶猿 1
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+40000
+
+[@GoldReward]
+40000
+
+// Pickup - Investigator_David 11 182 295
+// Hand In - Investigator_David 11 182 295

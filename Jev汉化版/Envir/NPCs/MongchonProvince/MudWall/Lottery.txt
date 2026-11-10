@@ -1,0 +1,165 @@
+[@MAIN]
+#IF
+CHECKPKPOINT >= 100
+#ACT
+GOTO @YOUREAPKER
+#ELSEACT
+GOTO @NPCNUMBER
+
+[@YOUREAPKER]
+#SAY
+我不会跟你这样的人说话。
+ 
+你的PK值： <$PKPOINT>
+ 
+<离开/@Exit>
+
+[@NPCNUMBER]
+#IF
+RANDOM 10
+#ACT
+MOV B3 1
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER1
+
+[@NPCNUMBER1]
+#IF
+RANDOM 9
+#ACT
+MOV B3 2
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER2
+
+[@NPCNUMBER2]
+#IF
+RANDOM 8
+#ACT
+MOV B3 3
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER3
+
+[@NPCNUMBER3]
+#IF
+RANDOM 7
+#ACT
+MOV B3 4
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER4
+
+[@NPCNUMBER4]
+#IF
+RANDOM 6
+#ACT
+MOV B3 5
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER5
+
+[@NPCNUMBER5]
+#IF
+RANDOM 5
+#ACT
+MOV B3 6
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER6
+
+[@NPCNUMBER6]
+#IF
+RANDOM 4
+#ACT
+MOV B3 7
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER7
+
+[@NPCNUMBER7]
+#IF
+RANDOM 3
+#ACT
+MOV B3 8
+GOTO @MainPage
+#ELSEACT
+GOTO @NPCNUMBER
+
+[@FailedNumber]
+#SAY
+NPC没有选择数字
+
+[@MainPage]
+#SAY
+你好，你想玩个游戏吗？
+你只需要猜出我心里想的数字
+如果猜对了，你将获得100,000 {金币/GOLD}
+但如果猜错了，你会损失10,000 {金币/GOLD}
+
+想不想<参与游戏/@PLAY>？
+ 
+ 
+<关闭/@EXIT>
+
+[@Play]
+规则很简单。你只需猜出我正在想的数字。你的猜测是什么？
+<[ 1 ]/@Guess(1)>
+<[ 2 ]/@Guess(2)>
+<[ 3 ]/@Guess(3)>
+<[ 4 ]/@Guess(4)>
+<[ 5 ]/@Guess(5)>
+<[ 6 ]/@Guess(6)>
+<[ 7 ]/@Guess(7)>
+<[ 8 ]/@Guess(8)>
+
+
+[@Guess()]
+#IF
+CHECKCALC %B3 == %ARG(0)
+#ACT
+GOTO @WIN
+#ELSEACT
+GOTO @LOSE
+
+[@WIN]
+#IF
+CHECKGOLD < 10000
+#ACT
+GOTO @NotEnoughGold
+#ELSESAY
+恭喜您获胜！请享受您的100,000 {金币/GOLD}。
+ 
+ 
+ 
+ 
+ 
+ 
+<继续玩/@NPCNUMBER> - <关闭/@EXIT>
+#ELSEACT
+GIVEGOLD 100000
+
+[@LOSE]
+#IF
+CHECKGOLD < 10000
+#ACT
+GOTO @NotEnoughGold
+#ELSESAY
+很遗憾你输了，祝你下次好运。
+ 
+ 
+ 
+ 
+ 
+ 
+<继续玩/@NPCNUMBER> - <关闭/@EXIT>
+#ELSEACT
+TAKEGOLD 10000
+
+[@NotEnoughGold]
+你的钱不够10000{金币/GOLD}了
+请在你拥有足够的实力时再回来。
+ 
+ 
+ 
+<关闭/@EXIT>

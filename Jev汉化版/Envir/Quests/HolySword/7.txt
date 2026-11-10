@@ -1,0 +1,37 @@
+[@Description]
+现在，让我再测试你一次。
+通过我准备的试炼，并带一些 EvilApeOil 给我。
+如果你做到这一点，我就会告诉你获得
+赤月剑 的方法。
+
+[@TaskDescription]
+
+[@Completion]
+瓶子里的，是我杀死的一只 红色邪恶巨猿 的污血……
+如果你将它涂在衣服上，再握住一颗 邪猿心，
+把自己伪装成赤月魔物的模样，
+你就可以获得 赤月剑。
+至于能否杀死 红色邪恶巨猿、
+抹除魔物的根源，就要看你的本事了。
+想要独自击杀 红色邪恶巨猿 很困难，
+和其他英雄们并肩作战吧……
+
+[@KillTasks]
+
+[@ItemTasks]
+邪猿油 1
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - BigTaoist D10061 11 16
+// Hand In - BigTaoist D10061 11 16

@@ -1,0 +1,7 @@
+[@main]
+<移动/@move2nd> 到2楼.
+<关闭/@exit>
+
+[@move2nd]
+#ACT
+MOVE GA29 15 42

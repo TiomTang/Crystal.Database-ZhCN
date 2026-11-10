@@ -1,0 +1,70 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 100
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+我提供Boss房间直飞服务。
+只需支付费用，我就会护送你到任何地方。  
+那么，你的决定是？
+ 
+我的服务费是 50,000 {金币/Gold}
+
+<也许下次吧/@exit> 
+
+
+<<尸王殿/@Ghoul>>
+<<沃玛神庙二层/@Wooma>>
+<<祖玛神殿七层/@Zuma>>
+<<猪洞六层/@Pig7>>
+
+[@Ghoul]
+#IF
+CHECKGOLD > 49999
+#ACT
+MOVE Q004 21 12
+TAKEGOLD 50000
+#ELSEACT
+GOTO @gold
+
+[@Wooma]
+#IF
+CHECKGOLD > 49999
+#ACT
+MOVE D023 50 362
+TAKEGOLD 50000
+#ELSEACT
+GOTO @gold
+
+[@Zuma]
+#IF
+CHECKGOLD > 49999
+#ACT
+MOVE D5074 75 18
+TAKEGOLD 50000
+#ELSEACT
+GOTO @gold
+
+[@Pig7]
+#IF
+CHECKGOLD > 49999
+#ACT
+MOVE D716 27 24
+TAKEGOLD 50000
+#ELSEACT
+GOTO @gold
+
+[@gold]
+#SAY
+抱歉，您的金币不足。
+
+<离开/@Exit>
+
+[Quests]

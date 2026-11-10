@@ -1,0 +1,30 @@
+[@Description]
+很久以前，有个恶徒偷走了我们门派的至宝——圣剑。
+这柄剑神圣无比，传说只要挥动一次，便会狂风大作、神龙现世……
+嗯……谁又知道这是真是假呢？
+但如果这柄剑确实存在，它的力量之强大，将远超我们所能估量的范围。
+
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@FlagTasks]
+527 "与道士导师交谈"
+528 "与道馆主人交谈"
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - Apprentice 11 179 309
+// Hand In - Master_Perry 1002 14 13

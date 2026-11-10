@@ -1,0 +1,26 @@
+[@Description]
+你好，米莉安，我还缺少{卷一/LightSteelBlue}和{卷二/LightSteelBlue}。
+
+[@TaskDescription]
+请返回{隐藏入口/Yellow}
+取回{卷一/LightSteelBlue}和{卷二/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+比奇传说(1) 1
+比奇传说(2) 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+10000
+
+[@GoldReward]
+10000

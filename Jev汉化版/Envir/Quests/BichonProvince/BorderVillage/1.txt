@@ -1,0 +1,29 @@
+[@Description]
+欢迎来到 {边境村/Yellow}，年轻的旅人。
+在你开始旅程之前，
+能请你帮我一个小忙吗？
+
+[@TaskDescription]
+递送{食人花叶/LightSteelBlue} 给 {工艺女士/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+食人花叶2 5
+
+[@FixedRewards]
+生命药剂(小)
+
+[@SelectRewards]
+
+[@ExpReward]
+10
+
+[@GoldReward]
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - CraftsLady_Jude 0 294 619

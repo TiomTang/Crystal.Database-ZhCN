@@ -1,0 +1,27 @@
+[@Description]
+请返回{林间小道/Yellow}并收集更多{材料/LightSteelBlue}。
+
+[@TaskDescription]
+击杀{根蜘蛛/Crimson}以找到5个{古树/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+古树 5
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+7000
+
+[@GoldReward]
+7000
+
+// Pickup - Merchant_Jerald 1001 14 12
+// Hand In - Merchant_Jerald 1001 14 12

@@ -1,0 +1,29 @@
+[@Description]
+这是答应给 {盟重斥候/LimeGreen} 的 {蛇酒/LightSteelBlue}。
+请享用。
+
+[@TaskDescription]
+把这瓶 {蛇酒/LightSteelBlue} 送到 {盟重斥候/LimeGreen} 手中。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+蛇酒 2
+
+[@FixedRewards]
+断剑 
+
+[@SelectRewards]
+
+[@ExpReward]
+822
+
+[@GoldReward]
+300
+
+// Pickup - 
+// Hand In - MongchonScout_Brian 0100 4 10

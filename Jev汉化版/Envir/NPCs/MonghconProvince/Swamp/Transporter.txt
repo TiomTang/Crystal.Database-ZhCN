@@ -1,0 +1,9 @@
+[@main]
+#SAY
+Have you had enough and want to go back?
+
+<是的/@yes>  <不是/@exit>
+
+[@yes]
+#ACT
+MOVE EBEE03 204 255

@@ -1,0 +1,32 @@
+[@Description]
+年轻的旅人，我的名字是 {铁匠/LimeGreen}。
+村子外面有那么多怪物，
+我都不知道该怎么才能赶到 {比奇城/Yellow}。
+你能帮帮我吗？
+
+[@TaskDescription]
+消灭10只{鹿/Crimson}和{稻草人/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+鹿 10
+稻草人 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧铁镯
+
+[@SelectRewards]
+
+[@ExpReward]
+120
+
+[@GoldReward]
+30
+
+// Pickup - Blacksmith_Smith 0 296 613
+// Hand In - Blacksmith_Smith 0 296 613

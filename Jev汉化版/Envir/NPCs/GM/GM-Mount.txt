@@ -1,0 +1,66 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+我看到你有： {<$MOUNT>/CORAL}
+Mount Loyalty: {<$MOUNTLOYALTY>/CORAL}
+You need to be Lebel 22 for mounts, Your Level: {<$LEVEL>/ORANGE}
+<Buy/@Buy> Mount Equipment
+<出售/@Sell> Mount Equipment
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Sell]
+#SAY
+Sell.
+ 
+<返回/@Main>
+
+[@Buy]
+#SAY
+Buy.
+ 
+<返回/@Main>
+
+
+[Types]
+19
+22
+23
+24
+25
+26
+27
+
+[Trade]
+孟加拉虎
+蓝虎
+黑豹
+冰豹
+虎属兽
+红虎
+白虎
+狼
+棕狼
+蓝狼
+黑狼
+白狼
+皮缰绳
+黄金缰绳
+青铜铃
+银铃
+金铃
+绿铃
+马鞍
+红丝带
+蓝丝带
+黑丝带
+皮面具
+白面具
+黑面具
+银面具
+钛金面具
+生肉
+瘦肉

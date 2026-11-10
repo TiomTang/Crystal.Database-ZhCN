@@ -1,0 +1,13 @@
+[@main]
+<移动/@move3nd> to the 3rd floor.
+<移动/@move1st> to the 1st floor.
+<关闭/@exit>
+
+
+[@move3nd]
+#ACT
+move GA30 7 31
+
+[@move1st]
+#ACT
+move GA10 18 42

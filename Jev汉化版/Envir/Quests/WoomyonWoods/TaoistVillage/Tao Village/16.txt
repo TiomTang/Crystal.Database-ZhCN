@@ -1,0 +1,33 @@
+[@Description]
+你找到这本书了……太棒的消息。
+看起来它并没有受损。
+
+[@TaskDescription]
+将 {般若史书/LightSteelBlue} 归还给 {村长/LimeGreen}，地点在 {般若岛/Yellow}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+般若史书 1
+
+[@FixedRewards]
+
+[@SelectRewards]
+FineIronArmour
+FireRobe
+YingYangRobe
+FlamingRedArmour
+HardTemperedArmour
+
+[@ExpReward]
+3912
+
+[@GoldReward]
+1500
+
+// Pickup - LeadTrainer 1002 11 8
+// Hand In - 

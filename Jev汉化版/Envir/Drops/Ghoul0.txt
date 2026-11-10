@@ -1,0 +1,88 @@
+;Gold
+1/1 Gold 2000
+
+;Pots + Other
+1/1 太阳药水    
+1/1 太阳药水(中)  
+1/1 生命药剂(中) 
+1/1 魔力药剂(中) 
+1/1 生命药剂(中) 
+1/1 魔力药剂(中) 
+
+1/30 冲击合剂(小) 
+1/30 魔法合剂(小) 
+1/30 道术合剂(小) 
+1/30 风暴合剂(小) 
+1/30 体力合剂(小) 
+1/30 魔力合剂(小) 
+
+
+;Weapons
+
+
+;Weapons Rare
+
+
+;Armour
+
+
+;Armour Rare
+
+
+;Helmets
+
+
+;Helmets Rare
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+
+
+;Wizard
+
+
+;Taoist
+
+
+;Asassion
+
+
+;CraftingMaterials
+1/1 铜矿
+1/1 铁矿
+1/1 银矿
+1/5 黑铁矿
+1/5 金矿
+
+;Quests
+1/1 GhoulsChain Q
+1/2 DeadMineMap Q
+

@@ -1,0 +1,28 @@
+[@Description]
+传闻与神话中说，收集{僵尸之心/LightSteelBlue}进行某种特殊的仪式，
+能够让它们避开此区域。
+
+[@TaskDescription]
+从{被诅咒的祭司/Crimson}身上收集10个{僵尸之心/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+僵尸之心 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+7000
+
+[@GoldReward]
+7000
+
+// Pickup - MasterMK_Deric 11 165 296
+// Hand In - MasterMK_Deric 11 165 296

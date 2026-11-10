@@ -1,0 +1,32 @@
+[@Description]
+{助手简/LimeGreen}让你来的吗？
+我无法拒绝她推荐的人，但也不能随便接受任何人成为我的弟子。
+你必须通过我的考验。
+
+[@TaskDescription]
+消灭 10 只 {半兽人/Crimson} 和 {钉耙猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽人 10
+钉耙猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧懒鞋
+火球术
+
+[@SelectRewards]
+
+[@ExpReward]
+180
+
+[@GoldReward]
+45
+
+// Pickup - ArchMage_Robert 0 8 11
+// Hand In - ArchMage_Robert 0 8 11

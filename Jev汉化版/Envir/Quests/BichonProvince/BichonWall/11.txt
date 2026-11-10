@@ -1,0 +1,30 @@
+[@Description]
+你去过{比奇/Yellow}附近的地牢吗？那里有{骷髅/Crimson}。
+靠近地牢的守卫报告说，最近{骷髅/Crimson}的数量正在增加。
+你能去消灭25个{骷髅/Crimson}吗？这是为了{比奇/Yellow}的安全。
+
+[@TaskDescription]
+消灭25个{骷髅/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+骷髅 25
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+上等魔法头盔
+
+[@SelectRewards]
+
+[@ExpReward]
+1500
+
+[@GoldReward]
+375
+
+// Pickup - Teleport_Jason 0 292 216
+// Hand In - Teleport_Jason 0 292 216

@@ -1,0 +1,22 @@
+[@Description]
+{村长/LimeGreen} 在找你。
+
+[@TaskDescription]
+去 {般若岛/Yellow} 与 {村长/LimeGreen} 对话
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3912
+
+[@GoldReward]

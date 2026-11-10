@@ -1,0 +1,30 @@
+[@Description]
+我眼睛现在看得不太清楚，年纪大了视力越来越差。
+听说吃虫眼能改善视力。你能帮我弄些{虫眼/LightSteelBlue}来吗？
+我听说{霍罗爆射/Crimson}和{蓝霍罗爆射/Crimson}掉落的最好。
+
+[@TaskDescription]
+击杀{霍罗爆射/Crimson}和{蓝霍罗爆射/Crimson}并收集
+12个{虫眼/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+虫眼 12
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+3800
+
+// Pickup - Master_Shok 1 312 73
+// Hand In - Master_Shok 1 312 73

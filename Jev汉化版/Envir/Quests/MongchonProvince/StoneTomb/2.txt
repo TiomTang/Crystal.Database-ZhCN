@@ -1,0 +1,32 @@
+[@Description]
+欢迎来到{盟重省/Yellow}。
+我们一直遭到类似野猪的怪物袭击。
+据报告这些怪物来自{地下墓穴/Yellow}。
+你能前往那里消灭这些怪物吗？
+
+[@TaskDescription]
+在{石墓/Yellow}中消灭15只
+{黑野猪/Crimson}和{红野猪/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+黑野猪 15
+红野猪 15
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+13500
+
+[@GoldReward]
+13500
+
+// Pickup - MonghconDelegate_Michael 3 330 332
+// Hand In - MongchonDelegate_Michael 3 330 332

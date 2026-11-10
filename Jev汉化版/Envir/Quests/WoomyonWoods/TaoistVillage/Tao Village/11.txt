@@ -1,0 +1,26 @@
+[@Description]
+学生们总是喜欢冒险……但现在有一名学生失踪了。
+
+[@TaskDescription]
+寻找失踪的学生。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3860
+
+[@GoldReward]
+7000
+
+// Pickup - 
+// Hand In - CrushedBones 12 36 368

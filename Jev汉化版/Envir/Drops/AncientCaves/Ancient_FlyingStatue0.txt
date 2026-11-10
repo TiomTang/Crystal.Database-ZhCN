@@ -1,0 +1,66 @@
+;Gold
+1/1 Gold 30000
+
+;Pots + Other
+1/1 生命药剂(大)
+1/1 魔力药剂(大)
+1/1 生命药剂(大)
+1/1 魔力药剂(大)
+1/1 生命药剂(特大)
+1/1 魔力药剂(特大)
+1/1 生命药剂(特大)
+1/1 魔力药剂(特大)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 祝福油
+1/2 祝福油
+
+1/10 觉醒魂魄0
+
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

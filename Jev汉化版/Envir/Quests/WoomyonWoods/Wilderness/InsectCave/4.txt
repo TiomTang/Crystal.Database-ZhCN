@@ -1,0 +1,27 @@
+[@Description]
+我的朋友去{昆虫洞/Yellow}采药，但一直没有回来。
+你能去{虫洞/Yellow}帮我找找{苏荷/LimeGreen}吗？
+
+[@TaskDescription]
+在{虫洞/Yellow}二层寻找{苏荷/LimeGreen}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1971
+
+[@GoldReward]
+2850
+
+// Pickup - Merchant_Helen 1 292 84
+// Hand In - Traveller_Soho D2042 114 155

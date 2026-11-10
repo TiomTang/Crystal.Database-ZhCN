@@ -1,0 +1,26 @@
+[@Description]
+旅行者……旅行者。我十分需要你的帮助……
+我刚收到关于{蛇谷死亡矿井/Yellow}中一种极其稀有生物的消息，
+这只{白蛇/Crimson}听起来很有意思，不是吗？
+
+[@TaskDescription]
+在{蛇谷死亡矿井/Yellow}消灭{白蛇/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+白蛇 1
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+5900
+
+[@GoldReward]
+5900

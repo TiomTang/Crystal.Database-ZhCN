@@ -1,0 +1,28 @@
+[@Description]
+年轻的旅人，你好。你听说过这片区域的战士导师吗？
+他是所有战士的宗师。我听说他最近正在寻找新的弟子，
+不过也可能只是个传闻。
+
+[@TaskDescription]
+与 {瓦大师/LimeGreen} 对话，坐标 110:317
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - Master_Wa 0 110 317

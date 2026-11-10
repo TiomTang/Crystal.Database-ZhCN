@@ -1,0 +1,32 @@
+[@Description]
+你……先生……你……救命，我被困住了。  
+我最后的记忆是在山谷深处死去。  
+然后我又回到了这里。
+
+[@TaskDescription]
+调查 {灵魂/LimeGreen} 回归的原因。
+
+[@Completion]
+
+[@KillTasks]
+
+
+[@FlagTasks]
+524 "寻找迷失之魂的躯体"
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3801
+
+[@GoldReward]
+7125
+
+// Pickup - LostSoul D601 202 204
+// Hand In - LostSoul D601 202 204

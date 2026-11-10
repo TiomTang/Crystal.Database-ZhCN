@@ -1,0 +1,60 @@
+;Gold
+1/3 Gold 3750
+
+;Pots + Other
+1/4 生命药剂(大)
+1/4 魔力药剂(大)
+1/10 生命药剂(大)
+1/10 魔力药剂(大)
+1/30 太阳药水
+1/50 太阳药水(中)
+1/500 战神油
+
+;Weapons
+1/45000 独孤九剑
+1/45000 力量之弓
+1/45000 映邪天神
+1/45000 太极慧剑
+1/45000 暗真魔刀
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/200 风之石
+
+;Quests
+

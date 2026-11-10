@@ -1,0 +1,29 @@
+[@Description]
+感谢你，旅行者，感谢你所提供的帮助。
+我非常高兴我的朋友{苏荷/LimeGreen}平安无事。
+我还有另一项任务要拜托你。
+
+[@TaskDescription]
+将{怪物血/LightSteelBlue}送到{金博士/LimeGreen}位于{蛇谷/Yellow}处。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+怪物血 2
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1971
+
+[@GoldReward]
+2850
+
+// Pickup - Merchant_Helen 1 292 84
+// Hand In - Merchant_Dr.Kim 0017 5 3

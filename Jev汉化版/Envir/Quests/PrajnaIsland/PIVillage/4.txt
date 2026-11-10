@@ -1,0 +1,24 @@
+[@Description]
+请返回 {桃源村/Yellow} 与 {首席训练师/LimeGreen} 交谈。
+
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3912
+
+[@GoldReward]
+
+// Pickup - 
+// Hand In - LeadTrainer_Harry 1002 11 8

@@ -1,0 +1,31 @@
+[@Description]
+谢谢你，我认出这枚戒指了，它以前是我祖母的。
+请把这份礼物带回给 {布拉德利/LimeGreen}，以表达我的感激之情。
+
+[@TaskDescription]
+请把这颗 {蓝色药丸/LightSteelBlue} 送到 {布拉德利/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+蓝色药丸 1
+
+[@FixedRewards]
+
+[@SelectRewards]
+黑水晶吊坠
+黑檀吊坠
+黄水晶吊坠
+
+[@ExpReward]
+219
+
+[@GoldReward]
+75
+
+// Pickup - Merchant_Melissa 2 517 477 
+// Hand In - Merchant_Bradley 0120 7 8

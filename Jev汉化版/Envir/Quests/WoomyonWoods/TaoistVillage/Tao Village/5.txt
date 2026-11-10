@@ -1,0 +1,27 @@
+[@Description]
+那批货在几天前就已经发出了……
+他现在本该已经收到她的订单了……
+
+[@TaskDescription]
+寻找失踪的马车。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1930
+
+[@GoldReward]
+3500
+
+// Pickup - 
+// Hand In - BrokenCarriage 11 103 391

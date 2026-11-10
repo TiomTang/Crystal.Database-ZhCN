@@ -1,0 +1,26 @@
+[@Description]
+在{桃花村/Yellow}与{洞穴向导/LimeGreen}交谈
+
+[@TaskDescription]
+前往{桃花村/Yellow}以西，与{洞穴向导/LimeGreen}交谈
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+4144
+
+[@GoldReward]
+7750
+
+// Pickup - Examiner_Tony 0 340 257
+// Hand In - CaveGuide_Paddy 11 119 293

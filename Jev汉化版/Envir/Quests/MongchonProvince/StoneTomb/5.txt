@@ -1,0 +1,25 @@
+[@Description]
+从流传的传闻来看，你已经在 {石墓/Yellow} 中找到了 {古代层/Yellow}。
+返回并从 {石墓/Yellow} 的古代层中收集 {遗物石/LightSteelBlue}。
+
+[@TaskDescription]
+击杀 {远古红野猪/Crimson}、{远古黑野猪/Crimson} 和 {远古白野猪/Crimson} 以获得 {遗物石/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+遗物石 20
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+78000
+
+[@GoldReward]
+78000

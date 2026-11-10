@@ -1,0 +1,32 @@
+[@Description]
+你能帮帮我吗？我需要重新补充一些物资。
+你可以去{比奇/Yellow}附近的{洞穴/Yellow}为我找到这些材料吗？
+
+[@TaskDescription]
+请从{半兽古墓/Yellow}收集5个{蝙蝠牙/LightSteelBlue}和{骷髅头/LightSteelBlue}，
+并从{比奇死矿/Yellow}收集{僵尸眼球/LightSteelBlue}。
+
+[@Completion]
+非常感谢你，勇敢的旅人。
+
+[@KillTasks]
+
+[@ItemTasks]
+蝙蝠牙齿 5
+骷髅 5
+僵尸眼球 5
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2550
+
+[@GoldReward]
+2550
+
+// Pickup - CraftsLady_Alice 0 321 265
+// Hand In - CraftsLady_Alice 0 321 265

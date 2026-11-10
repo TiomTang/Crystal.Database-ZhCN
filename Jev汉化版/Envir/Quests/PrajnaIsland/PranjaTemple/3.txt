@@ -1,0 +1,24 @@
+[@Description]
+
+[@TaskDescription]
+杀死 30 个 {右护卫/Crimson} 和 {左护卫/Crimson}.
+
+[@Completion]
+
+[@KillTasks]
+左护卫 30
+右护卫 30
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+55000
+
+[@GoldReward]
+55000

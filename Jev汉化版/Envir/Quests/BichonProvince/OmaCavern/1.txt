@@ -1,0 +1,30 @@
+[@Description]
+一块神秘的石头……刻着未知的古代
+符号。必定存在某种方法能破译
+这些符号。
+
+[@TaskDescription]
+在{半兽古墓/Yellow}中搜寻{古代镰刀/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+古代镰刀 1
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3500
+
+[@GoldReward]
+
+// Pickup - MysteriousStone D003 351 234
+// Hand In - MysteriousStone D003 351 234

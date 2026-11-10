@@ -1,0 +1,36 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎旅行者，我叫比尔，是一名工艺大师。
+我多年来一直专注于武器制造。
+ 
+<Special/@SRepair> Repair Weapon.
+ 
+<关闭/@exit>
+
+[@SRepair]
+#SAY
+旅行者，你很幸运……我们有材料可以进行特殊修理。
+ 
+ 
+<关闭/@exit>
+
+[Types]
+1
+
+[Quests]
+29
+54
+-54
+59
+-59

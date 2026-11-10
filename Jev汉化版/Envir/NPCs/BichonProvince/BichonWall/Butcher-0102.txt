@@ -1,0 +1,52 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎，有什么可以帮您的吗？
+ 
+<查看/@BuySell> 商店
+<询问/@Meathelp> 关于如何获得肉。
+ 
+<关闭/@Exit>
+
+
+[@BuySell]
+#SAY
+我愿意出高价购买上等品质的肉。
+但如果肉沾上了泥土或被火燎过，
+我就只能给低价了。
+<回购/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+您仍可回购的物品。
+ 
+<返回/@Main>
+
+[@Meathelp]
+#SAY
+肉类可从{鸡/Crimson}、{鹿/Crimson}、{羊/Crimson}和{狼/Crimson}获取。
+要获得上述任意动物的肉，首先需要击杀该动物。
+击杀后按住ALT键，同时用鼠标左键点击尸体数秒。
+随后您将看到一块肉出现在物品栏中。
+注意：使用魔法击杀动物会烧焦肉类，使其品质降为0。
+ 
+<返回/@Main>
+
+[Types]
+15
+
+[Trade]
+鸡肉
+肉类

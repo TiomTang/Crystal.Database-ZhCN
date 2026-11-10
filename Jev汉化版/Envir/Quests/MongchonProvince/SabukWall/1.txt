@@ -1,0 +1,26 @@
+[@Description]
+真是个蠢蛋！我把最古老的书给弄丢了。
+我去{沙巴克城/Yellow}时摔了一跤，
+回过神来就被{僵尸/Crimson}包围了。
+
+[@TaskDescription]
+在{沙巴克城/Yellow}找到隐藏入口并寻回{比奇传说/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+比奇传说(3) 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+9000
+
+[@GoldReward]
+9000

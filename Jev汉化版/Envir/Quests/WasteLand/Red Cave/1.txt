@@ -1,0 +1,32 @@
+[@Description]
+最近我们发现了一个名为 {古代废墟/Yellow} 的新区域。
+然而，前往那里的唯一途径是穿过 邪恶之心。
+如你所见，我无法穿过 邪恶之心，因为那里满是怪物。
+因此，我在此试图组建一支可以击败那些怪物的队伍。
+那么……你能通过清理 {赤炎洞穴/Yellow} 内的怪物来帮助我吗？
+如果怪物减少，这支队伍完成任务就会更加容易。
+
+[@TaskDescription]
+消灭 12 只 {幽冥吸血者/Crimson}、{青幽鬼/Crimson}、{变异蛆魔/Crimson} 和 {狂暴蛆魔/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+幽冥吸血者 12
+青幽鬼 12
+变异蛆魔 12
+狂暴蛆魔 12
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+105000
+
+[@GoldReward]
+60000

@@ -1,0 +1,29 @@
+[@Description]
+很高兴再次见到你，旅行者。请你把这张订单
+带给{萨姆/LimeGreen}，他是{桃源村/Yellow}的布料商人。
+
+[@TaskDescription]
+向北穿过{沃玛森林/Yellow}，并把{学徒套装/LightSteelBlue}
+交给{布商萨姆/LimeGreen}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+学徒套装 2
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2538
+
+[@GoldReward]
+4425
+
+// Pickup - Merchant_Melissa 2 517 477
+// Hand In - Merchant_Sam 1003 13 16

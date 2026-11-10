@@ -1,0 +1,40 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+<Buy/@Buy> Ore
+<出售/@Sell> Ore
+
+#ELSEACT
+MOVE 0 300 300
+
+[@Sell]
+#SAY
+Sell
+ 
+<返回/@Main>
+
+[@Buy]
+#SAY
+Buy.
+ 
+<返回/@Main>
+
+
+[Types]
+14
+
+[Trade]
+铜矿
+铁矿
+银矿
+金矿
+黑铁矿
+紫水晶
+红宝石
+铂金
+碧玉
+金刚石矿
+绿宝石矿
+橄榄石矿

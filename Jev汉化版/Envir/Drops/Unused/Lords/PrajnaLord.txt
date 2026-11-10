@@ -1,0 +1,206 @@
+;Gold
+1/1 Gold 22000
+
+;Pots + Other
+1/1 生命药剂(大)
+1/1 生命药剂(大)
+1/1 生命药剂(大)
+1/1 生命药剂(大)
+1/1 魔力药剂(大)
+1/1 魔力药剂(大)
+1/1 魔力药剂(大)
+1/1 魔力药剂(大)
+1/1 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/2 太阳药水(中)
+
+1/2 祝福油
+
+
+1/1 Awakeningbox 
+1/1 觉醒魂魄0 
+
+;Weapons
+1/90 屠龙
+1/90 邪弓
+1/90 修罗刀
+1/90 嗜魂法杖
+1/90 龙纹剑
+1/165 暗真魔刀
+1/115 独孤九剑
+1/115 力量之弓
+1/115 映邪天神
+1/115 太极慧剑
+1/215 黑虎斧
+1/215 致命之弓
+1/215 火莲杖
+1/215 鹤羽扇
+1/215 黑乌刀
+1/3000 LordSlayerBlade
+1/3000 LordSlayerStaff
+1/3000 LordSlayerFan
+1/3000 LordSlayerBlades
+
+;Armours
+1/3000 LordSlayerArmour(M)
+1/3000 LordSlayerArmour(F)
+
+;Helmet
+1/3000 LordSlayerHelmet
+
+;Necklace
+1/45 爪项链
+1/45 生命项链
+1/45 珍珠项链
+1/60 绿珠
+1/60 恶魔铃
+1/60 灵魂项链
+1/95 尖牙项链
+1/95 魔法锚
+1/95 净化之镜
+1/197 邪恶三角
+1/197 十字净化
+1/197 金刚项链
+
+;Necklace Rare
+1/1400 TerrapinNecklace
+1/3000 LordSlayerNecklace
+
+;Bracelets
+1/10 降魔轮
+1/10 卜魔轮
+1/10 八卦轮
+1/25 灵魂改造器
+1/25 圣道轮
+1/25 百踏手套
+1/95 双泰坦护符
+1/95 圣天使护符
+1/95 邪灵护符
+1/195 狂泰坦护符
+1/195 附魔护符
+1/195 五行护符
+
+;Bracelets Rare
+1/1300 TerrapinBracelet
+1/3000 LordSlayerBracelet
+
+;Rings
+1/10 欧玛之魂戒指
+1/10 DestinyRing 
+1/10 高贵戒指
+1/10 灵魂戒指
+1/15 无边戒指
+1/15 雷霆戒指
+1/15 太极戒指
+1/95 誓约戒指
+1/95 五行戒指
+1/95 深红红宝石戒指
+1/195 魔红宝石戒指
+1/195 驱魔戒指
+1/195 金龙戒指
+
+;Rings Rare
+1/1300 TerrapinRing
+1/3000 LordSlayerRing
+
+;Shields
+1/1300 TerrapinShield
+
+;Shoes
+1/15 丝靴
+1/20 黑靴
+1/30 龙靴
+1/60 红鳞靴
+1/3000 LordSlayerBoots
+
+;Belt
+1/3000 LordSlayerBelt
+
+;Stone
+1/50 HolyDCStone
+1/50 HolyMCStone
+1/50 HolySCStone
+1/50 HolyHealthStone
+1/50 HolyMagicStone
+1/50 HolyACStone
+1/50 HolyAMCStone
+1/50 HolyDefenseStone
+
+;Books
+;Warrior
+1/60 BladeStorm
+1/65 烈火剑法
+1/70 狮子吼
+1/75 BladeStorm
+1/80 穿心半月
+1/85 刀锋雪崩
+1/90 护身气幕
+1/95 狂战
+1/100 暴怒
+1/220 反击
+
+;Wizard
+1/60 魔法盾
+1/65 冰咆哮
+1/70 焰光冲击
+1/75 镜像术
+1/80 烈焰领域
+1/85 暴风雪
+1/220 魔力强化
+
+;Taoist
+1/60 无极真气
+1/65 治疗结界
+1/70 召唤神兽
+1/75 复活术
+1/80 召唤圣灵
+1/85 诅咒术
+1/90 毒雾术
+1/95 灵宠强化
+1/220 能量护盾
+
+;Assassin
+1/40 急速术
+1/45 闪影冲
+1/50 轻身术
+1/55 天剑剑法
+1/60 火焰爆裂
+1/65 CrescentSlash
+1/70 陷阱术
+1/75 毒剑术
+1/80 月影剑法
+1/120 吞魔术
+1/210 迅足术
+
+;Archer
+1/40 双重射术
+1/45 冥想术
+1/50 元素射术
+1/55 爆裂陷阱
+1/60 专注术
+1/65 吸血箭术
+1/70 召唤吸血鬼
+1/75 后撤步
+1/80 延迟爆炸
+1/120 元素屏障
+1/120 束缚箭
+1/210 召唤蟾蜍
+1/210 毒箭术
+
+;CraftingMaterials
+1/25 BraveryFragment
+1/25 MagicFragment
+1/25 SoulFragment
+1/25 ProtectionFragment
+1/25 EvilSlayerFragment
+1/25 DurabilityFragment
+1/25 StormFragment
+1/25 DisillusionFragment
+1/25 AccuracyFragment
+1/25 PoisonFragment
+1/25 FreezingFragment
+1/25 AgilityFragment
+1/25 EnduranceFragment

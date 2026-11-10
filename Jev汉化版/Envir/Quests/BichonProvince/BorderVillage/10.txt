@@ -1,0 +1,28 @@
+[@Description]
+你好，旅行者。你听说过这片地区的法师导师吗？
+他是所有法师的导师。我听说他最近在寻找新的弟子。
+不过也可能只是个传闻。
+
+[@TaskDescription]
+与 {法师导师/LimeGreen} 在坐标 314:474 处交谈
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - ArchMage_Robert 0 8 11

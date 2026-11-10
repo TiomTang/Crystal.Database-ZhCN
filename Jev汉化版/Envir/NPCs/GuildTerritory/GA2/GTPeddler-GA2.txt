@@ -1,0 +1,133 @@
+[@Main]
+#SAY
+你好，旅行者，有什么可以帮你的吗？
+ 
+<查看/@BuySell> 商店 
+<修理/@repair> 物品
+<询问/@Ask>关于物品
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+您想购买或出售什么物品？
+<回购/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+以下是仍可回购的物品。
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+You can repair various kinds of Torch's.
+
+[@Ask]
+#SAY
+I deal with <Candles/@candle>, <DungeonEscapes/@dungeonescape>, <RandomTeleports/@randomteleport>,
+<RepairOil/@repairoil> and so on forth.
+I have heard that there are <TownTeleport/@townteleport> which monsters
+drop sometimes.
+ 
+<返回/@Main>
+
+[@candle]
+#SAY
+Candles are needed when it's dark. Without a candle
+you can not see anything.
+ 
+<返回/@Ask>
+
+[@dungeonescape]
+#SAY
+地牢逃脱卷轴是一种魔法纸张，能立即将你传送至最近访问村庄附近的特定区域。
+与城镇传送卷轴相比，地城逃脱卷轴的力量较弱，但它仍可能在危急时刻拯救你的生命。
+ 
+<返回/@Ask>
+
+[@randomteleport]
+#SAY
+A Randomteleport scroll is a magic paper that can
+make you randomly move to another place in the same map.
+For example if you were in a dungeon 1st floor, you will
+move to another place on that floor by using the RT.
+If the situation is dangerous but you still have potions, use this
+to help you out of a tight situation.
+ 
+<返回/@Ask>
+
+[@repairoil]
+#SAY
+A RepairOil makes the durability of your hand weapon rise.
+This oil doesn't special repair your weapon, so
+remember that the maximum durability of the weapon
+goes down as time goes by.
+If the weapon was not expensive,
+repair with this oil occasionally during hunting.
+This will make hunts last longer.
+ 
+<返回/@Ask>
+
+[@townteleport]
+#SAY
+TownTeleport scrolls can't be made now because the ancient
+skill is lost.... however....
+I have heard that they might come randomly from monsters
+and you can return to a village promptly by using it...
+ 
+<返回/@Ask>
+
+[Types]
+8
+12
+38
+13
+
+[Trade]
+蜡烛
+火把
+EternalFlame
+城镇传送卷轴
+随机传送卷轴
+地牢逃脱卷轴
+回城传送卷轴
+GtTeleport
+武斗邀请
+护身符 1
+护身符 100
+Amulet(M) 1
+Amulet(M) 400
+Amulet(L) 1
+Amulet(L) 600
+Amulet(XL) 1
+Amulet(XL) 800
+AmuletRevival
+AmuletOfRevival(L)
+GreenPoison(S) 1
+GreenPoison(S) 100
+RedPoison(S) 1
+RedPoison(S) 100
+GreenPoison(M) 1
+GreenPoison(M) 400
+RedPoison(M) 1
+RedPoison(M) 400
+GreenPoison(L) 1
+GreenPoison(L) 600
+GreenPoison(XL) 1
+GreenPoison(XL) 800
+RedPoison(L) 1
+RedPoison(L) 600
+RedPoison(XL) 1
+RedPoison(XL) 800
+BluePoison(S) 1
+BluePoison(S) 200
+BluePoison(M) 1
+BluePoison(M) 400
+BluePoison(L) 1
+BluePoison(L) 600
+BluePoison(XL) 1
+BluePoison(XL) 800
+战神油

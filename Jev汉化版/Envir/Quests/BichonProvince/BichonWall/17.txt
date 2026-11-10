@@ -1,0 +1,28 @@
+[@Description]
+你尝过{蝙蝠翅膀/LightSteelBlue}吗？那可是道美味。
+我最近卖了很多。你能帮我再弄些翅膀来吗？
+
+[@TaskDescription]
+收集10个{蝙蝠翅膀/LightSteelBlue}并交给{莎拉/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+蝙蝠翅膀 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2500
+
+[@GoldReward]
+2500
+
+// Pickup - Merchant_Sarah 0 313 271
+// Hand In - Merchant_Sarah 0 313 271

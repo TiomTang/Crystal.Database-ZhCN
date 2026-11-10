@@ -1,0 +1,7 @@
+[@main]
+<移动/@move2nd> to the 2nd floor.
+<关闭/@exit>
+
+[@move2nd]
+#ACT
+MOVE GA27 15 42

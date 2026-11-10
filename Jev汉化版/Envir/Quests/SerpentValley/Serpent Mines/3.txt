@@ -1,0 +1,29 @@
+[@Description]
+传闻说..北边的矿井中有一把非常稀有的剑。
+你能帮我把它带来吗？
+
+[@TaskDescription]
+在{蛇谷死亡矿井2层/Yellow}消灭{高阶食尸鬼/Crimson}
+并取回{血剑/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+血剑 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+4700
+
+[@GoldReward]
+4700
+
+// Pickup - Merchant_Bradley 0120 7 8
+// Hand In - Merchant_Bradley 0120 7 8

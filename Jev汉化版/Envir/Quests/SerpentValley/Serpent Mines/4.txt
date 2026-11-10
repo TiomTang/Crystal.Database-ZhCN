@@ -1,0 +1,33 @@
+[@Description]
+谢谢你，旅行者。既然你把我儿子的{长袍/LightSteelBlue}带回来了，
+如果你愿意接受挑战，我有一项任务要托付给你。
+我儿子当时在{蛇谷死亡矿井/Yellow}寻找宝藏，他的长袍里留有一封信，
+说他找到了黄金。请回到那里取回{赃金/LightSteelBlue}。
+
+[@TaskDescription]
+消灭位于{蛇谷死亡矿井2层/Yellow}的{腐烂僵尸/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+赃金 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+黑水晶戒指
+金蛇之眼
+黑珍珠戒 
+
+[@ExpReward]
+4800
+
+[@GoldReward]
+4800
+
+// Pickup - InnKeeper_Robin 0146 5 10
+// Hand In - InnKeeper_Robin 0146 5 10

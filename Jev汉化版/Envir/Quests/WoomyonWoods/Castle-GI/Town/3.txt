@@ -1,0 +1,31 @@
+[@Description]
+我希望你能消灭{虫洞/Yellow}里的那些虫子。
+我睡觉很浅，实在无法忍受这些虫子发出的噪音。
+请你帮帮我吧。
+
+[@TaskDescription]
+消灭10只{凯克塔尔/Crimson}和{紫色凯克塔尔/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+凯克塔尔 10
+紫色凯克塔尔 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+青铜皮带 
+
+[@SelectRewards]
+
+[@ExpReward]
+3000
+
+[@GoldReward]
+750
+
+// Pickup - Master_Shok 1 312 73
+// Hand In - Master_Shok 1 312 73

@@ -1,0 +1,26 @@
+[@Description]
+请回到{盟重省/Yellow}的{罗宾/LimeGreen}仓库管理员那里
+
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+旧袍 1
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3794
+
+[@GoldReward]
+4200
+
+// Pickup - OldSkull D422 97 320
+// Hand In - InnKeeper_Robin 0146 5 10

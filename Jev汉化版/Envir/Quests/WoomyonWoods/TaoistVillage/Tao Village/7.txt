@@ -1,0 +1,30 @@
+[@Description]
+最近似乎出现了许多僵尸的踪迹。
+向西前往{矿区/Yellow}查看情况。
+
+[@TaskDescription]
+消灭10只{诅咒祭司/Crimson}、{尸僵/Crimson}、{诅咒僵尸/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+被诅咒的祭司 10
+尸僵 10
+被诅咒的僵尸 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+6600
+
+[@GoldReward]
+6600
+
+// Pickup - LeadTrainer_Harry 1002 11 8
+// Hand In - LeadTrainer_Harry 1002 11 8

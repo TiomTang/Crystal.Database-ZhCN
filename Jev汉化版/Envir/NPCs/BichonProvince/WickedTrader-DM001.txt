@@ -1,0 +1,69 @@
+[@Main]
+Welcome, how may I help you?
+ 
+<查看/@BuySell> 商店
+<修理/@repair> 物品
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+What item do you want to buy or sell?
+<回购/@BuyBack>
+  
+<返回/@main>
+
+[@BuyBack]
+#SAY
+您仍可回购的物品。
+ 
+<返回/@Main>
+
+[@Repair]
+Show me the items you wish to repair.
+ 
+<返回/@main>
+
+[Types]
+1
+2
+4
+9
+10
+
+[Trade]
+生命药剂(小) 1
+生命药剂(小) 5
+生命药剂(小) 10
+魔力药剂(小) 1
+魔力药剂(小) 5
+魔力药剂(小) 10
+生命药剂(中) 1
+生命药剂(中) 5
+生命药剂(中) 10
+魔力药剂(中) 1
+魔力药剂(中) 5
+魔力药剂(中) 10
+木剑
+木弓
+片血刀
+乌木剑
+革弓
+青铜剑
+铁弓
+短剑
+锋利虎牙刀
+弩弓
+铁剑
+青铜斧
+海魂
+八荒
+半月
+音速刀
+杉木铁弓
+蜡烛
+地牢逃脱卷轴
+随机传送卷轴
+布衣(男)
+布衣(女)
+轻型护甲(男)
+轻型护甲(女)

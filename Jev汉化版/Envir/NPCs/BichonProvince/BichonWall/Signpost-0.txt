@@ -1,0 +1,93 @@
+[@Main]
+#SAY
+<使用传送./@main-1> 至村庄商店
+听一听村里的<新闻/@ask>
+
+<<Create Hero/@CreateHero/Green>>
+<<ReviveHero/@ReviveHero/Red>>
+<<SealHero/@SealHero/Yellow>>
+
+[@main-1]
+#SAY
+<武器店/@go-weap>   <盔甲店/@go-cloth>   <旅店/@go-inn>
+<饰品店/@go-access>   <药剂店/@go-pot>   <比奇内城/@go-palace>
+<书店/@go-book>  <肉铺/@go-meat>
+
+<关闭/@Exit>
+ 
+
+[@ask]
+#SAY
+新闻：
+
+
+
+<返回/@Main>
+
+[@go-weap]
+#ACT
+Move 0103
+
+
+[@go-cloth]
+#ACT
+Move 0106
+
+
+[@go-inn]
+#ACT
+Move 0125
+
+
+[@go-access]
+#ACT
+Move 0105
+
+
+[@go-pot]
+#ACT
+Move 0108
+
+
+[@go-palace]
+#ACT
+Move 0122
+
+
+[@go-book]
+#ACT
+Move 0104
+
+
+[@go-meat]
+#ACT
+Move 0102
+
+
+[@go-merchant]
+#ACT
+Move 0 263 256
+
+
+[@go-tavern]
+#ACT
+Move 0101
+
+
+[@go-statues]
+#ACT
+Move 0 351 243
+
+[@ReviveHero]
+#ACT
+ReviveHero
+
+[@SealHero]
+#ACT
+SealHero
+
+[Quests]
+140
+-140
+141
+-141

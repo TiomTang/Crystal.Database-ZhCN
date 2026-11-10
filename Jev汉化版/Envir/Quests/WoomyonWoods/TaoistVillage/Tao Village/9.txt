@@ -1,0 +1,25 @@
+[@Description]
+旅行者……能帮我一下吗？我刚才在{林间小道/Yellow}砍{木材/LightSteelBlue}，
+结果被吓了一跳，把我的{斧头/LightSteelBlue}掉了。
+
+[@TaskDescription]
+找到并击杀{血诱蛛/Crimson}，取回{破旧斧头/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+破旧斧 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+7000
+
+[@GoldReward]
+7000

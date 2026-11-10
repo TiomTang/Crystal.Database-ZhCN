@@ -1,0 +1,9 @@
+[@main]
+#SAY
+你受够了吗？想回去了吗？
+
+<是的/@yes>  <没有/@exit>
+
+[@yes]
+#ACT
+MOVE EBEE03 204 255

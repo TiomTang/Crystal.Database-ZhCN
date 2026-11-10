@@ -1,0 +1,28 @@
+[@Description]
+你好。最近{盟重省/Yellow}里有太多昆虫了。
+晚上它们的声音吵得我睡不着。
+你能帮忙猎杀这些虫子吗？
+
+[@TaskDescription]
+前往{石墓/Yellow}并消灭10只
+{黑色蛆虫/Crimson}和{楔蛾/Crimson}。
+ 
+[@Completion]
+
+[@KillTasks]
+黑色蛆虫 10
+楔蛾 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+12500
+
+[@GoldReward]
+12500

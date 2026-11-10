@@ -1,0 +1,246 @@
+;Gold
+1/1 Gold 90000 
+
+1/1 生命药剂(特大) 
+1/1 生命药剂(特大) 
+1/1 魔力药剂(特大) 
+1/1 魔力药剂(特大) 
+1/1 太阳药水 
+1/2 太阳药水 
+1/1 太阳药水(中) 
+1/2 太阳药水(中) 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/2 太阳药水 
+
+1/1 祝福油 
+
+
+1/1 Awakeningbox 
+1/1 觉醒魂魄0 
+
+;Weapons
+1/50 月光大刀 
+1/50 冷酷之弓
+1/50 圣月枪 
+1/50 赤血剑 
+1/100 黑虎斧 
+1/100 火莲杖 
+1/100 致命之弓
+1/100 鹤羽扇 
+
+;Weapon Rare
+1/3000 EvilMirSword
+1/3000 EvilMirStaff
+1/3000 EvilMirFan
+1/3000 EvilMirBlades
+1/3000 LordSlayerBlade
+1/3000 LordSlayerStaff
+1/3000 LordSlayerFan
+1/3000 LordSlayerBlades
+
+;Armour
+1/100 黑虎护甲(男) 
+1/100 黑虎护甲(女) 
+1/100 莲花护甲(男) 
+1/100 莲花护甲(女) 
+1/100 仙鹤护甲(男) 
+1/100 仙鹤护甲(女) 
+1/200 WatcherSuit(M) 
+1/200 WatcherSuit(F) 
+
+;Armour Rare
+1/700 天堂护甲(男) 
+1/700 天堂护甲(女) 
+1/700 HeavenArcheyRobe(M)
+1/700 HeavenArcheyRobe(F)
+1/750 天堂护甲(男) 
+1/750 天堂护甲(女) 
+1/750 HeavenRedArmour(M) 
+1/750 HeavenRedArmour(F) 
+1/750 HeavenGrnArmour(M) 
+1/750 HeavenGrnArmour(F) 
+1/750 HeavenGoldArmour(M) 
+1/750 HeavenGoldArmour(F) 
+1/3000 EvilMirArmour(M) 
+1/3000 EvilMirArmour(F) 
+1/3000 LordSlayerArmour(M)
+1/3000 LordSlayerArmour(F)
+
+;Helmets
+1/20 闪耀头盔 
+1/25 PuiYuHelmet 
+
+;Helmets Rare
+1/3000 EvilMirHelmet
+1/3000 LordSlayerHelmet 
+
+;Necklace
+1/75 尖牙项链 
+1/75 魔法锚 
+1/75 净化之镜 
+1/150 邪恶三角 
+1/150 十字净化 
+1/150 金刚项链 
+
+;Necklace Rare
+1/3000 EvilMirNecklace 
+1/3000 LordSlayerNecklace
+
+;Bracelets
+1/50 双泰坦护符 
+1/50 圣天使护符 
+1/50 邪灵护符 
+1/100 狂泰坦护符 
+1/100 附魔护符 
+1/100 五行护符 
+
+
+;Bracelets Rare
+1/3000 EvilMirWheel
+1/3000 LordSlayerBracelet 
+
+;Rings
+1/50 誓约戒指 
+1/50 五行戒指 
+1/50 深红红宝石戒指 
+1/100 魔红宝石戒指 
+1/100 驱魔戒指 
+1/100 金龙戒指 
+
+
+;Rings Rare
+1/3000 EvilMirRing 
+1/3000 LordSlayerRing
+
+
+;Shoes
+1/20 闪耀靴子
+
+
+;Shoes Rare
+1/3000 EvilMirBelt 
+1/3000 LordSlayerBoots
+
+
+;Belts
+1/20 闪耀腰带 
+
+;Belts Rare
+1/3000 EvilMirBoots 
+1/3000 LordSlayerBelt
+
+;Medals
+1/215 AchievementMedal 
+1/215 ArmouredMedal 
+1/215 MedalofHonor 
+
+
+;Medals Rare
+1/315 OffensiveMedal 
+1/315 DefensiveMedal 
+1/3000 EvilMirMedal 
+
+
+;Shields
+1/200 MidnightShield 
+
+
+;Shields Rare 
+1/440 LunarPlate 
+1/3000 EvilMirShield
+
+;Pads
+1/200 EvolutionPads[14d] 
+1/215 MinoGuards[14d] 
+1/3000 EvilMirGuards 
+
+
+
+;Books
+;Warrior
+1/105 烈火剑法 
+1/110 狮子吼 
+1/115 BladeStorm 
+1/120 穿心半月 
+1/125 刀锋雪崩 
+1/130 护身气幕 
+1/135 狂战 
+1/140 反击 
+1/145 破空斩 
+1/150 暴怒 
+1/155 不灭金身 
+
+
+;Wizard
+1/90 吸血术 
+1/105 冰咆哮 
+1/110 焰光冲击 
+1/115 镜像术 
+1/120 烈焰领域 
+1/125 暴风雪 
+1/130 FrozenRains 
+1/135 魔力强化 
+1/140 陨石术 
+1/145 LavaKing 
+1/150 冰刺术 
+1/155 风暴逃脱 
+1/160 疾行术 
+
+
+;Taoist
+1/90 无极真气 
+1/100 治疗结界 
+1/105 召唤神兽 
+1/110 复活术 
+1/115 召唤圣灵 
+1/120 诅咒术 
+1/125 疫病术 
+1/130 毒雾术 
+1/135 能量护盾 
+1/140 灵宠强化 
+1/145 HeadShot 
+1/150 HolyShield 
+
+
+;Assassin
+1/80 火焰爆裂 
+1/85 CrescentSlash 
+1/105 陷阱术 
+1/110 毒剑术 
+1/115 月影剑法 
+1/120 吞魔术 
+1/125 迅足术 
+1/150 暗身术 
+
+1/80 元素屏障
+1/85 束缚箭
+1/110 召唤蟾蜍
+1/120 毒箭术
+1/125 致残箭
+1/150 召唤毒蛇
+
+;Gems/Orbs
+
+1/10 勇气宝珠 
+1/10 魔法宝珠 
+1/10 灵魂宝珠 
+1/10 防护宝珠 
+1/10 屠魔宝珠 
+1/25 准确宝珠 
+1/25 敏捷宝珠 
+1/25 毒素宝珠 
+1/25 冰冻宝珠 
+1/25 风暴宝珠 
+1/25 耐力宝珠 
+1/25 迷幻宝珠 
+
+
+;CraftingMaterials
+1/2 LunarPiece 
+1/2 龙鳞 

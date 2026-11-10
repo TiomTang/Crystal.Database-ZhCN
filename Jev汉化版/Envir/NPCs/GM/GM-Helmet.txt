@@ -1,0 +1,74 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+我看到你穿着： {<$HELMET>/CORAL}
+<Buy/@Buy> Helmet
+<出售/@Sell> Helmet
+<Repair/@Repair> Helmet
+<Special Repair/@SRepair> Helmet
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Buy]
+#SAY
+Buy.
+ 
+<返回/@Main>
+
+[@Sell]
+#SAY
+Sell.
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+Repair.
+ 
+<返回/@Main>
+
+[@SRepair]
+#SAY
+Special repair.
+ 
+<返回/@Main>
+
+
+[Types]
+4
+
+[Trade]
+祈祷头盔
+记忆头盔
+传奇头盔
+白骨头巾
+神秘头盔
+龙蒿头盔
+掠夺者头盔
+闪耀头盔
+黑暗头盔
+青帛头盔(战士)
+青帛头盔(法师)
+青帛头盔(道士)
+青帛头盔(刺客)
+青帛头盔(弓手)
+青铜头盔
+魔法头盔
+金铜头盔
+金萤帽
+骷髅头盔
+通天冠
+钢铁头盔
+勇士头盔
+黑铁头盔
+勇士头盔
+贤人帽
+通天冠
+皇家头盔
+国王头盔
+巫术头盔
+净化面具
+恶魔之影

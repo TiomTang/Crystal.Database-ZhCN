@@ -1,0 +1,35 @@
+[@Description]
+旅行者，请回到{蛇谷死亡矿井/Yellow}
+完成写在{隐藏卷轴/LightSteelBlue}上的任务。
+
+[@TaskDescription]
+消灭{腐烂萨满僵尸/Crimson}，并从{高阶尸王/Crimson}
+那里夺回{亡者之心/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+腐烂萨满僵尸 20
+
+[@ItemTasks]
+亡者之心 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+武道刀
+偃月
+锋利克里斯剑
+黑铁乌鸦双刀
+坚韧长弓
+
+[@ExpReward]
+4800
+
+[@GoldReward]
+4800
+
+// Pickup - Merchant_Dr.Kim 0017 5 9
+// Hand In - Merchant_Dr.Kim 0017 5 9

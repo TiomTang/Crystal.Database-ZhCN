@@ -1,0 +1,29 @@
+[@Description]
+感谢你的辛勤努力！
+不过在 {赤炎洞穴/Yellow} 中仍然有许多危险的怪物。
+{噬梦者/Crimson} 和 {暗魂噬者/Crimson} 依然在此徘徊。
+这些怪物一直利用它们的能力阻碍我们人们的行动。
+你能帮我们清除这些怪物吗？
+
+[@TaskDescription]
+前往 {赤炎洞穴/Yellow} 消灭 3 只 {噬梦者/Crimson} 和 {暗噬者/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+噬梦者 3
+暗噬者 3
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+BoxofHolyWater(1)
+
+[@SelectRewards]
+
+[@ExpReward]
+105000
+[@GoldReward]
+60000

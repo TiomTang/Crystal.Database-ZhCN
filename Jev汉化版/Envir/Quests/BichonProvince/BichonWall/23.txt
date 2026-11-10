@@ -1,0 +1,28 @@
+[@Description]
+哦，旅行者你好。
+你听说过{盟重省/Yellow}吗？
+他们正需要帮助。
+
+[@TaskDescription]
+去{盟重省/Yellow}与{爱德温/LimeGreen}谈谈。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2534
+
+[@GoldReward]
+4750
+
+// Pickup - Teleport_Harrison 0 291 296
+// Hand In - Transport_Edwin 3 365 340

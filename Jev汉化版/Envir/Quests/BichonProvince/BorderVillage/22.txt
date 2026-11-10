@@ -1,0 +1,28 @@
+[@Description]
+{边境村/Yellow}遇到麻烦了！更多的守卫由于频繁的怪物袭击而受伤。
+{鲁本/LimeGreen}为伤员们请求{遗物/LightSteelBlue}。
+
+[@TaskDescription]
+通过猎杀{洞穴蛆虫/Crimson}收集10个{遗物/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+遗物 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1700
+
+[@GoldReward]
+1700
+
+// Pickup - Alchemist_Samuel 0 324 291
+// Hand In - Merchant_Ruben 0 288 608

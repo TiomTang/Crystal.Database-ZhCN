@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 1000
+
+[Tools]
+
+[Ingredients]
+鸡肉
+老参
+体力合剂(小)

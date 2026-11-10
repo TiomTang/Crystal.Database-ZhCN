@@ -1,0 +1,27 @@
+[@Description]
+我爷爷住在 {沃玛森林/Yellow}。我以前常去看他，但最近实在太忙了。
+你能去 {沃玛森林/Yellow} 看看 {朔克大师/LimeGreen}，看看他过得怎样吗？
+
+[@TaskDescription]
+前往 {沃玛森林/Yellow} 坐标 312:73 处拜访 {朔克大师/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+657
+
+[@GoldReward]
+900
+
+// Pickup - Merchant_Melissa 2 517 477
+// Hand In - Master_Shok 1 312 73

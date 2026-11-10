@@ -1,0 +1,30 @@
+[@Description]
+你好，旅行者，{石庙/Yellow} 内潜藏着更加黑暗的邪恶。
+在其层中有一块石头，据说拥有进入 {古代层/Yellow} 通道的能力。
+
+[@TaskDescription]
+在 {石墓/Yellow} 中找到那块石头。
+
+[@Completion]
+
+[@FlagTasks]
+525 "在石墓中找到那块石头"
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+9612
+
+[@GoldReward]
+13600
+
+// Pickup - MonghconDelegate_Michael 3 330 332
+// Hand In - MongchonDelegate_Michael 3 330 332

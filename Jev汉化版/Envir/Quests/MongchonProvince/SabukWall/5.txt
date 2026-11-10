@@ -1,0 +1,29 @@
+[@Description]
+看来这一次传言是真的。
+请返回{隐藏入口/Yellow}。
+
+[@TaskDescription]
+消灭一些{爬行僵尸/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+爬行僵尸 50 "消灭一些爬行僵尸"
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+驱魔师之戒 
+
+[@SelectRewards]
+
+[@ExpReward]
+11000
+
+[@GoldReward]
+2750
+
+// Pickup - Merchant_Mr.Wang 3 663 304
+// Hand In - Merchant_Mr.Wang 3 663 304

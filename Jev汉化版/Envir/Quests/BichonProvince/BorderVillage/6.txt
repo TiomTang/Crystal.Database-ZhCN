@@ -1,0 +1,31 @@
+[@Description]
+旅行者……我还是觉得外面太危险了。
+你能再帮我一个忙吗？
+
+[@TaskDescription]
+消灭 10 只{钩爪猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+钩爪猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+青铜战士剑
+强力木弓
+坚韧木弓
+
+[@ExpReward]
+150
+
+[@GoldReward]
+38
+
+// Pickup - Blacksmith_Smith 0 296 613
+// Hand In - Blacksmith_Smith 0 296 613

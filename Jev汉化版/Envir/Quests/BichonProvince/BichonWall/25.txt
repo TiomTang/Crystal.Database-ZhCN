@@ -1,0 +1,30 @@
+[@Description]
+老师让我去找一些炼药的材料。那些材料只能从
+{浪人尸王/Crimson} 身上获得，但我不能靠近它们。
+你能帮我采一些 {尸花/LightSteelBlue} 吗？
+
+[@TaskDescription]
+前往 般若岛，通过猎杀 {浪人尸王/Crimson}
+收集 10 朵 {尸花/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+尸花 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+18500
+
+[@GoldReward]
+18500
+
+// Pickup - Alchemist_Samuel 324 291
+// Hand In - Alchemist_Samuel 324 291

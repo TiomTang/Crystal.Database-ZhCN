@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 20
+Gold 10000
+
+[Tools]
+工艺书
+
+[Ingredients]
+魔力之石
+魔法合剂(大)
+魔力药剂(特大)

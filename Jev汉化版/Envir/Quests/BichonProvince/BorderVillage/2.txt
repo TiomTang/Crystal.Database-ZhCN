@@ -1,0 +1,31 @@
+[@Description]
+你能帮我一个忙吗？我也想送一份礼物给{简/LimeGreen}来表达我的感激之情。
+但是我现在不能离开这里。
+
+[@TaskDescription]
+找到{姜茶/LightSteelBlue}，从{稻草人/Crimson}处获得，
+并交付给{助理简/LimeGreen}，地点在{边境村/Yellow}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+姜茶 1 
+
+[@CarryItems]
+
+[@FixedRewards]
+金吊坠
+铜戒指
+
+[@SelectRewards]
+
+[@ExpReward]
+30
+
+[@GoldReward]
+200
+
+// Pickup - CraftsLady_Jude 0 294 619
+// Hand In - Assistant_Jane 0 284 606

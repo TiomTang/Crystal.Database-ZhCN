@@ -1,0 +1,95 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好，我是西格蒙德，一位游历四方的战士。  
+我能快速安全地将人员和货物运送到任何地方。  
+只需支付费用，我就能护送你到任何目的地。  
+你觉得如何？
+ 
+<我要传送/@tele>
+<也许下次吧/@exit> 
+
+[@tele]
+#SAY
+你想去哪个地方？
+
+我的服务费是2000金币。
+
+<<边境村/@Border>>
+<<比奇城/@BichonWall>>
+<<蛇谷/@Serpent>>
+<<土城/@MudWall>>
+<<封魔谷/@CastleGi>>
+<<沃玛营地/@Camp>>
+
+[@Border]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 0 289 617
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@BichonWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 0 296 222
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Serpent]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 2 500 485
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@MudWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 3 361 342
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@CastleGi]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 4 264 257
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Camp]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 1 315 82
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@gold]
+#SAY
+抱歉，您的金币不足。
+
+<离开/@Exit>
+
+[Quests]

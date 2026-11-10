@@ -1,0 +1,28 @@
+[@Description]
+嗯……这些情报似乎指向了{骸骨精英/Crimson}。
+你能帮我们猎杀这个怪物吗？我们也正遭受攻击，无法离开小镇。
+
+[@TaskDescription]
+请消灭{骸骨精英/Crimson}并带回它的{头颅/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+骷髅头 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2500
+
+[@GoldReward]
+2500
+
+// Pickup - Teleport_Kyle 0 371 314
+// Hand In - Teleport_Kyle 0 371 314

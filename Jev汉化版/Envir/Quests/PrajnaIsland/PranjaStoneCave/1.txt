@@ -1,0 +1,29 @@
+[@Description]
+{般若洞/Yellow} 是许多战士与怪物战斗而牺牲的地方。
+几年前，这些死去的战士被复活了，但他们什么都不记得，
+并且会攻击进入洞穴的所有人。
+请帮忙消灭它们。
+
+[@TaskDescription]
+向东前往 {般若石窟/Yellow}，消灭
+15 个 {骷髅弓箭手/Crimson} 和 15 个 {骷髅枪兵/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+骷髅弓箭手 15
+骷髅枪兵 15
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+19500
+
+[@GoldReward]
+19500

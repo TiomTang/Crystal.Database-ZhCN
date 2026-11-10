@@ -1,0 +1,30 @@
+[@Description]
+你好，旅行者。感谢你的到来。
+我之所以请你来，是想让你帮忙守护{沃玛森林/Yellow}的安全。
+你或许在从{比奇城/Yellow}过来的路上，已经看到过一些{食人花/Crimson}了。
+我们需要猎杀它们，以保护商人免受危险的袭击。
+
+[@TaskDescription]
+请从{食人花/Crimson}那里收集10个{食人花茎/LightSteelBlue}和{食人花叶/LightSteelBlue}，
+然后将它们交给{传奇向导/LimeGreen}，他在{比奇城/Yellow}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+食人花茎 10
+食人花叶2 10
+
+[@CarryItems]
+
+[@FixedRewards]
+钢制手链
+
+[@SelectRewards]
+
+[@ExpReward]
+450
+
+[@GoldReward]
+113

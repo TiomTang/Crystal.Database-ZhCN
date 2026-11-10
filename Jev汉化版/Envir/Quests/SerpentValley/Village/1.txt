@@ -1,0 +1,29 @@
+[@Description]
+旅行者你好。我正从{盟重省/Yellow}返回{毒蛇谷/Yellow}的路上，
+结果遭到{野狗/Crimson}的袭击，把包都掉了。
+包里有我珍贵无比的{玉戒指/LightSteelBlue}。
+
+[@TaskDescription]
+从{野狗/Crimson}那里找回{玉戒指/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+软玉戒指 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+800
+
+[@GoldReward]
+800
+
+// Pickup - Merchant_Bradley 0120 7 8
+// Hand In - Merchant_Bradley 0120 7 8

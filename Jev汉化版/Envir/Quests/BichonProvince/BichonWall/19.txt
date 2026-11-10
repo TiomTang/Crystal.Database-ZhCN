@@ -1,0 +1,28 @@
+[@Description]
+我正在用{稀有铜矿/LightSteelBlue}打造一件特殊的护甲。
+你可以在{死亡矿井/Yellow}里的{僵尸/Crimson}身上找到这些材料。
+
+[@TaskDescription]
+通过猎杀{僵尸/Crimson}来收集10个{稀有铜矿/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+稀有铜矿 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3000
+
+[@GoldReward]
+3000
+
+// Pickup - Blacksmith_Bill 0 302 221
+// Hand In - Blacksmith_Bill 0 302 221

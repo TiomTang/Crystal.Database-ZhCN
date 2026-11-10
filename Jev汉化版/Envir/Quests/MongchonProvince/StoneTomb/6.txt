@@ -1,0 +1,27 @@
+[@Description]
+这是真的吗？你去过 {古代层/Yellow}？
+你能回去并通过击杀 {古代蝎蛇/Crimson} 收集 17 个 {血丹/LightSteelBlue} 吗？
+
+[@TaskDescription]
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+血丹 17
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+88500
+
+[@GoldReward]
+88500
+
+// Pickup - Merchant_Kevin 3 346 334
+// Hand In - Merchant_Kevin 3 346 334

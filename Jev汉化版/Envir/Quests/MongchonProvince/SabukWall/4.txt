@@ -1,0 +1,33 @@
+[@Description]
+这附近有{隐藏入口/Yellow}。
+它们通往某种地宫。
+传言说在每个入口处都有一些柱子。
+
+[@TaskDescription]
+找到{隐藏入口/Yellow}并搜寻那些柱子。
+
+[@Completion]
+
+[@KillTasks]
+
+[@FlagTasks]
+521 "寻找奇怪的柱子"
+522 "寻找奇异的柱子"
+523 "寻找神秘的柱子"
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2764
+
+[@GoldReward]
+5500
+
+// Pickup - Merchant_Mr.Wang 3 663 304
+// Hand In - Merchant_Mr.Wang 3 663 304 

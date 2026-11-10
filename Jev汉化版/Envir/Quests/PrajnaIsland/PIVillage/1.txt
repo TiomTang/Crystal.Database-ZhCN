@@ -1,0 +1,30 @@
+[@Description]
+被{红蛇/Crimson} 咬伤？请告诉 {罗伯特/LimeGreen}，
+{红蛇/Crimson} 的牙齿是解药的主要成分。
+你的时间不多了。去杀一些 {红蛇/Crimson} 获取牙齿。
+
+[@TaskDescription]
+收集 {红蛇牙/LightSteelBlue} 制作解药
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+红蛇牙 1
+
+[@CarryItems]
+
+[@FixedRewards]
+BoxofHolyWater(3)
+
+[@SelectRewards]
+
+[@ExpReward]
+1200
+
+[@GoldReward]
+300
+
+// Pickup - 
+// Hand In - Merchant_Robert 2 505 479

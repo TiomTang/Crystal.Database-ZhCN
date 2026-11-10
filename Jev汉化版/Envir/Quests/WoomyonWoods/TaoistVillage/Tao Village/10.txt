@@ -1,0 +1,37 @@
+[@Description]
+现已发布一项怪物清除命令。
+请执行此命令。
+
+[@TaskDescription]
+消灭
+{匪蛛/Crimson} x 4
+{根蜘蛛/Crimson} x 5
+{诱捕蜘蛛/Crimson} x 5
+{巨蜘蛛/Crimson} x 5
+
+[@Completion]
+
+[@KillTasks]
+匪蛛 4
+根蜘蛛 5
+诱捕蜘蛛 5
+巨蜘蛛 5
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+ThickArmour
+FireMagicRobe
+TaoArmour
+SpiritRobe
+LeatherArmour
+
+[@ExpReward]
+7100
+
+[@GoldReward]
+7100

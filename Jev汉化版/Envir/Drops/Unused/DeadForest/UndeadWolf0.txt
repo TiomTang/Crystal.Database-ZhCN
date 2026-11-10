@@ -1,0 +1,22 @@
+;Gold
+1/5 Gold 1000
+
+;Potions
+1/15 生命药剂(大)
+1/15 魔力药剂(大)
+
+;Crafting Material
+1/20 亡灵皮革
+1/10 BraveryFragment
+1/10 MagicFragment
+1/10 SoulFragment
+1/10 ProtectionFragment
+1/10 EvilSlayerFragment
+1/10 DurabilityFragment
+1/10 风之石
+1/10 闪避石
+1/10 专注石
+1/10 毒之石
+1/10 冰之石
+1/10 意志石
+1/10 解毒石

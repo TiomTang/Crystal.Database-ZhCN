@@ -1,0 +1,35 @@
+[@Description]
+我因为洞里的虫子而丢了包。
+它们把我所有的东西都抢走了。
+你能帮我把那些东西找回来吗？
+
+[@TaskDescription]
+击杀{紫色凯克塔尔/Crimson}、{凯克塔尔/Crimson}和{蓝色霍罗炮手的/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+采集手套 1
+采集工具 1
+绿草 5
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+硬钢剑
+黑檀镯
+僧侣镯
+丝鞋
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+950
+
+// Pickup - Traveller_Soho D2042 114 155
+// Hand In - Traveller_Soho D2042 114 155

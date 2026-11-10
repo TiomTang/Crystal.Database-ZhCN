@@ -1,0 +1,11 @@
+;Helmets
+1/100 神秘头盔
+
+;Bracelets
+1/100 神秘法轮 
+
+;Rings
+1/100 神秘之环 
+
+;Potions
+1/100 神秘之水

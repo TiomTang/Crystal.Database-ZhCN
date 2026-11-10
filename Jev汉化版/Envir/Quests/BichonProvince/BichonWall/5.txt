@@ -1,0 +1,27 @@
+[@Description]
+你来得正好。{盟重斥候/LimeGreen}刚才来过，
+给你留了句话。请去{酒馆/Yellow}。
+
+[@TaskDescription]
+去{酒馆/Yellow}与{盟重斥候/LimeGreen}谈话
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1104
+
+[@GoldReward]
+1200
+
+// Pickup - 
+// Hand In - MongchonScout_Brian 0100 4 10

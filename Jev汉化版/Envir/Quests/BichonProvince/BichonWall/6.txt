@@ -1,0 +1,31 @@
+[@Description]
+你好，旅行者。你在这一带相当有名。
+你也能帮帮我吗？
+如今药品的需求不断增加，而我们正缺少制作药品的材料。
+尤其是{蛛丝/LightSteelBlue}十分短缺，它可以从{喷毒蜘蛛/Crimson}身上获得。
+你能帮我收集一些吗？
+
+[@TaskDescription]
+请从{喷毒蜘蛛/Crimson}身上收集10个{蛛丝/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+蛛网 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+500
+
+[@GoldReward]
+500
+
+// Pickup - Alchemist_Samuel 0 324 291
+// Hand In - Alchemist_Samuel 0 324 291

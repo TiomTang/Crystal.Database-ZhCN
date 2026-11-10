@@ -1,0 +1,66 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Hello, Are you looking for something particular? 
+How can I be of assistance.
+ 
+<查看/@BuySell> 商店
+<Repair/@Repair> Weapon.
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+您想购买或出售哪个物品？
+<回购/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+以下是仍可回购的物品。
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+Would you like to repair a weapon?
+Show me the weapon that needs it.
+ 
+<返回/@main>
+
+
+[Types]
+1
+14
+
+[Trade]
+木剑
+木弓
+虎牙刀
+片血刀
+乌木剑
+革弓
+青铜剑
+锋利虎牙刀
+短剑
+铁弓
+铁剑
+弩弓
+青铜斧
+八荒
+海魂
+半月
+BladesofVelocity
+杉木铁弓
+矿镐

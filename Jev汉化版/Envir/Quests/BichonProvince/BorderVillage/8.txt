@@ -1,0 +1,33 @@
+[@Description]
+{助理简/LimeGreen}派你来的吗？
+我无法拒绝她推荐的人，
+但也不能随便收谁做弟子。
+你必须通过我的考验。
+
+[@TaskDescription]
+消灭10只{半兽人/Crimson}和{钉耙猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽人 10
+钉耙猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧懒鞋
+基本剑术
+
+[@SelectRewards]
+
+[@ExpReward]
+180
+
+[@GoldReward]
+45
+
+// Pickup - Master_Wa 0 110 317
+// Hand In - Master_Wa 0 110 317

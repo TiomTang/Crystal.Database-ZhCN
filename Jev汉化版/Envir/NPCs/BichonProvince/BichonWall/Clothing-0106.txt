@@ -1,0 +1,111 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好，旅行者。我能为你做些什么？
+ 
+<查看/@BuySell> 商店
+<维修/@Repair> 衣物
+<交谈/@talk> 关于比奇城
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+您想购买或出售哪个物品？
+<回购/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+以下是仍可回购的物品。
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+您想要修复一件衣物吗？
+ 
+<返回/@main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+布衣(男)
+布衣(女)
+轻型护甲(男)
+轻型护甲(女)
+青铜头盔
+魔法头盔
+皮质腰带
+劣质鞋
+
+[Quests]
+-86
+87
+156
+
+[@talk]
+#IF
+CHECK [540] 1
+#ACT
+GOTO @MAIN1-1
+#ELSEACT
+GOTO @CHECK2
+
+[@CHECK2]
+#IF
+CHECK [541] 1
+#ACT
+GOTO @MAIN1-2
+#ELSEACT
+GOTO @MAIN1-3
+
+[@MAIN1-1]
+#SAY
+你好，旅行者……我一直听闻皇帝陛下的善行美德。
+ 
+<关闭/@exit>
+
+[@MAIN1-2]
+#SAY
+再次问候你，旅人。今天天气不错，不是吗。
+ 
+<关闭/@exit>
+
+[@MAIN1-3]
+#IF
+CHECKQUEST 157 1
+#SAY
+感谢你，旅人，你为我省了不少时间。
+而且天啊，她废话可真多……
+
+所以你想让我帮忙传播<皇帝/@Emperor>的善行？
+<关闭/@exit>
+#ELSESAY
+你先为我做点事情怎么样？
+ 
+<关闭/@exit>
+
+[@Emperor]
+#ACT
+SET [541] 1
+#SAY
+好的，旅行者。
+ 
+<关闭/@exit>

@@ -1,0 +1,30 @@
+[@Description]
+{蓝霍罗爆射/Crimson}在{昆虫洞/Yellow}里。
+这种虫子的血可以净化后用作药材。
+你能帮我带来12份{虫血/LightSteelBlue}吗？
+
+[@TaskDescription]
+在{虫洞/Yellow}击杀{蓝霍罗爆射的/Crimson}
+并收集12份{虫血/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+虫血 12
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+3800
+
+// Pickup - Merchant_Helen 1 292 84
+// Hand In - Merchant_Helen 1 292 84

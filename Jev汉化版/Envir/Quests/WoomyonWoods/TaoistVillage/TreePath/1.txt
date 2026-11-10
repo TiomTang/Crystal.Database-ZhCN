@@ -1,0 +1,27 @@
+[@Description]
+请前往 {赤月峡谷/Yellow} 收集材料。
+
+[@TaskDescription]
+击杀 {蜘蛛蝙蝠/Crimson} 并收集 20 个 {蝙蝠毒液/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+蝙蝠毒液 20
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+33000
+
+[@GoldReward]
+33000
+
+// Pickup - Merhcant_Janey 1006 9 10
+// Hand In - Merchant_Janey 1006 9 10

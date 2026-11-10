@@ -1,0 +1,30 @@
+[@Description]
+你是旅行者 {简/LimeGreen} 推荐的。
+请你去猎杀 {鹿/Crimson} 并带给我一些
+{鹿肉/LightSteelBlue}。如果你想更多了解屠宰，请按 "H"。
+
+[@TaskDescription]
+通过猎杀 {鹿/Crimson} 来收集 {鹿肉/LightSteelBlue} 
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+鹿肉块 5
+
+[@CarryItems]
+
+[@FixedRewards]
+旧铜戒
+
+[@SelectRewards]
+
+[@ExpReward]
+80
+
+[@GoldReward]
+20
+
+// Pickup - Merchant_John 0 292 604
+// Hand In - Merchant_John 0 292 604

@@ -1,0 +1,51 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+很高兴见到你，我能为你做些什么？
+ 
+<购买/@Buy> 钓鱼用品.
+<出售/@sell> Fish.
+ 
+<关闭/@exit>
+
+
+[@Buy]
+#SAY
+请选择您想购买的商品
+<回购/@BuyBack>
+ 
+<返回/@main>
+
+[@sell]
+#SAY
+Lay down your fishies to be sold
+ 
+ 
+ <返回/@main>
+
+[@BuyBack]
+#SAY
+您仍可回购的物品。
+ 
+<返回/@Main>
+
+[Type]
+
+
+[Trade]
+蓝色鱼竿
+鱼钩
+鱼漂
+探鱼器
+鱼轮
+鱼饵

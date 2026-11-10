@@ -1,0 +1,32 @@
+[@Description]
+飞螳螂似乎有某种规律可循。
+也许{比奇/Yellow}城的某人能够解读这些古老符号。
+
+[@TaskDescription]
+返回{比奇城/Yellow}
+询问关于符号的事宜。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@FlagTasks]
+533 "请咨询图书馆。"
+534 "请至旅店询问。"
+535 "终于明白“赛西尔”的工作原理。"
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3900
+
+[@GoldReward]
+
+// Pickup - MysteriousStone D003 351 234
+// Hand In - MysteriousStone D003 351 234

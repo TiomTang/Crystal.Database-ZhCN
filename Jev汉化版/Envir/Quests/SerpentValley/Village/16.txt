@@ -1,0 +1,31 @@
+[@Description]
+年轻的米里安，您好。我本打算经常去 {盟重省/Yellow}，
+但因为路上有蛇，我一直没能离开这座小镇。
+你觉得能帮我清除一些那些蛇吗？
+
+[@TaskDescription]
+消灭 15 条 {红蝰蛇/Crimson} 和 {虎蝰蛇的/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+红蝰蛇 15
+虎蝰蛇 15
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+坚固青铜斧
+
+[@SelectRewards]
+
+[@ExpReward]
+1200
+
+[@GoldReward]
+300
+
+// Pickup - Merchant_Bradley 0120 7 8
+// Hand In - Merchant_Bradley 0120 7 8

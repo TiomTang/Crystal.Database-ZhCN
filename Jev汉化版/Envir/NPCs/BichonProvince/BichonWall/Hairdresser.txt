@@ -1,0 +1,90 @@
+[@MAIN]
+#SAY
+我是本地的理发师，专门负责剪发。
+我被派到这里来查看人们的生活状况。
+不幸的是，似乎仍有许多人在贫困中挣扎，
+连理发都负担不起。
+我可以为你理发，只需 20,000 金币。
+
+不过我必须提醒你，更换发型后你需要重新登录。
+
+<理发/@Haircut>
+
+[@Haircut]
+#SAY
+你想要什么发型？
+
+<棕色短发/@Brown>
+<蓝色长发/@Blue>
+<红色长发/@Red>
+<棕色爆炸头/@BAfro>
+<红色爆炸头/@RAfro>
+<蓝色爆炸头/@BlAfro>
+
+<离开/@exit>         <返回/@Main>
+
+[@Brown]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 0
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+[@Blue]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 1
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+[@Red]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 2
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+[@BAfro]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 3
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+[@RAfro]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 4
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！
+
+[@BlAfro]
+#IF
+CHECKGOLD > 20000
+#ACT
+TAKEGOLD 20000
+CHANGEHAIR 5
+BREAK
+#ELSESAY
+你没有足够的{金币/Gold}来使用我的服务！
+滚开，别再浪费我的时间！

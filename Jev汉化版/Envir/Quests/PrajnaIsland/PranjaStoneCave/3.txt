@@ -1,0 +1,26 @@
+[@Description]
+我需要你的帮助。我接到了一份订单……有点奇怪。
+你能去当地的洞穴收集一些 {干净头骨/LightSteelBlue} 吗？
+
+[@TaskDescription]
+通过狩猎 {骷髅弓手/Crimson}、{骷髅刀兵/Crimson} 和 {骷髅枪兵/Crimson}
+来收集 20 个 {干净头骨/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+干净头骨 20
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+18500
+
+[@GoldReward]
+18500

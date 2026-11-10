@@ -1,0 +1,27 @@
+[@Description]
+请把这份 {水藻/LightSteelBlue} 带到 {盟重省/Yellow}。
+
+[@TaskDescription]
+将 {水藻/LightSteelBlue} 送到 {工艺师/​LimeGreen} 手中，地点在 {盟重省/Yellow}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+水藻 2
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+8407
+
+[@GoldReward]
+12000
+
+// Pickup - 
+// Hand In - CraftsLady_Louise 3 299 371

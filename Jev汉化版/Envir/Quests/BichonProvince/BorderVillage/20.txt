@@ -1,0 +1,33 @@
+[@Description]
+一个“推荐”吗……这还是第一次。
+这场战争中我们需要所有能够提供帮助的人，
+无论他们是否愿意加入守卫队。
+请问，你能帮我个忙吗？
+
+[@TaskDescription]
+消灭 10 只 {半兽人/Crimson} 和 {钉耙猫/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽人 10
+钉耙猫 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+旧懒鞋
+凝神术
+
+[@SelectRewards]
+
+[@ExpReward]
+180
+
+[@GoldReward]
+45
+
+// Pickup - Captain_Jerald 0 320 476
+// Hand In - Captain_Jerald 0 320 476

@@ -1,0 +1,56 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+<Buy/@Buy> Gem
+<出售/@Sell> Gem
+
+#ELSEACT
+MOVE 0 300 300
+
+[@Sell]
+#SAY
+Sell.
+ 
+<返回/@Main>
+
+[@Buy]
+#SAY
+Buy.
+ 
+<返回/@Main>
+
+
+[Types]
+18
+
+[Trade]
+勇气宝石
+魔法宝石
+灵魂宝石
+防护宝石
+屠魔宝石
+耐久宝石
+风暴宝石
+敏捷宝石
+准确宝石
+毒素宝石
+冰冻宝石
+迷幻宝石
+耐力宝石
+勇气宝珠
+魔法宝珠
+灵魂宝珠
+防护宝珠
+屠魔宝珠
+耐久宝珠
+风暴宝珠
+敏捷宝珠
+准确宝珠
+毒素宝珠
+冰冻宝珠
+迷幻宝珠
+耐力宝珠
+缝纫材料
+骨锤

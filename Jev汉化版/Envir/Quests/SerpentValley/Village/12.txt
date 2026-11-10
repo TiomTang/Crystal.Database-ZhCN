@@ -1,0 +1,29 @@
+[@Description]
+你是来帮我的吗？你真的愿意帮忙吗？太感谢了。
+我常年四处漂泊，从不在一个地方久住，所以也没什么邻居能帮我。
+我女儿被一条 {红蛇/Crimson} 咬了，毒快要要了她的命。
+我听说在 {般若岛/Yellow} 有位名医，名叫 {桑福德/LimeGreen}。
+
+[@TaskDescription]
+请去找 {桑福德/LimeGreen}，并带回救我女儿的解药
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+807
+
+[@GoldReward]
+1110
+
+// Pickup - Merchant_Robert 2 505 479
+// Hand In - 

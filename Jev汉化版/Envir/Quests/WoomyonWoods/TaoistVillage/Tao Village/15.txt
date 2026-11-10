@@ -1,0 +1,30 @@
+[@Description]
+{般若岛/Yellow} 的 {村长/LimeGreen} 要求归还 {般若史书/LightSteelBlue}。
+很遗憾地告诉你，我们遭到洗劫，许多珍贵物品被偷走了。
+袭击我们的怪物是一只 {蓝色巨猿/Crimson}。
+
+[@TaskDescription]
+击杀 {邪猿索博/Crimson} 并取回 {般若史书/LightSteelBlue}。
+前往 {赤月峡谷/Yellow} 搜寻袭击者。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+般若史书 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+26000
+
+[@GoldReward]
+20000
+
+// Pickup - LeadTrainer_Harry 1002 11 8
+// Hand In - LeadTrainer_Harry 1002 11 8

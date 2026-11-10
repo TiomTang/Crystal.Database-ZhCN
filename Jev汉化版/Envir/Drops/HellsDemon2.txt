@@ -1,0 +1,53 @@
+;Gold
+1/6 Gold 2750
+
+;Pots + Other
+1/4 生命药剂(特大)
+1/4 魔力药剂(特大)
+1/10 生命药剂(特大)
+1/10 魔力药剂(特大)
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/200 解毒石
+
+;Quests
+

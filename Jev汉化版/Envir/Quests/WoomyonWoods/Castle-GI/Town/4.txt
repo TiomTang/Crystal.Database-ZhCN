@@ -1,0 +1,26 @@
+[@Description]
+旅行者，请去{沃玛森林/Yellow}警告{讨伐队长/LimeGreen}即将来临的威胁。
+
+[@TaskDescription]
+前往{沃玛森林/Yellow}，提醒他们注意这场迫在眉睫的威胁。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1380
+
+[@GoldReward]
+2563
+
+// Pickup - SubjagationManager_James 0 343 182
+// Hand In - SubjugationLead_Eric 1 317 71

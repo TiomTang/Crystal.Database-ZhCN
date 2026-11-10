@@ -1,0 +1,28 @@
+[@Description]
+几天前我遭到攻击，中了毒。
+我买了{解毒剂/LightSteelBlue}，但怪物把我的包给抢走了。
+
+[@TaskDescription]
+击杀{卡卡塔尔/Crimson}并找到{苏荷/LimeGreen}的{解毒剂/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+解毒剂 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+3800
+
+// Pickup - Traveller_Soho D2042 114 155
+// Hand In - Traveller_Soho D2042 114 155

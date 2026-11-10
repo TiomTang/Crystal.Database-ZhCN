@@ -1,0 +1,29 @@
+[@Description]
+你知道怎么去{封魔谷/Yellow}吗？我需要把一本烹饪书
+送给在{封魔谷/Yellow}的{屠夫吉姆/LimeGreen}。
+
+[@TaskDescription]
+向北穿过{沃玛森林/Yellow}，把{烹饪书/LightSteelBlue}
+送到{封魔谷/Yellow}的{吉姆/LimeGreen}手上。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+食谱 2
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+2634
+
+[@GoldReward]
+3480
+
+// Pickup - 
+// Hand In - Merchant_Jim 4 244 188

@@ -1,0 +1,301 @@
+[@main]
+#IF
+CONQUESTOWNER 1
+#SAY
+欢迎 <$CONQUESTOWNER(1)>,
+
+沙巴克税收收入：                   沙巴克 NPC 税率：
+$ <$CONQUESTGOLD(1)> {金币/Yellow}                                              % <$CONQUESTRATE(1)> {金币/Yellow}
+
+<提取资金/@withdrawal>                                   <沙巴克税收/@tax>
+ 
+下次攻城日期:
+
+* <$CONQUESTSCHEDULE(1)> {进攻公会/Orange}
+
+ <修理城堡/@repaircastle>             <重新雇佣弓箭手/@reliveachers>      <离开/@exit>
+
+#ELSEACT
+LocalMessage "等你占领沙巴克城再来吧！" Hint
+
+;--------------------------------------------------
+[@withdrawal]
+#SAY
+在这里你可以将沙巴克的资金转入行会银行。
+
+<取款/@withdrawal1>
+
+[@withdrawal1]
+#IF
+CHECKPERMISSION 1
+#ACT
+LocalMessage "你已提取 <$CONQUESTGOLD(1)> 沙巴克金币！" Hint
+TAKECONQUESTGOLD 1
+
+;--------------------------------------------------
+[@tax]
+#SAY
+在这里，公会会长可以修改沙巴克税率！
+
+<税率调整为 10%/@tax1>        <税率调整为 15%/@tax2>
+
+<税率调整为 20%/@tax3>        <税率调整为 25%/@tax4>
+
+[@tax1]
+#IF
+CONQUESTOWNER 1
+CHECKPERMISSION 1
+#ACT
+SETCONQUESTRATE 1 10
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！" Announcement 
+
+[@tax2]
+#IF
+CONQUESTOWNER 1
+CHECKPERMISSION 1
+#ACT
+SETCONQUESTRATE 1 15
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+
+[@tax3]
+#IF
+CONQUESTOWNER 1
+CHECKPERMISSION 1
+#ACT
+SETCONQUESTRATE 1 20
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+
+[@tax4]
+#IF
+CONQUESTOWNER 1
+CHECKPERMISSION 1
+#ACT
+SETCONQUESTRATE 1 25
+GLOBALMESSAGE "根据 <$CONQUESTOWNER(1)> 的命令，沙巴克税率为 <$CONQUESTRATE(1)>！ " Announcement
+
+
+
+;--------------------------------------------------
+;gate regulation
+
+[@treatdoor]
+在这里你可以开启或关闭你的主城大门！
+
+<返回主页/@main>
+
+[@openmaindoor]
+#IF
+CONQUESTOWNER 1
+#ACT
+OPENGATE 1 1 
+LocalMessage "你已经打开了主城大门！" Hint
+
+
+[@closemaindoor]
+#IF
+CONQUESTOWNER 1
+#ACT
+CLOSEGATE 1 1
+LocalMessage "你已经关闭了主城大门！" Hint
+
+
+
+
+;--------------------------------------------------
+;about maintenance 
+
+[@repaircastle]
+#SAY
+城池资金必须转入你的公会金库，
+用于维修和弓箭手。
+
+你想在哪进行维修？
+
+<返回主页/@main>
+
+{左侧城墙/lightgreen}         <修理/@wl>
+<$CONQUESTWALL(1,1)>
+
+{右侧城墙/lightgreen}        <修理/@wr>
+<$CONQUESTWALL(1,3)>
+
+{中央城墙/lightgreen}        <修理/@wc>
+<$CONQUESTWALL(1,2)>
+
+[@mg]
+#IF
+AFFORDGATE 1 1
+#ACT
+CONQUESTGATE 1 1
+LocalMessage "你已经修复了主城大门！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来修复主城大门！" Hint
+
+[@wl]
+#IF
+AFFORDWALL 1 1
+#ACT
+CONQUESTWALL 1 1
+LocalMessage "你已经修复了左侧城墙！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来修复左侧城墙！" Hint
+
+
+[@wr]
+#IF
+AFFORDWALL 1 3
+#ACT
+CONQUESTWALL 1 3
+LocalMessage "你已经修复了右侧城墙！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来修复右侧城墙！" Hint
+
+[@wc]
+#IF
+AFFORDWALL 1 2
+#ACT
+CONQUESTWALL 1 2
+LocalMessage "你已经修复了中间城墙！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来修复中间城墙！" Hint
+
+;-----------------------
+[@reliveachers]
+#SAY
+城池资金必须转入你的公会金库，
+用于修复和弓箭手部署。
+<第二页/@p2> <主界面/@main>
+
+{弓箭手一/lightgreen}                         {弓箭手四/lightgreen}
+<$CONQUESTGUARD(1,1)>    -    <$CONQUESTGUARD(1,4)>
+<重新雇佣/@ach1>		                        <重新雇佣/@ach4>
+{弓箭手二/lightgreen}                         {弓箭手五/lightgreen}
+<$CONQUESTGUARD(1,2)>    -    <$CONQUESTGUARD(1,5)>
+<重新雇佣/@ach2>		                        <重新雇佣/@ach5>
+{弓箭手三/lightgreen}                       {弓箭手六/lightgreen}
+<$CONQUESTGUARD(1,3)>    -    <$CONQUESTGUARD(1,6)>
+<重新雇佣/@ach3>		                        <重新雇佣/@ach6>
+
+
+[@p2]
+#SAY
+在这里你可以让你的弓箭手复活！
+<第一页/@reliveachers> <主界面/@main>
+
+{弓箭手七/lightgreen}                          {弓箭手十/lightgreen}
+<$CONQUESTGUARD(1,7)>    -    <$CONQUESTGUARD(1,10)>
+<重新雇佣/@ach7>		                                   <重新雇佣/@ach10>
+{弓箭手八/lightgreen}                           {弓箭手十一/lightgreen}
+<$CONQUESTGUARD(1,8)>    -    <$CONQUESTGUARD(1,11)>
+<重新雇佣/@ach8>		                                   <重新雇佣/@ach11>
+{弓箭手九/lightgreen}                            {弓箭手十二/lightgreen}
+<$CONQUESTGUARD(1,9)>    -    <$CONQUESTGUARD(1,12)>
+<重新雇佣/@ach9>		                                   <重新雇佣/@ach12>
+
+[@ach1]
+#IF
+AFFORDGUARD 1 1
+#ACT
+CONQUESTGUARD 1 1
+LocalMessage "你已经重新雇佣了弓箭手一！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手一！" Hint
+
+[@ach2]
+#IF
+AFFORDGUARD 1 2
+#ACT
+CONQUESTGUARD 1 2
+LocalMessage "你已经重新雇佣了弓箭手二！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手二！!" Hint
+
+[@ach3]
+#IF
+AFFORDGUARD 1 3
+#ACT
+CONQUESTGUARD 1 3
+LocalMessage "你已经重新雇佣了弓箭手三！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手三！" Hint
+
+[@ach4]
+#IF
+AFFORDGUARD 1 4
+#ACT
+CONQUESTGUARD 1 4
+LocalMessage "你已经重新雇佣了弓箭手四！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手四！" Hint
+
+[@ach5]
+#IF
+AFFORDGUARD 1 5
+#ACT
+CONQUESTGUARD 1 5
+LocalMessage "你已经重新雇佣了弓箭手五！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手五！" Hint
+
+[@ach6]
+#IF
+AFFORDGUARD 1 6
+#ACT
+CONQUESTGUARD 1 6
+LocalMessage "你已经重新雇佣了弓箭手六！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手六！" Hint
+
+[@ach7]
+#IF
+AFFORDGUARD 1 7
+#ACT
+CONQUESTGUARD 1 7
+LocalMessage "你已经重新雇佣了弓箭手七！" Hint
+#ELSEACT
+LocalMessage 你没有足够的资金来重新雇佣弓箭手七！" Hint
+
+[@ach8]
+#IF
+AFFORDGUARD 1 8
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "你已经重新雇佣了弓箭手八！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手八！" Hint
+
+[@ach9]
+#IF
+AFFORDGUARD 1 9
+#ACT
+CONQUESTGUARD 1 9
+LocalMessage "你已经重新雇佣了弓箭手九！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手九！" Hint
+
+[@ach10]
+#IF
+AFFORDGUARD 1 10
+#ACT
+CONQUESTGUARD 1 10
+LocalMessage "你已经重新雇佣了弓箭手十！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手十！" Hint
+
+[@ach11]
+#IF
+AFFORDGUARD 1 11
+#ACT
+CONQUESTGUARD 1 11
+LocalMessage "你已经重新雇佣了弓箭手十一！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手十一！" Hint
+
+[@ach12]
+#IF
+AFFORDGUARD 1 12
+#ACT
+CONQUESTGUARD 1 12
+LocalMessage "你已经重新雇佣了弓箭手十二！" Hint
+#ELSEACT
+LocalMessage "你没有足够的资金来重新雇佣弓箭手十二！" Hint

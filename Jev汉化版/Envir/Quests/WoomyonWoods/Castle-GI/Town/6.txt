@@ -1,0 +1,29 @@
+[@Description]
+旅行者，我还有一项任务。
+我仍然对这股威胁感到担忧，我决定我们应该给这些生物一点警告。
+
+[@TaskDescription]
+在{沃玛寺庙/Yellow}消灭20只{火焰沃玛/Crimson}和{沃玛斗士/Crimson}。
+
+[@Completion]
+
+[@KillTasks]
+火焰沃玛 20
+沃玛斗士 20
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+8300
+
+[@GoldReward]
+8300
+
+// Pickup - SubjugationLead_Eric 1 317 71
+// Hand In - SubjugationLead_Eric 1 317 71

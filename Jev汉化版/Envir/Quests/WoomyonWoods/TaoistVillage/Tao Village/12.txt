@@ -1,0 +1,27 @@
+[@Description]
+搜查过{碎骨/LimeGreen}后，发现缺少{学徒戒指/LightSteelBlue}。
+
+[@TaskDescription]
+击杀{毒蜘蛛/Crimson}，找回{学徒戒指/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+学徒戒指 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+7000
+
+[@GoldReward]
+7000
+
+// Pickup - CrushedBones 12 36 368
+// Hand In - 

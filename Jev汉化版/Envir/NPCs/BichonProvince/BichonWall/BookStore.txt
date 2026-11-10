@@ -1,0 +1,216 @@
+[@Main]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人……
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎，有什么可以帮您的吗？
+ 
+<查看/@BuySell> 商店。
+
+听关于技能的<说明/@helpbooks>
+
+寻求<信息/@information>
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+请选择您想要购买或出售的书籍。
+
+<回购/@BuyBack>
+ 
+<返回/@Main>
+
+[@helpbooks]
+#SAY
+你对哪类书籍感兴趣？
+ 
+战士：<技能列表/@War1>
+法师：<技能列表/@Wiz1>
+道士：<技能列表/@Tao1>
+刺客：<技能列表/@Assa1>
+弓箭手：<技能列表/@Arc1>
+
+
+[@War1]
+#SAY
+Level  7: 基本剑术
+Level 15: 攻杀剑术
+Level 22: 刺杀剑术
+Level 26: 半月剑法
+Level 30: 野蛮冲撞
+Level 32: 双龙斩
+Level 32: 困陷之术
+<更多/@War2> <返回/@helpbooks>
+
+[@War2]
+#SAY
+Level 35: 烈火剑法
+Level 36: 狮子吼
+Level 38: 穿心半月
+Level 38: 刀锋雪崩
+Level 39: 护身气幕
+Level 44: 狂战
+Level 50: 破空斩
+<返回/@helpbooks>
+
+[@Wiz1]
+#SAY
+Level  7: 火球术
+Level 12: 抗拒火环
+Level 13: 诱惑之光
+Level 15: 大火球术
+Level 16: 地狱火
+Level 17: 雷电术
+<更多/@Wiz2> <返回/@helpbooks>
+
+[@Wiz2]
+#SAY
+Level 19: 瞬息移动
+Level 22: 爆裂火焰
+Level 24: 火墙术
+Level 26: 疾光电影
+Level 28: 霜鸣碎裂
+Level 30: 地狱雷光
+Level 31: 魔法盾
+Level 32: 圣言术
+<更多/@Wiz3> <返回/@helpBooks>
+
+[@Wiz3]
+#SAY
+Level 33: 吸血术
+Level 35: 冰咆哮
+Level 38: 焰光冲击
+Level 41: 镜像术
+Level 42: 烈焰领域
+Level 44: 暴风雪
+Level 49: 陨石术
+Level 53: 冰刺术
+<返回/@helpBooks>
+
+[@Tao1]
+#SAY
+Level  7: 治疗术
+Level  9: 精神力战法
+Level 14: 施毒术
+Level 18: 灵魂火符
+Level 19: 召唤骷髅
+Level 20: 隐身术
+<更多/@Tao2> <返回/@helpbooks>
+
+[@Tao2]
+#SAY
+Level 21: 群体隐身术
+Level 22: 幽灵盾
+Level 23: 心灵启示
+Level 25: 神圣战甲术
+Level 27: 气功波
+Level 28: 困魔咒
+Level 30: 净化术
+<更多/@Tao3> <返回/@helpBooks>
+
+[@Tao3]
+#SAY
+Level 31: 群体治疗
+Level 31: 迷魂术
+Level 33: 无极真气
+Level 35: 召唤神兽
+Level 37: 复活术
+Level 38: 召唤圣灵
+Level 40: 诅咒术
+Level 43: 毒雾术术
+Level 48: 能量护盾
+<返回/@helpBooks>
+
+
+[@Assa1]
+#SAY
+Level  7: 致命剑法
+Level 15: 双重斩
+Level 20: 急速术
+Level 25: 闪影冲
+Level 27: 轻身术
+Level 30: 天剑剑法
+Level 33: 火焰爆裂
+<更多/@Assa2> <返回/@helpBooks>
+
+[@Assa2]
+#SAY
+Level 33: 陷阱术
+Level 34: 毒剑术
+Level 36: 月影剑法
+Level 38: 吞魔术
+Level 40: 迅足术
+Level 46: 暗身术
+Level 47: 流血术
+Level 50: 弯月斩
+<返回/@helpBooks>
+
+
+[@Arc1]
+#SAY
+Level  7: 凝神术
+Level  9: 直射术
+Level 11: 双重射术
+Level 11:精神状态
+Level 15: 爆裂陷阱
+Level 19: 冥想术
+Level 19: 元素射击
+Level 26: 后撤步
+<更多/@Arc2> <返回/@helpBooks>
+
+[@Arc2]
+#SAY
+Level 30: 专注术
+Level 31: 延迟爆炸
+Level 33: 召唤吸血鬼
+Level 35: 束缚箭
+Level 37: 元素屏障
+Level 40: 石化陷阱
+Level 42: 吸血箭术
+Level 45: 召唤毒蛇
+<更多/@Arc3> <返回/@helpBooks>
+
+[@Arc3]
+#SAY
+Level 50: 毒箭术
+Level 50: 致残箭
+Level 52: 召唤蟾蜍
+Level 60: 凝固汽油弹
+Level 60: 传送门
+Level 62: 天人合一
+<返回/@helpBooks>
+
+[@Information]
+#IF
+CHECKQUEST 152 1
+#ACT
+SET [533] 1
+#SAY
+嗯…我好像在哪里见过这些符号…  
+莫古先生多年前曾询问过那种语言。  
+前往酒馆和他谈谈这件事吧。  
+<谢谢/@exit>
+
+[Types]
+20
+
+[Trade]
+基本剑术
+攻杀剑术
+火球术
+抗拒火环
+治疗术
+精神力战法
+致命剑法
+双重斩
+凝神术
+直射术

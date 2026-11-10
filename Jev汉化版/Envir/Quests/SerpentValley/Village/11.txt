@@ -1,0 +1,28 @@
+[@Description]
+你知道 {蛇谷/Yellow} 在哪里吗？那是这里西北方的一座小镇。
+镇上的 {罗伯特/LimeGreen} 正在寻求帮助。
+你有兴趣吗？
+
+[@TaskDescription]
+去 {蛇谷/Yellow} 和 {罗伯特/LimeGreen} 交谈
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+672
+
+[@GoldReward]
+925
+
+// Pickup - 
+// Hand In - Merchant_Robert 2 505 479

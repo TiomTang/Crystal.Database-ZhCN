@@ -1,0 +1,31 @@
+[@Description]
+你好，旅人。你听说过这一带的
+道士导师吗？
+他是所有道士的师父。我听说
+他最近一直在寻找新的弟子。
+也许只是个传闻。
+
+[@TaskDescription]
+去和 {高级道士/LimeGreen} 对话，他最后一次出现的地点在
+坐标 546:559，但当时正向西北方向前进。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - HighPriest_Jude 0 429 475

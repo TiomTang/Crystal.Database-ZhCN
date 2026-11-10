@@ -1,0 +1,33 @@
+[@Description]
+有人跟你提过{死亡谷/Yellow}吗？
+那是个到处都是峭壁和岩石的地方。
+这里的虫子正在异常地变大。
+我研究它们很多年了。
+几天前我想获取一份{呜咽蜂/Crimson}的{标本/LightSteelBlue}，
+结果却被它们攻击了。
+
+[@TaskDescription]
+消灭{呜咽蜂/Crimson}以收集{虫子标本/LightSteelBlue}，
+这些可以在{死亡谷/Yellow}找到。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+虫标本 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+8800
+
+[@GoldReward]
+8800
+
+// Pickup - Merchant_Daniel 3 361 335
+// Hand In - Merchant_Daniel 3 361 335

@@ -1,0 +1,40 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+<Buy/@Buy> Nothing!
+<出售/@Sell> Nothing!
+
+#ELSEACT
+MOVE 0 300 300
+
+[@Buy]
+#SAY
+Buy.
+ 
+<返回/@Main>
+
+
+[@Sell]
+#SAY
+Sell.
+ 
+<返回/@Main>
+
+
+[Types]
+0
+
+[Trade]
+金条
+一捆金条
+一箱金条
+赌筹
+骰子
+未知宝珠
+入场宝珠
+封印卷轴
+守护宝珠
+比奇令牌
+时光石碎片

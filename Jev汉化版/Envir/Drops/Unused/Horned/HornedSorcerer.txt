@@ -1,0 +1,187 @@
+;Gold
+1/1 Gold 20000
+
+;Pots + Other
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 祝福油
+1/10 GoldenBenedictionOil
+
+
+1/10 觉醒魂魄0
+1/10 觉醒魂魄0
+
+;Weapons
+1/2150 蛮荒剑
+1/2150 阿普斯之弓
+1/2150 原始剑
+1/2150 骨雕扇
+1/2150 狂龙刀
+1/3150 HorneySlayer
+1/3150 HorneyScepter
+1/3150 HorneyFeathers
+1/3150 HorneyKives
+
+;Armour
+1/400 黑虎护甲(男)
+1/400 黑虎护甲(女)
+1/400 莲花护甲(男)
+1/400 莲花护甲(女)
+1/400 仙鹤护甲(男)
+1/400 仙鹤护甲(女)
+1/400 隐身护甲(男)
+1/400 隐身护甲(女)
+1/550 红暗护甲(男)
+1/550 红暗护甲(女)
+1/550 蓝暗护甲(男)
+1/550 蓝暗护甲(女)
+1/550 鳞甲(男)
+1/550 鳞甲(女)
+1/550 绿暗护甲(男)
+1/550 绿暗护甲(女)
+1/550 金暗护甲(男)
+1/550 金暗护甲(女)
+1/850 WatcherSuit(M)
+1/850 WatcherSuit(F)
+1/950 HorneySuit(M)
+1/950 HorneySuit(F)
+
+;Armour Rare
+1/5500 天堂护甲(男)
+1/5500 天堂护甲(女)
+1/5500 HeavenRedArmour(M)
+1/5500 HeavenRedArmour(F)
+1/5500 HeavenGrnArmour(M)
+1/5500 HeavenGrnArmour(F)
+1/5500 HeavenGoldArmour(M)
+1/5500 HeavenGoldArmour(F)
+
+;Helmets
+1/50 巨型头盔
+1/50 贤人帽
+1/50 通天冠
+1/50 皇家头盔
+1/350 闪耀头盔
+1/360 PuiYuHelmet
+1/670 WatcherHelmet
+
+;Helmets Rare
+1/700 HydraxHelmet
+
+;Necklace
+1/60 尖牙项链
+1/60 魔法锚
+1/60 净化之镜
+1/375 邪恶三角
+1/375 十字净化
+1/375 金刚项链
+1/600 DefenderNecklace
+
+;Necklace Rare
+1/700 HornedSorcerersPendant
+
+;Bracelets
+1/60 双泰坦护符
+1/60 圣天使护符
+1/60 邪灵护符
+1/370 狂泰坦护符
+1/375 附魔护符
+1/375 五行护符
+1/675 WatcherGloves
+1/600 DefenderGlove
+
+;Bracelets Rare
+1/700 SackWarriorsGlove
+
+;Rings
+1/60 誓约戒指
+1/60 五行戒指
+1/60 深红红宝石戒指
+1/375 魔红宝石戒指
+1/375 驱魔戒指
+1/375 金龙戒指
+1/600 DefenderRing
+
+;Rings Rare
+1/700 HornedWarriorsRing
+
+;Shoes
+1/650 WatcherBoots
+1/700 HornedCommandersBoots
+
+;Belts
+1/700 HornedSorcerersBelt
+
+;Medals
+1/700 HornedMedallion
+
+;Shields
+1/700 WereTigerShield
+
+;Pads
+1/700 HornedMagePads
+
+;Stone
+1/700 EyeOfKingHydrax
+
+;Gems/Orbs
+1/10 勇气宝石
+1/10 魔法宝石 
+1/10 灵魂宝石
+1/15 防护宝石
+1/15 屠魔宝石
+1/15 耐久宝石
+1/30 毒素宝石
+1/32 冰冻宝石
+1/35 准确宝石
+1/35 风暴宝石
+1/40 耐力宝石
+1/50 QualityGem
+1/55 CriticalDamgeForge
+1/55 CriticalRateForge
+1/55 HpDrainForge
+1/55 ReflectForge
+
+
+;Books
+;;Warrior
+1/200 刀锋雪崩
+1/400 护身气幕
+1/500 狂战
+1/600 反击
+
+;;Wizard
+1/200 镜像术
+1/400 陨石术
+1/500 魔力强化
+1/600 冰刺术
+1/700 LavaKing
+1/850 FrozenRains
+
+;;Taoist
+1/400 复活术
+1/400 毒雾术
+1/500 疫病术
+1/700 灵宠强化
+1/850 HeadShot
+1/1000 HolyShield
+
+;;Assassion
+1/200 迅足术
+1/400 暗身术
+1/600 流血术
+1/700 月雾术
+1/850 ShadowStep
+1/900 FuryWaves
+
+;CraftingMaterials
+
+
+;Quests

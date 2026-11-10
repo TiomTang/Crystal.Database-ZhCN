@@ -1,0 +1,29 @@
+[@Description]
+你好，旅行者。请听听我的故事。
+40 年前我搬到了 {沃玛森林/Yellow}。那时我还能猎杀家附近所有的怪物，
+但如今我又老又弱，已经不敢再出门了。
+
+[@TaskDescription]
+为 {朔克大师/LimeGreen} 消灭 10 个 {半兽斗士/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+半兽斗士 10
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1100
+
+[@GoldReward]
+1100
+
+// Pickup - Master_Shok 1 312 73
+// Hand In - Master_Shok 1 312 73

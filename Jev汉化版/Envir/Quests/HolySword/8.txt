@@ -1,0 +1,31 @@
+[@Description]
+现在想要获得 {邪猿心/LightSteelBlue}，你需要击杀
+{灰色邪恶巨猿/Crimson}。通过一扇隐藏的门就能找到它们。
+这扇门在通往 {王者之室(RedMoonEvil)/Yellow} 的五层，
+坐标 182:179。
+走向角落，你就能通过那扇隐藏的门。
+
+[@TaskDescription]
+击杀 {灰色邪恶巨猿/Crimson} 以获取 {邪猿心/LightSteelBlue}。
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+邪猿心 1
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]
+
+// Pickup - BigTaoist D10061 11 16
+// Hand In - BigTaoist D10061 11 16

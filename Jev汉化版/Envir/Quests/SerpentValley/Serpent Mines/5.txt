@@ -1,0 +1,27 @@
+[@Description]
+似乎有一股黑暗而邪恶的气息
+从{矿井/Yellow}中散发出来
+
+[@TaskDescription]
+前往{蛇谷死亡矿井/Yellow}调查邪恶的源头
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+5594
+
+[@GoldReward]
+6000
+
+// Pickup - Merchant_Dr.Kim 0017 5 9
+// Hand In - SkeletonPile D422 220 89

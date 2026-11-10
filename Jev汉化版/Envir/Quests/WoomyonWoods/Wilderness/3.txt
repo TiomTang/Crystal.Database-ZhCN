@@ -1,0 +1,29 @@
+[@Description]
+你让我想起了我的孙女。她去了 {比奇/Yellow} 打工。
+我听说她在一家肉铺工作。你能帮我转告她，我过得很好吗？
+
+[@TaskDescription]
+去 {比奇城/Yellow} 和 {莎拉/LimeGreen} 说话。
+
+[@Completion]
+谢谢你，旅行者。我正为我爷爷担心呢。
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+坚韧皮鞋 
+
+[@SelectRewards]
+
+[@ExpReward]
+876
+
+[@GoldReward]
+300
+
+// Pickup - Master_Shok 1 312 73
+// Hand In - Merchant_Sarah 0 313 271

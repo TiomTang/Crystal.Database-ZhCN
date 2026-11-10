@@ -1,0 +1,30 @@
+[@Description]
+你好，旅行者。你听说过这片区域里的
+刺客导师吗？
+他是所有刺客的大师。据说
+他最近一直在寻找新的弟子。
+也可能只是个传闻
+
+[@TaskDescription]
+在坐标 101:411 与 {克劳德/LimeGreen} 交谈
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+48
+
+[@GoldReward]
+60
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - HighAssassin_Cloud 0 101 411
