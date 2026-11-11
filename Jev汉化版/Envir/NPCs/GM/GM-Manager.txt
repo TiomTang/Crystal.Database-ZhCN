@@ -79,7 +79,7 @@ LINEMESSAGE "所有任务标记已重置。" Hint
 这可用于启动全服活动等事项，
 随着服务端日后开发增添更多功能。
 
-<沙巴克城墙/@Sabuk>
+<<沙巴克城墙/@Sabuk>>
  
  
  
@@ -279,10 +279,10 @@ LocalMessage "沙巴克城墙/城门/守卫 已修复/复活" Hint
 
 <返回/@Main>
 
-<创建英雄/@CreateHero/Green>
-<复活英雄/@ReviveHero/Red>
-<封印英雄/@SealHero/Yellow>
-<删除英雄/@DeleteHero/Blue>
+<<创建英雄/@CreateHero/Green>>
+<<复活英雄/@ReviveHero/Red>>
+<<封印英雄/@SealHero/Yellow>>
+<<删除英雄/@DeleteHero/Blue>>
 
 [@ReviveHero]
 #ACT

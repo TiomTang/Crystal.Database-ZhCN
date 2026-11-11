@@ -23,12 +23,12 @@ GOTO @Main-1
 #SAY
 你想去哪个地方？
  
-<边境村/@Border>
-<比奇城/@BichonWall>
-<蛇谷/@Serpent>
-<土墙/@MudWall>
-<道士村/@TaoVillage>
-<封魔谷/@CastleGi>
+<<边境村/@Border>>
+<<比奇城/@BichonWall>>
+<<蛇谷/@Serpent>>
+<<土墙/@MudWall>>
+<<道士村/@TaoVillage>>
+<<封魔谷/@CastleGi>>
 
 [@Border]
 #ACT
