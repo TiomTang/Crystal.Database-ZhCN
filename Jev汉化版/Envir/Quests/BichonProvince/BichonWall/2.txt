@@ -6,14 +6,14 @@
 嘿，你能帮我们消除这个危险吗？
 
 [@TaskDescription]
-请猎杀{半兽人/Crimson}并带回10个{蛮牛牙/LightSteelBlue}
+请猎杀{半兽人/Crimson}并带回10个{半兽牙/LightSteelBlue}
 
 [@Completion]
 
 [@KillTasks]
 
 [@ItemTasks]
-蛮牛牙 10
+半兽牙 10
 
 [@CarryItems]
 

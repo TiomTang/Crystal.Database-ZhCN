@@ -2,13 +2,13 @@
 我们必须尽快削弱这一威胁。向西南方向前往{寺庙/Yellow}，尝试打击它的势头。
 
 [@TaskDescription]
-消灭20只{粪怪/Crimson}和{沃玛战士/Crimson}。
+消灭20只{粪虫/Crimson}和{沃玛勇士/Crimson}。
 
 [@Completion]
 你回来了，但愿你的行动已经削弱了这股威胁。
 
 [@KillTasks]
-粪怪 20
+粪虫 20
 沃玛士兵 20
 
 [@ItemTasks]

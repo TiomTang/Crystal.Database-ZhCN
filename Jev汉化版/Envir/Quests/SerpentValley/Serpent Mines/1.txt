@@ -2,13 +2,13 @@
 旅行者。请进入{蛇谷死亡矿井/Yellow}并清除威胁。
 
 [@TaskDescription]
-消灭10个{幽灵僵尸/Crimson}和{暗牧僵尸/Crimson}。
+消灭10个{幽灵僵尸/Crimson}和{暗黑祭司僵尸/Crimson}。
 
 [@Completion]
 
 [@KillTasks]
 幽灵僵尸 10
-暗牧僵尸 10
+暗黑祭司僵尸 10
 
 [@ItemTasks]
 

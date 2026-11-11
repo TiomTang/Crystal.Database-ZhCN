@@ -19,7 +19,7 @@
 
 [@FixedRewards]
 旧懒鞋
-治疗术
+治愈术
 
 [@SelectRewards]
 

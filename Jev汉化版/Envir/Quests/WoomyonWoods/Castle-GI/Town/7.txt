@@ -3,14 +3,14 @@
 在{寺庙/Yellow}中出现了一种新的生物。
 
 [@TaskDescription]
-消灭30只{沃玛勇士/Crimson}以及1只{沃玛守卫/Crimson}，
+消灭30只{沃玛勇士/Crimson}以及1只{沃玛卫士/Crimson}，
 并带回他的{角/LightSteelBlue}。
 
 [@Completion]
 
 [@KillTasks]
-沃玛战士 30
-沃玛守卫 1
+沃玛勇士 30
+沃玛卫士 1
 
 [@ItemTasks]
 沃玛之角 1

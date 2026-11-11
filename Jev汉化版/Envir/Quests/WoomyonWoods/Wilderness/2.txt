@@ -4,12 +4,12 @@
 但如今我又老又弱，已经不敢再出门了。
 
 [@TaskDescription]
-为 {朔克大师/LimeGreen} 消灭 10 个 {半兽斗士/Crimson}
+为 {朔克大师/LimeGreen} 消灭 10 个 {半兽战士/Crimson}
 
 [@Completion]
 
 [@KillTasks]
-半兽斗士 10
+半兽战士 10
 
 [@ItemTasks]
 

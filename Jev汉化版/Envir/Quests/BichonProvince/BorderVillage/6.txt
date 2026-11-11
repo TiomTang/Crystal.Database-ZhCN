@@ -3,12 +3,12 @@
 你能再帮我一个忙吗？
 
 [@TaskDescription]
-消灭 10 只{钩爪猫/Crimson}
+消灭 10 只{多钩猫/Crimson}
 
 [@Completion]
 
 [@KillTasks]
-钩爪猫 10
+多钩猫 10
 
 [@ItemTasks]
 
@@ -18,7 +18,7 @@
 
 [@SelectRewards]
 青铜战士剑
-强力木弓
+强力华剑
 坚韧木弓
 
 [@ExpReward]

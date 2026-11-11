@@ -3,12 +3,12 @@
 找到它的源头并杀掉那只怪物。
 
 [@TaskDescription]
-消灭{半兽战士/Crimson}。
+消灭{半兽勇士/Crimson}。
 
 [@Completion]
 
 [@KillTasks]
-半兽战士 1
+半兽勇士 1
 
 [@ItemTasks]
 
