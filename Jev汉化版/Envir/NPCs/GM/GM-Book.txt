@@ -116,7 +116,7 @@ GIVESKILL MoonMist 3
 GIVESKILL CatTongue 3
 [@Archer]
 #ACT
-GIVESKILL Focus 
+GIVESKILL Focus 3
 GIVESKILL StraightShot 3
 GIVESKILL DoubleShot 3
 GIVESKILL ExplosiveTrap 3

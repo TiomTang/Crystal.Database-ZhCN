@@ -66,7 +66,7 @@ MOVE 0 300 300
 
 洞穴：<半兽古墓/@OmaCave> ， <天然洞穴/@NaturalCave> ， <死亡矿井/@DeadMine>
 <主菜单/@Main> - <离开/@Exit>
-[@@BWWEP]
+[@BWWEP]
 #ACT
 Move 0103
 [@BWCLOTHES]
@@ -181,7 +181,7 @@ MOVE 3 652 298
 
 <安全区/@CGRSZ>
 
-洞穴：<黑龙洞穴/@BlackDragonDungeon> ， <白龙通道/@WhiteDragonPassage>
+洞穴：<黑龙洞穴/@BlackDragonDungeon> ， <白龙通道/@WDP>
 <主菜单/@Main> - <离开/@Exit>
 [@CGRSZ]
 #ACT
@@ -224,7 +224,7 @@ MOVE 6 124 157
 <饰品店/@TVJEWL>   <药剂店/@TVPOT>
 <书店/@TVBOOK>   <杂货店/@TVPED>  <安全区/@TVSZ>
 
-洞穴：<矿石矿区/@MineralMine> ， <黑暗森林/@DarkForest> ，
+洞穴：<矿石矿区/@MineralMine> ， 黑暗森林 ，
 <赤月峡谷/@RedValley> , <月影洞窟/@Lunar>
 <主菜单/@Main> - <离开/@Exit>
 [@TVBOOK]
@@ -470,10 +470,10 @@ MOVE D406 185 122
 [@FC1]
 #ACT
 MOVE Fox01 117 21
-[@FC1]
+[@FC2]
 #ACT
 MOVE Fox02 26 34
-[@FC1]
+[@FC3]
 #ACT
 MOVE Fox03 33 51
 //////////////////////////////////////////////////////////////////// ZT

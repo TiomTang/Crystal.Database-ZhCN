@@ -131,7 +131,7 @@ GIVESKILL Revelation 3
 GIVESKILL BlessedArmour 3
 GIVESKILL EnergyRepulsor 3
 GIVESKILL TrapHexagon 3
-GIVESKILL Purification 
+GIVESKILL Purification 3
 GIVESKILL MassHealing 3
 GIVESKILL Hallucination 3
 GIVESKILL UltimateEnhancer 3
