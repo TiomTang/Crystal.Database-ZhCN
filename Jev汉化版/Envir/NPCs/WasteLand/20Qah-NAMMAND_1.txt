@@ -37,7 +37,7 @@
 
 [@arm12]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀护甲 40
 CHECKITEM 犀牛皮革 34
@@ -56,7 +56,7 @@ TAKEITEM 防具书(物攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientHeavyArmour(M) 1
-LINEMESSAGE "你锻造出了远古重甲。" Hint
+LOCALMESSAGE "你锻造出了远古重甲。" Hint
 BREAK
 CLOSE
 
@@ -83,7 +83,7 @@ TAKEITEM 防具书(物攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientHeavyArmour(F) 1
-LINEMESSAGE "你锻造出了远古重甲。" Hint
+LOCALMESSAGE "你锻造出了远古重甲。" Hint
 BREAK
 CLOSE
 
@@ -119,7 +119,7 @@ CLOSE
 
 [@arm23]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀护甲 40
 CHECKITEM 野兽皮革 34
@@ -138,7 +138,7 @@ TAKEITEM 防具书(法攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientRobe(M) 1
-LINEMESSAGE "你锻造出了远古长袍。" Hint
+LOCALMESSAGE "你锻造出了远古长袍。" Hint
 BREAK
 CLOSE
 
@@ -165,7 +165,7 @@ TAKEITEM 防具书(法攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientRobe(F) 1
-LINEMESSAGE "你锻造出了远古长袍。" Hint
+LOCALMESSAGE "你锻造出了远古长袍。" Hint
 BREAK
 CLOSE
 
@@ -202,7 +202,7 @@ CLOSE
 
 [@arm33]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀护甲 40
 CHECKITEM 恶魔皮革 34
@@ -221,7 +221,7 @@ TAKEITEM ArmourBookSC) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEitem AncientPlate(M) 1
-LINEMESSAGE "你锻造出了远古板甲。" Hint
+LOCALMESSAGE "你锻造出了远古板甲。" Hint
 BREAK
 CLOSE
 
@@ -248,7 +248,7 @@ TAKEITEM 防具书(道攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientPlate(F) 1
-LINEMESSAGE "你锻造出了远古板甲。" Hint
+LOCALMESSAGE "你锻造出了远古板甲。" Hint
 BREAK
 CLOSE
 
@@ -285,7 +285,7 @@ CLOSE
 
 [@arm43]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀护甲 40
 CHECKITEM 猛犸皮革 34
@@ -304,7 +304,7 @@ TAKEITEM 防具书(物攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientSuit(M) 1
-LINEMESSAGE "你锻造出了远古套装。" Hint
+LOCALMESSAGE "你锻造出了远古套装。" Hint
 BREAK
 CLOSE
 
@@ -331,7 +331,7 @@ TAKEITEM 防具书(物攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientSuit(F) 1 
-LINEMESSAGE "你锻造出了远古套装。" Hint
+LOCALMESSAGE "你锻造出了远古套装。" Hint
 BREAK
 CLOSE
 
@@ -367,7 +367,7 @@ CLOSE
 
 [@arm53]
 #IF
-GENDER MALE
+CHECKGENDER Male
 CHECKGOLD > 20000
 CHECKITEM 锈蚀护甲 40
 CHECKITEM 野兽皮革 34
@@ -386,7 +386,7 @@ TAKEITEM 防具书(法攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientLeather(M) 1
-LINEMESSAGE "你锻造出了远古皮革。" Hint
+LOCALMESSAGE "你锻造出了远古皮革。" Hint
 BREAK
 CLOSE
 
@@ -413,7 +413,7 @@ TAKEITEM 防具书(法攻) 12
 TAKEITEM 铂金 10
 TAKEITEM 结实的绳子 5
 GIVEITEM AncientLeather(F) 1
-LINEMESSAGE "你锻造出了远古皮革。" Hint
+LOCALMESSAGE "你锻造出了远古皮革。" Hint
 BREAK
 CLOSE
 

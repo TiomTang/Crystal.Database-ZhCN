@@ -32,18 +32,18 @@ GOTO @GiveHorn
 GOTO @GiveHorn
 
 [@GiveHorn]
-#ACT
+#IF
 CHECKITEM 沃玛角 1
-GIVEITEM 沃玛角 1
+#ACT
 GOTO @CREATEGUILD
 #ELSEACT
+GIVEITEM 沃玛角 1
 GOTO @CREATEGUILD
-
 
 [@KillPets]
 #ACT
 CLEARPETS
-LINEMESSAGE "按你的要求，你的宠物已死亡。" Hint
+LOCALMESSAGE "按你的要求，你的宠物已死亡。" Hint
 
 
 [@CREATEGUILD]
@@ -72,7 +72,7 @@ SET [507] 0
 SET [508] 0
 SET [509] 0
 SET [510] 0
-LINEMESSAGE "所有任务标记已重置。" Hint
+LOCALMESSAGE "所有任务标记已重置。" Hint
 
 [@EventManagement]
 #SAY

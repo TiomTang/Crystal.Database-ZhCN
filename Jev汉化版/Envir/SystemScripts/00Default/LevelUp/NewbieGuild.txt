@@ -16,5 +16,5 @@ GOTO @Remove
 [@Remove]
 #ACT
 REMOVEFROMGUILD NewbieGuild
-REMOVENAMELIST NewbieGuild
+DELNAMELIST NewbieGuild
 }
