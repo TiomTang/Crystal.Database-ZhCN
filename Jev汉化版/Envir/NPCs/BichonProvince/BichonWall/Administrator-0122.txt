@@ -96,5 +96,9 @@ GOTO @Main-1
 ; 攻城战时间为
 ; <$CASTLEWARDATE> 晚上 8 点。
 
+[@CreateGuild]
+#SAY
 
+[@RequestWar]
+#SAY
 

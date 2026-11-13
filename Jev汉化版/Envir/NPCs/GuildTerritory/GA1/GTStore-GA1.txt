@@ -20,3 +20,10 @@
  
 <返回/@Main> - <关闭/@exit>
 
+[@SendParcel]
+#SAY
+
+
+[@CollectParcel]
+#SAY
+

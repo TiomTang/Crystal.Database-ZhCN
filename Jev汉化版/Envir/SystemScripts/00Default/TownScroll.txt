@@ -19,7 +19,7 @@ Teleport to: <Taoist Village/@TVV&T1>
 Teleport to: <Prajna Town/@PTV&T1> 
 Teleport to: <PastBichon Village/@PBV&T1> Required Level30
 Teleport to: <WasteLands/@WLV&T1>
-<Back/@_UseItem(49)>
+<Back/@_UseItem(3)>
 
 [@BVV&T1]
 #ACT
@@ -69,7 +69,7 @@ MOVE 6 124 157
 #ELSESAY
 Sorry you are not the correct level.
  
-<Back/@_UseItem(49)>
+<Back/@_UseItem(3)>
 
 [@WLV&T1]
 #ACT

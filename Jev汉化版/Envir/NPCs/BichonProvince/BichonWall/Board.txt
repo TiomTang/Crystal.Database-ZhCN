@@ -195,6 +195,10 @@ ADDNAMELIST ../NameLists/Rebirth3.txt
 
 <返回/@RebirthMain>     <离开/@EXIT>
 
+[@CreateHero]
+#SAY
+
+
 [Quests]
 140
 -140

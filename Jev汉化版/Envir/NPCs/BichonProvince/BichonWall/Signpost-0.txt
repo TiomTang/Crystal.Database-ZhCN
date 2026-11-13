@@ -86,6 +86,10 @@ ReviveHero
 #ACT
 SealHero
 
+[@CreateHero]
+#SAY
+
+
 [Quests]
 140
 -140

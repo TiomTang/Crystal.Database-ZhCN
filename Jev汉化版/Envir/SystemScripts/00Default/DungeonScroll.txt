@@ -19,7 +19,7 @@ Teleport Region: <PastBichon/@PBD1> Required Level43
 Teleport Region: <WasteLands/@WLD1>
  
  
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
  
 [@BPD1]
 #SAY
@@ -27,7 +27,7 @@ Available Dungeons in BichonProvince.
  
 Teleport to: <OmaCavern/@OC1>
 Teleport to: <DeadMines/@DM1>
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
 
 [@SVD1]
 #SAY
@@ -35,7 +35,7 @@ Available Dungeons in SerpentValley.
  
 Teleport to: <SerpentDeadMines/@SDM1>
 Teleport to: <ViperCave/@VC1>
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
 
 [@MPD1]
 #SAY
@@ -46,7 +46,7 @@ Teleport to: <StoneTemple/@ST1>
 Teleport to: <SabukSecretCave/@SSC1>
 Teleport to: <ZumaTemple/@ZT1>
 Teleport to: <FoxTemple/@FT1>
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
 
 [@WWSD1]
 #SAY
@@ -54,7 +54,7 @@ Available Dungeons in WoomyonWoods(S).
  
 Teleport to: <InsectCave/@IC1>
 Teleport to: <WoomaTemple/@WT1>
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
 
 [@WWND1]
 #SAY
@@ -65,7 +65,7 @@ Teleport to: <TreePath/@TP1>
 Teleport to: <RedValley/@RV1>
 Teleport to: <DarkForest/@DF1>
 
-<Back/@_UseItem(50)>
+<Back/@_UseItem(4)>
 
 [@SeoVD1]
 #SAY

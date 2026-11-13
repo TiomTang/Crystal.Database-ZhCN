@@ -88,3 +88,11 @@ GIVEGOLD 9980000
 金条
 一捆金条
 一箱金条
+
+[@SendParcel]
+#SAY
+
+
+[@CollectParcel]
+#SAY
+

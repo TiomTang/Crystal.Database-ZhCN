@@ -56,3 +56,11 @@
 因此，在交易公会领地前请仔细考虑。
  
 你要交易吗？ <交易/@agittrade> <取消/@exit>
+
+[@agitreg]
+#ACT
+BUYGT
+
+[@agitmove]
+#ACT
+TeleportGT

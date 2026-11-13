@@ -121,7 +121,7 @@ CHECK [515] 1
 GOTO @check15
 #ELSEACT
 GOTO @next16
-[@next15]
+[@next16]
 #IF
 CHECK [516] 1
 #ACT

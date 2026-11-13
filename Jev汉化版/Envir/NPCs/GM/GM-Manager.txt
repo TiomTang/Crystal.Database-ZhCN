@@ -484,3 +484,10 @@ MOVE GA8 54 55
 [@GT10]
 #ACT
 MOVE GA9 54 55
+
+[@CreateHero]
+#SAY
+
+[@Market]
+#SAY
+

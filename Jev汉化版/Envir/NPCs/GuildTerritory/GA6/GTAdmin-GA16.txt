@@ -46,6 +46,14 @@ GTALLRECALL
 MOV A1 %INPUTSTR
 GTRECALL <$OUTPUT(A1)>
 
+[@@agitforsale]
+#ACT
+GTSALE %INPUTSTR
+
+[@agitforsalecancel]
+#ACT
+CANCELGTSALE
+
 [@appcancel]
 #SAY
 我负责发起和取消行会领地的出售。
