@@ -102,3 +102,9 @@ GOTO @Main-1
 [@RequestWar]
 #SAY
 
+[@requestcastlewarnow]
+#SAY
+沙巴克攻城申请暂未开放，
+开放时间请留意官方公告。
+
+<返回/@requestcastlewar>

@@ -4,3 +4,10 @@
 这里是行会领地公告板。
 <查看/@TOWNBOARDLIST>行会领地公告板。
 <跳过/@exit>行会领地公告板。
+
+[@TOWNBOARDLIST]
+#SAY
+领地公告板
+目前没有新的领地公告。
+
+<返回/@main>

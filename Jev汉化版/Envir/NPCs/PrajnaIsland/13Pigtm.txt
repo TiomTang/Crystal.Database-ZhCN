@@ -64,3 +64,10 @@ BUYGT
 [@agitmove]
 #ACT
 TeleportGT
+
+[@agittrade]
+#SAY
+公会领地的交易要与持有领地的会长面对面进行。
+在交易窗口里完成交易后，所有权会在 24 小时内转移。
+
+<返回/@trade>

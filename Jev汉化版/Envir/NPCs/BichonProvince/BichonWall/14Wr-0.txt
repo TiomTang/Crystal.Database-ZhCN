@@ -78,3 +78,21 @@ GIVEITEM 城镇传送卷轴 1
 #ACT
 MOVE D2051A
 GIVEITEM 城镇传送卷轴 1
+
+[@PremDungeon1]
+#SAY
+该地牢尚未开放。
+
+<返回/@PremCaveMenu>
+
+[@PremDungeon2]
+#SAY
+该地牢尚未开放。
+
+<返回/@PremCaveMenu>
+
+[@PremDungeon3]
+#SAY
+该地牢尚未开放。
+
+<返回/@PremCaveMenu>

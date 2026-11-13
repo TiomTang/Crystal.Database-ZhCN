@@ -43,3 +43,9 @@ LOCALMESSAGE "[指挥官卢克] 花点时间好好想想吧。" Hint
 
 [Quests]
 154
+
+[@Main-1]
+#SAY
+你已经通过了试炼，进去吧。
+
+<关闭/@exit>
