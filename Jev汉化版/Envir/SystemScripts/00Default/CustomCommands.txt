@@ -2,26 +2,8 @@
 [@_CUSTOMCOMMAND(GuardsHelp)]
 #INCLUDE [SystemScripts\00Default\GuardsHelp.txt] @Main
 
-;;Mysterious Stone.
-
-[@_CUSTOMCOMMAND(MysteriousStoneON)]
-#IF
-CHECKITEM MysteriousStone
-#ACT
-GIVEBUFF Exp 0 30 TRUE
-LocalMessage "Experience Increased by 30%" Hint
-#ELSEACT
-LocalMessage "You don't have Mysterious Stone!" Hint
-
-[@_CUSTOMCOMMAND(MysteriousStoneOFF)]
-#IF
-CHECKITEM MysteriousStone
-#ACT
-REMOVEBUFF Exp
-LocalMessage "Additional Experience has been removed." Hint
-#ELSEACT
-LocalMessage "You don't have Mysterious Stone!" Hint
-
+;;Mysterious Stone: the stone grants +30% experience by itself while it is
+;;carried (CarryEffect on 神秘石[3天]), so no command is needed.
 
 ;;PKPoint Command.
 [@_CUSTOMCOMMAND(PKPOINT)]
