@@ -42,9 +42,9 @@ GIVEITEM HolyDCStone 1
 GIVESKILL Fencing 3
 GIVESKILL Slaying 3
 GIVESKILL Thrusting 3
-GIVESKILL Half Moon 3
-GIVESKILL Shoulder Dash 3
-GIVESKILL Twin Drake Blade 3
+GIVESKILL HalfMoon 3
+GIVESKILL ShoulderDash 3
+GIVESKILL TwinDrakeBlade 3
 GIVESKILL Entrapment 3
 GIVESKILL LionRoar 3
 GIVESKILL CrossHalfMoon 3
@@ -77,14 +77,14 @@ GIVEITEM 火莲杖 1
 [@SpellsWizard]
 #ACT
 GIVESKILL Fireball 3
-GIVESKILL Repulse 3
+GIVESKILL Repulsion 3
 GIVESKILL ElectricShock 3
 GIVESKILL GreatFireball 3
 GIVESKILL HellFire 3
 GIVESKILL Thunderbolt 3
 GIVESKILL Teleport 3
 GIVESKILL Firewall 3
-GIVESKILL Lighning 3
+GIVESKILL Lightning 3
 GIVESKILL Frostcrunch 3
 GIVESKILL Thunderstorm 3
 GIVESKILL Magicshield 3
@@ -97,9 +97,8 @@ GIVESKILL Flamefield 3
 GIVESKILL Blizzard 3
 GIVESKILL MagicBooster 3
 GIVESKILL MeteorStrike 3
-GIVESKILL Cataclysm 3
 GIVESKILL IceThrust 3
-GIVESKILL 火焰反弹 3
+GIVESKILL FireBounce 3
 #SAY
 <等级/@Level>
 

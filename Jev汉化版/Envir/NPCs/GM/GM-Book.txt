@@ -135,7 +135,7 @@ GIVESKILL SummonSnakes 3
 GIVESKILL NapalmShot 3
 GIVESKILL OneWithNature 3
 GIVESKILL StoneTrap 3
-GIVESKILL 时空门 3
+GIVESKILL Portal 3
 
 [Types]
 20
